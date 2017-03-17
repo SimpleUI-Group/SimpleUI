@@ -3,7 +3,7 @@ var webpack = require('webpack'); //webpack模块
 var HtmlWebpackPlugin = require('html-webpack-plugin'); //webpack html 打包模块
 
 var node_modules = path.resolve(__dirname, 'node_modules'); //node包模块
-var basepath = __dirname + '/src/'; //源码路径
+var basepath = __dirname + '/demo/'; //源码路径
 
 var jqueryMin = path.resolve(node_modules, 'jquery/dist/jquery.min.js'); //jquery压缩版
 
@@ -71,7 +71,7 @@ var config = {
         new webpack.optimize.CommonsChunkPlugin({name:['common'],minChunks:Infinity}),
 
         new HtmlWebpackPlugin({                        //根据模板插入css/js等生成最终HTML
-            favicon:'src/favicon.ico', //favicon路径
+            //favicon:'src/favicon.ico', //favicon路径
             filename:'index.html',    //生成的html存放路径，相对于 path
             template:basepath + 'index.html',    //html模板路径
             inject:true,    //允许插件修改哪些内容，包括head与body
