@@ -1,5 +1,8 @@
 <template>
-<div>123</div>
+<div>
+    <Button></Button>
+</div>
+
 </template>
 <script>
 export default {
