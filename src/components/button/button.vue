@@ -1,5 +1,5 @@
 <template>
-<div class="simple-ui-button">
+<div class="simple-ui-button text-center">
     <span>文字</span>
 </div>
 </template>
@@ -10,8 +10,14 @@ export default {
 </script>
 <style lang="less">
 .simple-ui-button {
-    width:100px;
-    height:40px;
+    width:3.75rem;
+    height:.36rem;
+    line-height: .36rem;
     background: #00f;
+    color:#fff;
+    &.margin {
+        width: 3.43rem;
+        margin:0 .16rem;
+    }
 }
 </style>

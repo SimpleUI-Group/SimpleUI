@@ -8,21 +8,10 @@
 	<meta http-equiv="Cache-Control" content="no-cache">
 	<meta http-equiv="Expires" content="0">
     <title>测试标题</title>
-	<script>
-		(function(){
-            //初始化REM
-            var w = 750;
-            var setFontSize = function(){
-                var width = document.documentElement.clientWidth;
-
-                width = width > w ? w: width;
-                var fontSize = width/w * 200;
-                document.getElementsByTagName("html")[0].style.fontSize = fontSize + "px";
-            };
-            setFontSize();
-            window.onresize = setFontSize;
-        })();
-	</script>
+	<style>
+        * {margin:0;padding:0;}
+        body {font-weight:100;}
+	</style>
 </head>
 <body class="base-ui">
     <div id="app">

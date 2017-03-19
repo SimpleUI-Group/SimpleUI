@@ -5,6 +5,10 @@ import routerConfig from './router.js';
 
 import SimpleUI from '../src/index.js';
 
+SimpleUI.init({
+    rem:2,
+    ui:750
+});
 
 Vue.use(Router);
 
