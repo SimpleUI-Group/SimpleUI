@@ -1,5 +1,6 @@
 <template>
 <div class="simple-ui-button text-center" :class="classes">
+    <Icon v-if="icon" :type="icon" size="22" color="#fff"></Icon>
     <span><slot></slot></span>
 </div>
 </template>
@@ -9,7 +10,8 @@ export default {
     props:{
         type: String,
         pull: Boolean,
-        edge: Boolean
+        edge: Boolean,
+        icon:String
     },
     computed: {
         classes() {
