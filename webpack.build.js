@@ -47,7 +47,7 @@ var config = {
         //配置别名，在项目中可缩减引用路径
         alias: {
             "jquery" : jqueryMin,
-            'util' : basepath + 'common/util.js',
+             "util": __dirname + '/src/utils/util.js',
             'vue' : path.resolve(node_modules, 'vue/dist/vue.common.js')
         }
     },
@@ -60,7 +60,7 @@ var config = {
         //提供全局的变量，在模块中使用无需用require引入
         new webpack.ProvidePlugin({
             $: 'jquery',
-            util:basepath + 'common/util.js'
+            util:__dirname + '/src/utils/util.js'
          }),
         new webpack.DefinePlugin({
             'process.env': {
