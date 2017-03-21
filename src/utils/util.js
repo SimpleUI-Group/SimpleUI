@@ -1,5 +1,5 @@
 module.exports = {
     test() {
-        alert(1)
+        alert(2)
     }
 }
