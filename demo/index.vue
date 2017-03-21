@@ -7,6 +7,10 @@
     <Button type="warning">Warning</Button>
     <Button type="primary" pull edge>Pull+Edge</Button>
     <Button type="primary" edge>Edge</Button>
+
+    <Icon type="check" color="#00f" size="24"></Icon>
+
+    <Button type="primary" icon="loading">icon</Button>
 </div>
 
 </template>
