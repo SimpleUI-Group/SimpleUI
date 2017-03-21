@@ -20,7 +20,7 @@ export default {
         }
     },
     init(args) {
-        debugger;
+
         if(args['rem'] === false) {
             Style.init(0);
             return;

@@ -1,6 +1,12 @@
 <template>
 <div>
-    <Button></Button>
+    <Button>Default</Button>
+    <Button type="primary">Primary</Button>
+    <Button type="danger">Danger</Button>
+    <Button type="success">Success</Button>
+    <Button type="warning">Warning</Button>
+    <Button type="primary" pull edge>Pull+Edge</Button>
+    <Button type="primary" edge>Edge</Button>
 </div>
 
 </template>
