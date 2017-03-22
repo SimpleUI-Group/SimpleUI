@@ -10,6 +10,9 @@
         <Col col="6">
             <Button type="warning">col-6</Button>
         </Col>
+        <Col col="24">
+            <Button type="warning">col-24</Button>
+        </Col>
     </Row>
 </div>
 
