@@ -29,7 +29,7 @@ export default {
 .simple-ui-button {
     display:block;
     width:92%;
-    height:@BUTTON_HEIGHT;
+    height: @BUTTON_HEIGHT;
     margin:.1rem 4%;
     line-height: @BUTTON_HEIGHT;
     border:1px solid @BUTTON_DEFAULT_BORDER;
