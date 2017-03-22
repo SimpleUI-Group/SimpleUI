@@ -1,6 +1,6 @@
 <template>
 <div class="simple-ui-button text-center" :class="classes">
-    <Icon v-if="icon" :type="icon" size="22" color="#fff"></Icon>
+    <Icon v-if="icon" :type="icon" size="20" color="#fff"></Icon>
     <span><slot></slot></span>
 </div>
 </template>
@@ -89,6 +89,10 @@ export default {
             border-color:@BUTTON_WARNING_HOVER;
             color:#fff;
         }
+    }
+    .simple-ui-icon {
+        position:relative;
+        top:.02rem;
     } 
 }
 </style>
