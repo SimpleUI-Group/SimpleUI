@@ -10,7 +10,9 @@
 
     <Icon type="check" color="#00f" size="24"></Icon>
 
-    <Button type="primary" icon="loading">icon</Button>
+    <Button type="success" icon="loading">icon</Button>
+    <Button type="warning" icon="check">icon</Button>
+    <Button type="danger" icon="search">icon</Button>
 </div>
 
 </template>
