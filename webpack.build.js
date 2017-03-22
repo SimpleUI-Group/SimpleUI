@@ -26,6 +26,11 @@ var config = {
                 test: /\.css$/,  //css 加载器
                 loader: 'style-loader!css-loader'
             },{
+                enforce: "pre",
+                test: /\.js$/, //js 加载器
+                loader: 'eslint-loader',
+                exclude: /node_modules/,
+            },{
                 test: /\.js$/, //js 加载器
                 loader: 'babel-loader',
                 exclude: /node_modules/,
