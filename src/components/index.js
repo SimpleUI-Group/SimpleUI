@@ -1,9 +1,11 @@
 import Button from './button/button.vue';
 import Icon from './icon/icon.vue';
-import Grid from './grid/grid.vue';
+import Row from './grid/row.vue';
+import Col from './grid/col.vue';
 
 export default {
     Button,
     Icon,
-    Grid
+    Row,
+    Col
 }

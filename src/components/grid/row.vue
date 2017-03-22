@@ -1,13 +1,12 @@
 <template>
-<i class="simple-ui-icon iconfont" :class="classes" :style="styles"></i>
+<div class="simple-ui-row">
+    <slot></slot>
+</div>
 </template>
 <script>
 export default {
-    name:'icon',
+    name:'row',
     props:{
-        type: String,
-        size: String,
-        color: String
     },
     computed: {
         classes() {
@@ -27,9 +26,11 @@ export default {
     }
 }
 </script>
+
 <style lang="less">
 @import '../../styles/index.less';
-.simple-ui-rotate {
-    .simple-ui-roate();
+.simple-ui-row {
+    box-sizing: border-box;
+    position: relative;
 }
 </style>

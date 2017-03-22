@@ -1,5 +1,5 @@
 <template>
-<div class="simple-ui-button text-center" :class="classes">
+<div class="simple-ui-button" :class="classes">
     <Icon v-if="icon" :type="icon" size="20" color="#fff"></Icon>
     <span><slot></slot></span>
 </div>
@@ -27,6 +27,7 @@ export default {
 <style lang="less">
 @import '../../styles/index.less';
 .simple-ui-button {
+    text-align:center;
     display:block;
     width:92%;
     height: @BUTTON_HEIGHT;
