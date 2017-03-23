@@ -18,7 +18,7 @@ export default {
             return {
                 [this.type] : this.type,
                 'simple-ui-button-pull': !!this.pull,
-                'simple-ui-button-edge': !!this.edge,
+                'simple-ui-button-edge': !!this.edge
             }
         }
     }
@@ -37,6 +37,7 @@ export default {
     background: #fff;
     color:@DEFAULT_COLOR;
     border-radius:4px;
+    box-sizing:border-box;
     .transition();
     &:active {
         border-color:@BUTTON_PRIMARY;

@@ -1,13 +1,22 @@
 <template>
-<div class="simple-ui-col" :class="classes">
+<div class="simple-ui-col" :class="classes" :style="styles">
     <slot></slot>
 </div>
 </template>
 <script>
 export default {
     name:'col',
+    data() {
+        return {
+            space:String
+        }
+    },
     props:{
-        col:String
+        col:String,
+        left:String
+    },
+    created() {
+        console.log('col:' + this.space)
     },
     computed: {
         classes() {
@@ -16,7 +25,11 @@ export default {
             }
         },
         styles() {
-           
+            return {
+                 "padding-left": this.space ? `${this.space / 2}px` : '',
+                 "padding-right": this.space ? `${this.space / 2}px` : '',
+                 "margin-left": this.left ? `${1/24 * this.left * 100}%` : ''
+            }
         }
     }
 }

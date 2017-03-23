@@ -1,5 +1,5 @@
 <template>
-<div class="simple-ui-row">
+<div class="simple-ui-row" :style="styles">
     <slot></slot>
 </div>
 </template>
@@ -7,22 +7,25 @@
 export default {
     name:'row',
     props:{
+        space:String
     },
-    computed: {
-        classes() {
-            return {
-                'icon-loading':this.type == 'loading',
-                'icon-check':this.type == 'check',
-                'icon-search':this.type == 'search',
-                'simple-ui-rotate':this.type == 'loading'
-            }
-        },
+    computed:{
         styles() {
             return {
-                'font-size':this.size + 'px',
-                'color': this.color
+                'margin-left':this.space ? `-${this.space / 2}px` : '',
+                'margin-right':this.space ? `-${this.space / 2}px` : ''
             }
         }
+    },
+    methods:{
+        setChildSpace(space) {
+            this.$children.forEach((v,i,a)=>{
+                v.space = space;
+            });
+        }
+    },
+    mounted() {
+        this.setChildSpace(this.space);
     }
 }
 </script>
@@ -32,5 +35,6 @@ export default {
 .simple-ui-row {
     box-sizing: border-box;
     position: relative;
+    overflow:hidden;
 }
 </style>
