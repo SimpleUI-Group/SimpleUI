@@ -1,20 +1,20 @@
 export default [
     {
-        path:'/',
+        "path":"/",
         component:function (resolve) {
-            require(['./index.vue'], resolve);
+            require(["./index.vue"], resolve);
         }
     },
     {
-        path:'/index',
+        "path":"/index",
         component:function (resolve) {
-            require(['./index.vue'], resolve);
+            require(["./index.vue"], resolve);
         }
     },
     {
-        path:'/grid',
+        "path":"/grid",
         component:function (resolve) {
-            require(['./grid.vue'], resolve);
+            require(["./grid.vue"], resolve);
         }
     }
-]
+];

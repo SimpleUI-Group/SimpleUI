@@ -1,9 +1,9 @@
-import Vue from 'vue';
-import Router from 'vue-router';
-import Main from './main.vue';
-import routerConfig from './router.js';
+import Vue from "vue";
+import Router from "vue-router";
+import Main from "./main.vue";
+import routerConfig from "./router.js";
 
-import SimpleUI from '../src/index.js';
+import SimpleUI from "../src/index.js";
 
 SimpleUI.init({
     rem:2,
@@ -21,4 +21,4 @@ const router = new Router({
 new Vue({
     router,
     render: h => h(Main)
-}).$mount('#app');
+}).$mount("#app");

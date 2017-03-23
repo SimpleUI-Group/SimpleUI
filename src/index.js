@@ -1,8 +1,8 @@
-import SimpleUI from './components/index';
-import Style from './styles/index';
+import SimpleUI from "./components/index";
+import Style from "./styles/index";
 
 export default {
-    install(Vue, options) {
+    install(Vue) {
         //to do
         Object.keys(SimpleUI).forEach((key) => {
             Vue.component(key, SimpleUI[key]);
@@ -15,20 +15,20 @@ export default {
 
 
         // auto install
-        if(typeof window !== 'undefined' && window.Vue) {
+        if(typeof window !== "undefined" && window.Vue) {
             this.install(window.Vue);
         }
     },
     init(args) {
 
-        if(args['rem'] === false) {
+        if(args["rem"] === false) {
             Style.init(0);
             return;
         }
 
-        if(args['ui']) {
-            Style.init(args['rem'], args['ui']);
+        if(args["ui"]) {
+            Style.init(args["rem"], args["ui"]);
             return;
         }
     }
-}
+};

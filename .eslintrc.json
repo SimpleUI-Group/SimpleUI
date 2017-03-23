@@ -11,8 +11,17 @@
     "plugins": [ "html" ],
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
-        "quotes": ["error", "single"],
+        "quotes": ["error", "double"],
         "semi": ["error", "always"],
-        "no-console": ["error"]
+        "no-console": ["error"],
+        "no-constant-condition": 2,//禁止在条件中使用常量表达式 if(true) if(1)
+        "no-else-return": 2,//如果if语句里面有return,后面不能跟else语句
+        "no-implicit-coercion": 1,//禁止隐式转换
+        "no-lonely-if": 2,//禁止else语句内只有if语句
+        "default-case": 2//switch语句最后必须有default
+    },
+    "globals": {
+        "exports": true,
+        "require": true
     }
 }
