@@ -2,10 +2,8 @@ var path = require('path'); //根路径
 var webpack = require('webpack'); //webpack模块
 var HtmlWebpackPlugin = require('html-webpack-plugin'); //webpack html 打包模块
 
-var node_modules = path.resolve(__dirname, 'node_modules'); //node包模块
-var basepath = __dirname + '/demo/'; //源码路径
-
-var jqueryMin = path.resolve(node_modules, 'jquery/dist/jquery.min.js'); //jquery压缩版
+var node_modules = path.resolve(__dirname, '../node_modules'); //node包模块
+var basepath = __dirname + '/../doc/src/'; //源码路径
 
 var config = {
     entry:{
@@ -14,7 +12,7 @@ var config = {
         "polyfill": ['babel-polyfill'], //补全es6原生对象
     },
     output: {
-        path: path.join(__dirname,'./dev/'), //构建目录
+        path: path.join(__dirname,'../doc/dist/'), //构建目录
         //filename: '[name].[chunkhash:8].js' //文件名规则 [name]表示 和 入口一致
         filename: '[name].js'
     },
@@ -54,16 +52,14 @@ var config = {
     resolve: {
         //配置别名，在项目中可缩减引用路径
         alias: {
-            "jquery" : jqueryMin,
-            'util' : __dirname+ '/src/utils/util.js',
+            'util' : __dirname+ '/../src/utils/util.js',
             'vue' : path.resolve(node_modules, 'vue/dist/vue.common.js')
         }
     },
     plugins: [
         //提供全局的变量，在模块中使用无需用require引入
         new webpack.ProvidePlugin({
-            $: 'jquery',
-            util:__dirname + '/src/utils/util.js',
+            util:__dirname + '/../src/utils/util.js',
          }),
         //  new webpack.LoaderOptionsPlugin({
         //     minimize: true,

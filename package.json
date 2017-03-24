@@ -35,8 +35,9 @@
     "webpack": "^1.13.1"
   },
   "scripts": {
-    "dev": "webpack --config webpack.dev.js --watch",
-    "build": "webpack --config webpack.build.js -p"
+    "dev": "webpack --config build/webpack.dev.js --watch",
+    "doc": "webpack --config build/webpack.doc.js --watch",
+    "build": "webpack --config build/webpack.build.js -p"
   },
   "dependencies": {
     "vue": "^2.2.2",

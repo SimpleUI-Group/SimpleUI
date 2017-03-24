@@ -3,7 +3,7 @@ import Router from "vue-router";
 import Main from "./main.vue";
 import routerConfig from "./router.js";
 
-import SimpleUI from "../src/index.js";
+import SimpleUI from "../../src/index.js";
 
 SimpleUI.init({
     rem:2,
