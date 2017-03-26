@@ -17,6 +17,7 @@
     </div>
 </template>
 <script>
+import slideload from "./slideload.js";
 export default {
     name:'list'
 }
