@@ -33,6 +33,11 @@ export default {
         font-size:28px;
         color:#fff;
         text-indent:60px;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        z-index: 10;
         small {
             font-size: 16px;
             text-indent:20px;
@@ -47,11 +52,12 @@ export default {
         float:left;
         background: #fff;
         color:#333;
-        padding-top:20px;
+        padding-top:100px;
         box-sizing: border-box;
         border-right:1px solid #f1f1f1;
         margin-right:-200px;
         position: relative;
+        box-sizing: border-box;
         a {
             font-size:16px;
             line-height:28px;
@@ -68,6 +74,7 @@ export default {
         box-sizing: border-box;
         overflow-y: scroll;
         padding-right:20px;
+        padding-top:80px;
         .main-body {
             margin-left:220px;
             padding-top:30px;

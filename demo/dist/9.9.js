@@ -1,21 +1,21 @@
 webpackJsonp([9],{
 
-/***/ 400:
+/***/ 48:
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(18)(
 	  /* script */
-	  __webpack_require__(401),
+	  __webpack_require__(49),
 	  /* template */
-	  __webpack_require__(402),
+	  __webpack_require__(50),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/demo/src/component/button-2.vue"
+	Component.options.__file = "/Users/yinhuang/github/SimpleUI/demo/src/component/icon-2.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] button-2.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] icon-2.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -24,9 +24,9 @@ webpackJsonp([9],{
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-b374a176", Component.options)
+	    hotAPI.createRecord("data-v-8ca91e68", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-b374a176", Component.options)
+	    hotAPI.reload("data-v-8ca91e68", Component.options)
 	  }
 	})()}
 
@@ -35,7 +35,7 @@ webpackJsonp([9],{
 
 /***/ },
 
-/***/ 401:
+/***/ 49:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -51,41 +51,70 @@ webpackJsonp([9],{
 	//
 	//
 	//
+	//
+	//
+	//
+	//
 
 	exports.default = {
-	    name: "button-2"
+	    name: "icon-2"
 	};
 
 /***/ },
 
-/***/ 402:
+/***/ 50:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    staticClass: "box-contianer"
-	  }, [_c('Button', {
+	  }, [_c('Icon', {
 	    attrs: {
-	      "type": "primary",
-	      "icon": "loading"
+	      "type": "check",
+	      "size": "12"
 	    }
-	  }, [_vm._v("Loading")]), _vm._v(" "), _c('Button', {
+	  }), _vm._v(" "), _c('Icon', {
 	    attrs: {
-	      "type": "warning",
-	      "icon": "search"
+	      "type": "check",
+	      "size": "14"
 	    }
-	  }, [_vm._v("Search")]), _vm._v(" "), _c('Button', {
+	  }), _vm._v(" "), _c('Icon', {
 	    attrs: {
-	      "type": "danger",
-	      "icon": "check"
+	      "type": "check",
+	      "size": "16"
 	    }
-	  }, [_vm._v("Check")])], 1)
+	  }), _vm._v(" "), _c('Icon', {
+	    attrs: {
+	      "type": "check",
+	      "size": "18"
+	    }
+	  }), _vm._v(" "), _c('Icon', {
+	    attrs: {
+	      "type": "check",
+	      "size": "20"
+	    }
+	  }), _vm._v(" "), _c('Icon', {
+	    attrs: {
+	      "type": "check",
+	      "size": "22"
+	    }
+	  }), _vm._v(" "), _c('Icon', {
+	    attrs: {
+	      "type": "check",
+	      "size": "24"
+	    }
+	  }), _vm._v(" "), _c('Icon', {
+	    attrs: {
+	      "type": "check",
+	      "size": "26"
+	    }
+	  })], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-b374a176", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-8ca91e68", module.exports)
 	  }
 	}
 
