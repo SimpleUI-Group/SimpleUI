@@ -7,11 +7,15 @@ export default {
         if (r == 0) return;
         r = r * 100;
 
+        if(isNaN(r)) r = 200;
+
         let width = el.clientWidth;
 
         width = width > w ? w : width;
 
         el.style.fontSize = width / w * r + "px";
+
+        document.body.style.maxWidth = w;
 
         window.onresize = this.init;
     }

@@ -4,6 +4,12 @@
 1. npm install
 2. npm run dev (development model)
 3. npm run build (production mode, automatically generated file hash)
+4. npm run doc (write doc)
+
+
+# test document site
+
+[http://simpleui.webzeal.cn](http://simpleui.webzeal.cn)
 
 # Examples
 
@@ -25,6 +31,8 @@ To Do ...
 
 
 # 开发说明
+
+## 可以加QQ：583843162 参与项目开发
 
 1. less 变量 放在 /styles/default.less 中  命名规范 @组件名_分类名_具体的名字  (全部大写) 如: @BUTTON_DEFAULT_COLOR 表示 button 组件  defalut 的 类型 的 color 变
 量

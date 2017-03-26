@@ -1,5 +1,5 @@
 <template>
-<div class="simple-ui-button" :class="classes">
+<div class="simple-ui-button" :class="classes" @click="onclick">
     <Icon v-if="icon" :type="icon" size="20" color="#fff"></Icon>
     <span><slot></slot></span>
 </div>
@@ -20,6 +20,11 @@ export default {
                 'simple-ui-button-pull': !!this.pull,
                 'simple-ui-button-edge': !!this.edge
             }
+        }
+    },
+    methods:{
+        onclick(ev) {
+            this.$emit('click', ev);
         }
     }
 }
