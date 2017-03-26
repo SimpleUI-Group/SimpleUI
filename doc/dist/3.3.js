@@ -17,9 +17,9 @@ webpackJsonp([3],{
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/grid.vue"
+	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/component/button.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] grid.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] button.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -28,9 +28,9 @@ webpackJsonp([3],{
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-dba7cc1a", Component.options)
+	    hotAPI.createRecord("data-v-589b8cb1", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-dba7cc1a", Component.options)
+	    hotAPI.reload("data-v-589b8cb1", Component.options)
 	  }
 	})()}
 
@@ -49,13 +49,13 @@ webpackJsonp([3],{
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("9755c062", content, false);
+	var update = __webpack_require__(16)("457998a2", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-dba7cc1a\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./grid.vue", function() {
-	     var newContent = require("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-dba7cc1a\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./grid.vue");
+	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-589b8cb1\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./button.vue", function() {
+	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-589b8cb1\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./button.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -74,7 +74,7 @@ webpackJsonp([3],{
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 	// exports
 
@@ -134,16 +134,6 @@ webpackJsonp([3],{
 	//
 	//
 	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
 
 	exports.default = {
 	    name: 'grid'
@@ -155,118 +145,43 @@ webpackJsonp([3],{
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', [_c('Row', [_c('Col', {
+	  return _c('div', {
+	    staticClass: "box-contianer"
+	  }, [_c('h1', [_vm._v("Button")]), _vm._v(" "), _c('p', [_vm._v("我们提供了很多颜色供选择")]), _vm._v(" "), _c('Docbox', {
 	    attrs: {
-	      "col": "6"
+	      "url": "../../demo/dist/index.html#/component/button-1"
 	    }
-	  }, [_c('Button', {
+	  }, [_c('Dl', {
 	    attrs: {
-	      "type": "success",
-	      "pull": "",
-	      "edge": ""
+	      "type": "html"
 	    }
-	  }, [_vm._v("col-6")])], 1), _vm._v(" "), _c('Col', {
+	  }, [_vm._v("<Button>Default</Button>\n<Button type=\"primary\">Primary</Button>\n<Button type=\"warning\">Warning</Button>\n<Button type=\"danger\">Danger</Button>\n<Button type=\"success\">Success</Button>")]), _vm._v(" "), _c('Dr', [_vm._v("\n            总共有\n            "), _c('code', [_vm._v("default")]), _vm._v(" "), _c('code', [_vm._v("primary")]), _vm._v(" "), _c('code', [_vm._v("warning")]), _vm._v(" "), _c('code', [_vm._v("danger")]), _vm._v(" "), _c('code', [_vm._v("success")]), _vm._v("\n            五种类型的按钮样式，通过"), _c('code', [_vm._v("type")]), _vm._v("属性传递，\n            默认不传为"), _c('code', [_vm._v("default")])])], 1), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('Docbox', {
 	    attrs: {
-	      "col": "12"
+	      "url": "../../demo/dist/index.html#/component/button-2"
 	    }
-	  }, [_c('Button', {
+	  }, [_c('Dl', {
 	    attrs: {
-	      "type": "danger",
-	      "pull": "",
-	      "edge": ""
+	      "type": "html"
 	    }
-	  }, [_vm._v("col-12")])], 1), _vm._v(" "), _c('Col', {
+	  }, [_vm._v("<Button type=\"primary\" icon=\"loading\">Loading</Button>\n<Button type=\"warning\" icon=\"search\">Search</Button>\n<Button type=\"danger\" icon=\"check\">Check</Button>")]), _vm._v(" "), _c('Dr', [_vm._v("\n            关于icon的值可以参考Icon组件的文档\n        ")])], 1), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('Docbox', {
 	    attrs: {
-	      "col": "6"
+	      "url": "../../demo/dist/index.html#/component/button-3"
 	    }
-	  }, [_c('Button', {
+	  }, [_c('Dl', {
 	    attrs: {
-	      "type": "warning",
-	      "pull": "",
-	      "edge": ""
+	      "type": "html"
 	    }
-	  }, [_vm._v("col-6")])], 1)], 1), _vm._v(" "), _c('Row', [_c('Col', {
-	    attrs: {
-	      "col": "24"
-	    }
-	  }, [_c('Button', {
-	    attrs: {
-	      "type": "warning"
-	    }
-	  }, [_vm._v("col-24")])], 1)], 1), _vm._v(" "), _c('Row', {
-	    attrs: {
-	      "space": "10"
-	    }
-	  }, [_c('Col', {
-	    attrs: {
-	      "col": "6"
-	    }
-	  }, [_c('Button', {
-	    attrs: {
-	      "type": "danger",
-	      "pull": ""
-	    }
-	  }, [_vm._v("col-6")])], 1), _vm._v(" "), _c('Col', {
-	    attrs: {
-	      "col": "12"
-	    }
-	  }, [_c('Button', {
-	    attrs: {
-	      "type": "primary",
-	      "pull": ""
-	    }
-	  }, [_vm._v("col-12 (10px space)")])], 1), _vm._v(" "), _c('Col', {
-	    attrs: {
-	      "col": "6"
-	    }
-	  }, [_c('Button', {
-	    attrs: {
-	      "type": "success",
-	      "pull": ""
-	    }
-	  }, [_vm._v("col-6")])], 1)], 1), _vm._v(" "), _c('Row', [_c('Col', {
-	    attrs: {
-	      "col": "4",
-	      "left": "2"
-	    }
-	  }, [_c('Button', {
-	    attrs: {
-	      "type": "success"
-	    }
-	  }, [_vm._v("left 2")])], 1)], 1), _vm._v(" "), _c('Row', [_c('Col', {
-	    attrs: {
-	      "col": "4",
-	      "left": "4"
-	    }
-	  }, [_c('Button', {
-	    attrs: {
-	      "type": "success"
-	    }
-	  }, [_vm._v("left 4")])], 1)], 1), _vm._v(" "), _c('Row', [_c('Col', {
-	    attrs: {
-	      "col": "4",
-	      "left": "8"
-	    }
-	  }, [_c('Button', {
-	    attrs: {
-	      "type": "success"
-	    }
-	  }, [_vm._v("left 8")])], 1)], 1), _vm._v(" "), _c('Row', [_c('Col', {
-	    attrs: {
-	      "col": "12",
-	      "left": "12"
-	    }
-	  }, [_c('Button', {
-	    attrs: {
-	      "type": "success"
-	    }
-	  }, [_vm._v("col-12 (left 12)")])], 1)], 1)], 1)
-	},staticRenderFns: []}
+	  }, [_vm._v("<Button type=\"primary\" pull>Pull</Button>\n<Button type=\"warning\" edge>Edge</Button>\n<Button type=\"danger\" pull edge>Pull+Edge</Button>")]), _vm._v(" "), _c('Dr', [_c('code', [_vm._v("pull")]), _vm._v("使得按钮没有margin值占满外层容器\n            "), _c('code', [_vm._v("edge")]), _vm._v("去掉圆角，呈现出直角按钮\n        ")])], 1)], 1)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_vm._v("通过"), _c('code', [_vm._v("icon")]), _vm._v("属性可以生成带图标的按钮")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_vm._v("通过"), _c('code', [_vm._v("pull")]), _vm._v("以及"), _c('code', [_vm._v("edge")]), _vm._v("可以使按钮定制更加多样化")])
+	}]}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-dba7cc1a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-589b8cb1", module.exports)
 	  }
 	}
 

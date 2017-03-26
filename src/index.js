@@ -20,7 +20,6 @@ export default {
         }
     },
     init(args) {
-
         if(args["rem"] === false) {
             Style.init(0);
             return;
