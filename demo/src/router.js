@@ -16,5 +16,11 @@ export default [
         component:function (resolve) {
             require(["./grid.vue"], resolve);
         }
+    },
+    {
+        "path":"/list",
+        component:function (resolve) {
+            require(["./list.vue"], resolve);
+        }
     }
 ];
