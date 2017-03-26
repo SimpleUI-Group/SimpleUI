@@ -9,4 +9,7 @@ export default {
 }
 </script>
 <style lang="less">
+.box-contianer{
+    width:100%; height:100%;
+}
 </style>
