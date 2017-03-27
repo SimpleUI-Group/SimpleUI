@@ -10,6 +10,7 @@
   },
   "repository": "https://github.com/ShuangRen/SimpleUI.git",
   "devDependencies": {
+    "autoprefixer": "^6.7.7",
     "babel": "^6.23.0",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.0",
@@ -19,8 +20,8 @@
     "css-loader": "^0.27.2",
     "es6-promise": "^4.1.0",
     "eslint": "^3.18.0",
-    "eslint-plugin-html": "^2.0.1",
     "eslint-loader": "^1.6.3",
+    "eslint-plugin-html": "^2.0.1",
     "file-loader": "^0.10.1",
     "html-webpack-plugin": "^2.28.0",
     "less": "^2.7.2",
