@@ -4,6 +4,5 @@ demo/dist
 build/sftp-config.json
 src/sftp-config.json
 /debug.log
-demo/dist
 doc/dist
 fileServer.js

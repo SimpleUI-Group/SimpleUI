@@ -17,13 +17,13 @@ var config = {
         filename: '[name].js'
     },
     module: {
-         preLoaders: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loader: 'eslint-loader'
-            },
-        ],
+        //  preLoaders: [
+        //     {
+        //         test: /\.js$/,
+        //         exclude: /node_modules/,
+        //         loader: 'eslint-loader'
+        //     },
+        // ],
         loaders: [
             {  //对大于6000字节 的图片采取base64处理
                 test: /\.(png|jpg|gif)$/,
