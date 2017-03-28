@@ -22,5 +22,11 @@ export default [
         component:function (resolve) {
             require(["./list.vue"], resolve);
         }
+    },
+     {
+        "path":"/nav",
+        component:function (resolve) {
+            require(["./nav.vue"], resolve);
+        }
     }
 ];
