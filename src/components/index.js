@@ -5,6 +5,7 @@ import Col from "./grid/col.vue";
 import List from "./list/list.vue";
 import Nav from "./nav/nav.vue";
 import Input from "./input/input.vue";
+import InputGroup from "./input/InputGroup.vue";
 
 export default {
     Button,
@@ -13,5 +14,6 @@ export default {
     Col,
     List,
     Nav,
-    Input
+    Input,
+    InputGroup
 };

@@ -9,6 +9,7 @@
             <router-link to="/button">Button(按钮)</router-link>
             <router-link to="/icon">Icon(图标)</router-link>
             <router-link to="/grid">Grid(栅格)</router-link>
+            <router-link to="/input">Input(输入框)</router-link>
         </div>
         <div class="main-right">
             <div class="main-body">

@@ -2,7 +2,7 @@ webpackJsonp([1],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(7);
+	module.exports = __webpack_require__(8);
 
 
 /***/ },
@@ -12,44 +12,45 @@ webpackJsonp([1],[
 /* 4 */,
 /* 5 */,
 /* 6 */,
-/* 7 */
+/* 7 */,
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 
-	var _vue = __webpack_require__(4);
+	var _vue = __webpack_require__(5);
 
 	var _vue2 = _interopRequireDefault(_vue);
 
-	var _vueRouter = __webpack_require__(6);
+	var _vueRouter = __webpack_require__(7);
 
 	var _vueRouter2 = _interopRequireDefault(_vueRouter);
 
-	var _main = __webpack_require__(8);
+	var _main = __webpack_require__(9);
 
 	var _main2 = _interopRequireDefault(_main);
 
-	var _router = __webpack_require__(21);
+	var _router = __webpack_require__(22);
 
 	var _router2 = _interopRequireDefault(_router);
 
-	var _index = __webpack_require__(37);
+	var _index = __webpack_require__(43);
 
 	var _index2 = _interopRequireDefault(_index);
 
-	var _docbox = __webpack_require__(102);
+	var _docbox = __webpack_require__(129);
 
 	var _docbox2 = _interopRequireDefault(_docbox);
 
-	var _docleft = __webpack_require__(110);
+	var _docleft = __webpack_require__(137);
 
 	var _docleft2 = _interopRequireDefault(_docleft);
 
-	var _docright = __webpack_require__(113);
+	var _docright = __webpack_require__(140);
 
 	var _docright2 = _interopRequireDefault(_docright);
 
-	__webpack_require__(116);
+	__webpack_require__(143);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -78,37 +79,37 @@ webpackJsonp([1],[
 	}).$mount("#app");
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(9)
+	__webpack_require__(10)
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(19),
-	  /* template */
 	  __webpack_require__(20),
+	  /* template */
+	  __webpack_require__(21),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/main.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\main.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] main.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7eb622e6", Component.options)
+	    hotAPI.createRecord("data-v-b8a374d0", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7eb622e6", Component.options)
+	    hotAPI.reload("data-v-b8a374d0", Component.options)
 	  }
 	})()}
 
@@ -116,23 +117,23 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 9 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(10);
+	var content = __webpack_require__(11);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("eac3d32c", content, false);
+	var update = __webpack_require__(17)("ca4e32d6", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-7eb622e6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.3.0.0@less-loader/lib/loader.js!../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./main.vue", function() {
-	     var newContent = require("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-7eb622e6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.3.0.0@less-loader/lib/loader.js!../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./main.vue");
+	   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-b8a374d0\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/less-loader/lib/loader.js!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./main.vue", function() {
+	     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-b8a374d0\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/less-loader/lib/loader.js!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./main.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -142,10 +143,10 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 10 */
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 
 
@@ -156,7 +157,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(Buffer) {/*
@@ -235,10 +236,10 @@ webpackJsonp([1],[
 	  return '/*# ' + data + ' */';
 	}
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12).Buffer))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13).Buffer))
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/*!
@@ -251,9 +252,9 @@ webpackJsonp([1],[
 
 	'use strict'
 
-	var base64 = __webpack_require__(13)
-	var ieee754 = __webpack_require__(14)
-	var isArray = __webpack_require__(15)
+	var base64 = __webpack_require__(14)
+	var ieee754 = __webpack_require__(15)
+	var isArray = __webpack_require__(16)
 
 	exports.Buffer = Buffer
 	exports.SlowBuffer = SlowBuffer
@@ -2034,7 +2035,7 @@ webpackJsonp([1],[
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 13 */
+/* 14 */
 /***/ function(module, exports) {
 
 	'use strict'
@@ -2154,7 +2155,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports) {
 
 	exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -2244,7 +2245,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports) {
 
 	var toString = {}.toString;
@@ -2255,7 +2256,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -2274,7 +2275,7 @@ webpackJsonp([1],[
 	  ) }
 	}
 
-	var listToStyles = __webpack_require__(17)
+	var listToStyles = __webpack_require__(18)
 
 	/*
 	type StyleObject = {
@@ -2476,7 +2477,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports) {
 
 	/**
@@ -2509,7 +2510,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports) {
 
 	// this module is a runtime utility for cleaner component module output and will
@@ -2566,7 +2567,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -2593,13 +2594,14 @@ webpackJsonp([1],[
 	//
 	//
 	//
+	//
 
 	exports.default = {
 	    name: 'main'
 	};
 
 /***/ },
-/* 20 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -2623,7 +2625,11 @@ webpackJsonp([1],[
 	    attrs: {
 	      "to": "/grid"
 	    }
-	  }, [_vm._v("Grid(栅格)")])], 1), _vm._v(" "), _c('div', {
+	  }, [_vm._v("Grid(栅格)")]), _vm._v(" "), _c('router-link', {
+	    attrs: {
+	      "to": "/input"
+	    }
+	  }, [_vm._v("Input(输入框)")])], 1), _vm._v(" "), _c('div', {
 	    staticClass: "main-right"
 	  }, [_c('div', {
 	    staticClass: "main-body"
@@ -2637,12 +2643,12 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7eb622e6", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-b8a374d0", module.exports)
 	  }
 	}
 
 /***/ },
-/* 21 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -2653,32 +2659,36 @@ webpackJsonp([1],[
 	exports.default = [{
 	    "path": "/",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(6, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(22)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(7, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(23)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/index",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(6/* duplicate */, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(22)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(7/* duplicate */, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(23)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/button",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(7, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(27)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(8, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(28)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/icon",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(8, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(32)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(9, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(33)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/grid",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(9/* empty */, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(414)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(10, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(38)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	    }
+	}, {
+	    "path": "/input",
+	    component: function component(resolve) {
+	        __webpack_require__.e/* require */(11, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(441)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}];
 
 /***/ },
-/* 22 */,
 /* 23 */,
 /* 24 */,
 /* 25 */,
@@ -2693,7 +2703,13 @@ webpackJsonp([1],[
 /* 34 */,
 /* 35 */,
 /* 36 */,
-/* 37 */
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -2702,15 +2718,15 @@ webpackJsonp([1],[
 	    value: true
 	});
 
-	var _keys = __webpack_require__(38);
+	var _keys = __webpack_require__(44);
 
 	var _keys2 = _interopRequireDefault(_keys);
 
-	var _index = __webpack_require__(73);
+	var _index = __webpack_require__(79);
 
 	var _index2 = _interopRequireDefault(_index);
 
-	var _index3 = __webpack_require__(98);
+	var _index3 = __webpack_require__(125);
 
 	var _index4 = _interopRequireDefault(_index3);
 
@@ -2748,44 +2764,44 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 38 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(39), __esModule: true };
+	module.exports = { "default": __webpack_require__(45), __esModule: true };
 
 /***/ },
-/* 39 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(40);
-	module.exports = __webpack_require__(60).Object.keys;
+	__webpack_require__(46);
+	module.exports = __webpack_require__(66).Object.keys;
 
 /***/ },
-/* 40 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 Object.keys(O)
-	var toObject = __webpack_require__(41)
-	  , $keys    = __webpack_require__(43);
+	var toObject = __webpack_require__(47)
+	  , $keys    = __webpack_require__(49);
 
-	__webpack_require__(58)('keys', function(){
+	__webpack_require__(64)('keys', function(){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 41 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.13 ToObject(argument)
-	var defined = __webpack_require__(42);
+	var defined = __webpack_require__(48);
 	module.exports = function(it){
 	  return Object(defined(it));
 	};
 
 /***/ },
-/* 42 */
+/* 48 */
 /***/ function(module, exports) {
 
 	// 7.2.1 RequireObjectCoercible(argument)
@@ -2795,25 +2811,25 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 43 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 / 15.2.3.14 Object.keys(O)
-	var $keys       = __webpack_require__(44)
-	  , enumBugKeys = __webpack_require__(57);
+	var $keys       = __webpack_require__(50)
+	  , enumBugKeys = __webpack_require__(63);
 
 	module.exports = Object.keys || function keys(O){
 	  return $keys(O, enumBugKeys);
 	};
 
 /***/ },
-/* 44 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var has          = __webpack_require__(45)
-	  , toIObject    = __webpack_require__(46)
-	  , arrayIndexOf = __webpack_require__(49)(false)
-	  , IE_PROTO     = __webpack_require__(53)('IE_PROTO');
+	var has          = __webpack_require__(51)
+	  , toIObject    = __webpack_require__(52)
+	  , arrayIndexOf = __webpack_require__(55)(false)
+	  , IE_PROTO     = __webpack_require__(59)('IE_PROTO');
 
 	module.exports = function(object, names){
 	  var O      = toIObject(object)
@@ -2829,7 +2845,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 45 */
+/* 51 */
 /***/ function(module, exports) {
 
 	var hasOwnProperty = {}.hasOwnProperty;
@@ -2838,28 +2854,28 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 46 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// to indexed object, toObject with fallback for non-array-like ES3 strings
-	var IObject = __webpack_require__(47)
-	  , defined = __webpack_require__(42);
+	var IObject = __webpack_require__(53)
+	  , defined = __webpack_require__(48);
 	module.exports = function(it){
 	  return IObject(defined(it));
 	};
 
 /***/ },
-/* 47 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// fallback for non-array-like ES3 and non-enumerable old V8 strings
-	var cof = __webpack_require__(48);
+	var cof = __webpack_require__(54);
 	module.exports = Object('z').propertyIsEnumerable(0) ? Object : function(it){
 	  return cof(it) == 'String' ? it.split('') : Object(it);
 	};
 
 /***/ },
-/* 48 */
+/* 54 */
 /***/ function(module, exports) {
 
 	var toString = {}.toString;
@@ -2869,14 +2885,14 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 49 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// false -> Array#indexOf
 	// true  -> Array#includes
-	var toIObject = __webpack_require__(46)
-	  , toLength  = __webpack_require__(50)
-	  , toIndex   = __webpack_require__(52);
+	var toIObject = __webpack_require__(52)
+	  , toLength  = __webpack_require__(56)
+	  , toIndex   = __webpack_require__(58);
 	module.exports = function(IS_INCLUDES){
 	  return function($this, el, fromIndex){
 	    var O      = toIObject($this)
@@ -2895,18 +2911,18 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 50 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.15 ToLength
-	var toInteger = __webpack_require__(51)
+	var toInteger = __webpack_require__(57)
 	  , min       = Math.min;
 	module.exports = function(it){
 	  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
 	};
 
 /***/ },
-/* 51 */
+/* 57 */
 /***/ function(module, exports) {
 
 	// 7.1.4 ToInteger
@@ -2917,10 +2933,10 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 52 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var toInteger = __webpack_require__(51)
+	var toInteger = __webpack_require__(57)
 	  , max       = Math.max
 	  , min       = Math.min;
 	module.exports = function(index, length){
@@ -2929,20 +2945,20 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 53 */
+/* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var shared = __webpack_require__(54)('keys')
-	  , uid    = __webpack_require__(56);
+	var shared = __webpack_require__(60)('keys')
+	  , uid    = __webpack_require__(62);
 	module.exports = function(key){
 	  return shared[key] || (shared[key] = uid(key));
 	};
 
 /***/ },
-/* 54 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global = __webpack_require__(55)
+	var global = __webpack_require__(61)
 	  , SHARED = '__core-js_shared__'
 	  , store  = global[SHARED] || (global[SHARED] = {});
 	module.exports = function(key){
@@ -2950,7 +2966,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 55 */
+/* 61 */
 /***/ function(module, exports) {
 
 	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -2959,7 +2975,7 @@ webpackJsonp([1],[
 	if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 
 /***/ },
-/* 56 */
+/* 62 */
 /***/ function(module, exports) {
 
 	var id = 0
@@ -2969,7 +2985,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 57 */
+/* 63 */
 /***/ function(module, exports) {
 
 	// IE 8- don't enum bug keys
@@ -2978,13 +2994,13 @@ webpackJsonp([1],[
 	).split(',');
 
 /***/ },
-/* 58 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
-	var $export = __webpack_require__(59)
-	  , core    = __webpack_require__(60)
-	  , fails   = __webpack_require__(69);
+	var $export = __webpack_require__(65)
+	  , core    = __webpack_require__(66)
+	  , fails   = __webpack_require__(75);
 	module.exports = function(KEY, exec){
 	  var fn  = (core.Object || {})[KEY] || Object[KEY]
 	    , exp = {};
@@ -2993,13 +3009,13 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 59 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global    = __webpack_require__(55)
-	  , core      = __webpack_require__(60)
-	  , ctx       = __webpack_require__(61)
-	  , hide      = __webpack_require__(63)
+	var global    = __webpack_require__(61)
+	  , core      = __webpack_require__(66)
+	  , ctx       = __webpack_require__(67)
+	  , hide      = __webpack_require__(69)
 	  , PROTOTYPE = 'prototype';
 
 	var $export = function(type, name, source){
@@ -3059,18 +3075,18 @@ webpackJsonp([1],[
 	module.exports = $export;
 
 /***/ },
-/* 60 */
+/* 66 */
 /***/ function(module, exports) {
 
 	var core = module.exports = {version: '2.4.0'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
-/* 61 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(62);
+	var aFunction = __webpack_require__(68);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -3091,7 +3107,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 62 */
+/* 68 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -3100,12 +3116,12 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 63 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var dP         = __webpack_require__(64)
-	  , createDesc = __webpack_require__(72);
-	module.exports = __webpack_require__(68) ? function(object, key, value){
+	var dP         = __webpack_require__(70)
+	  , createDesc = __webpack_require__(78);
+	module.exports = __webpack_require__(74) ? function(object, key, value){
 	  return dP.f(object, key, createDesc(1, value));
 	} : function(object, key, value){
 	  object[key] = value;
@@ -3113,15 +3129,15 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 64 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var anObject       = __webpack_require__(65)
-	  , IE8_DOM_DEFINE = __webpack_require__(67)
-	  , toPrimitive    = __webpack_require__(71)
+	var anObject       = __webpack_require__(71)
+	  , IE8_DOM_DEFINE = __webpack_require__(73)
+	  , toPrimitive    = __webpack_require__(77)
 	  , dP             = Object.defineProperty;
 
-	exports.f = __webpack_require__(68) ? Object.defineProperty : function defineProperty(O, P, Attributes){
+	exports.f = __webpack_require__(74) ? Object.defineProperty : function defineProperty(O, P, Attributes){
 	  anObject(O);
 	  P = toPrimitive(P, true);
 	  anObject(Attributes);
@@ -3134,17 +3150,17 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 65 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObject = __webpack_require__(66);
+	var isObject = __webpack_require__(72);
 	module.exports = function(it){
 	  if(!isObject(it))throw TypeError(it + ' is not an object!');
 	  return it;
 	};
 
 /***/ },
-/* 66 */
+/* 72 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -3152,24 +3168,24 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 67 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = !__webpack_require__(68) && !__webpack_require__(69)(function(){
-	  return Object.defineProperty(__webpack_require__(70)('div'), 'a', {get: function(){ return 7; }}).a != 7;
+	module.exports = !__webpack_require__(74) && !__webpack_require__(75)(function(){
+	  return Object.defineProperty(__webpack_require__(76)('div'), 'a', {get: function(){ return 7; }}).a != 7;
 	});
 
 /***/ },
-/* 68 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Thank's IE8 for his funny defineProperty
-	module.exports = !__webpack_require__(69)(function(){
+	module.exports = !__webpack_require__(75)(function(){
 	  return Object.defineProperty({}, 'a', {get: function(){ return 7; }}).a != 7;
 	});
 
 /***/ },
-/* 69 */
+/* 75 */
 /***/ function(module, exports) {
 
 	module.exports = function(exec){
@@ -3181,11 +3197,11 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 70 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObject = __webpack_require__(66)
-	  , document = __webpack_require__(55).document
+	var isObject = __webpack_require__(72)
+	  , document = __webpack_require__(61).document
 	  // in old IE typeof document.createElement is 'object'
 	  , is = isObject(document) && isObject(document.createElement);
 	module.exports = function(it){
@@ -3193,11 +3209,11 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 71 */
+/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.1 ToPrimitive(input [, PreferredType])
-	var isObject = __webpack_require__(66);
+	var isObject = __webpack_require__(72);
 	// instead of the ES6 spec version, we didn't implement @@toPrimitive case
 	// and the second argument - flag - preferred type is a string
 	module.exports = function(it, S){
@@ -3210,7 +3226,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 72 */
+/* 78 */
 /***/ function(module, exports) {
 
 	module.exports = function(bitmap, value){
@@ -3223,7 +3239,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 73 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -3232,25 +3248,37 @@ webpackJsonp([1],[
 	    value: true
 	});
 
-	var _button = __webpack_require__(74);
+	var _button = __webpack_require__(80);
 
 	var _button2 = _interopRequireDefault(_button);
 
-	var _icon = __webpack_require__(83);
+	var _icon = __webpack_require__(89);
 
 	var _icon2 = _interopRequireDefault(_icon);
 
-	var _row = __webpack_require__(88);
+	var _row = __webpack_require__(94);
 
 	var _row2 = _interopRequireDefault(_row);
 
-	var _col = __webpack_require__(93);
+	var _col = __webpack_require__(99);
 
 	var _col2 = _interopRequireDefault(_col);
 
-	var _list = __webpack_require__(420);
+	var _list = __webpack_require__(104);
 
 	var _list2 = _interopRequireDefault(_list);
+
+	var _nav = __webpack_require__(110);
+
+	var _nav2 = _interopRequireDefault(_nav);
+
+	var _input = __webpack_require__(115);
+
+	var _input2 = _interopRequireDefault(_input);
+
+	var _InputGroup = __webpack_require__(120);
+
+	var _InputGroup2 = _interopRequireDefault(_InputGroup);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3259,41 +3287,44 @@ webpackJsonp([1],[
 	    Icon: _icon2.default,
 	    Row: _row2.default,
 	    Col: _col2.default,
-	    List: _list2.default
+	    List: _list2.default,
+	    Nav: _nav2.default,
+	    Input: _input2.default,
+	    InputGroup: _InputGroup2.default
 	};
 
 /***/ },
-/* 74 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(75)
+	__webpack_require__(81)
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(77),
+	  __webpack_require__(83),
 	  /* template */
-	  __webpack_require__(82),
+	  __webpack_require__(88),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/button/button.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\button\\button.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] button.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-b01d39a8", Component.options)
+	    hotAPI.createRecord("data-v-fafc3c44", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-b01d39a8", Component.options)
+	    hotAPI.reload("data-v-fafc3c44", Component.options)
 	  }
 	})()}
 
@@ -3301,23 +3332,23 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 75 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(76);
+	var content = __webpack_require__(82);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("eeb9871c", content, false);
+	var update = __webpack_require__(17)("68a38caf", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-b01d39a8\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./button.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-b01d39a8\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./button.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-fafc3c44\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./button.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-fafc3c44\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./button.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -3327,10 +3358,10 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 76 */
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
 
@@ -3341,7 +3372,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 77 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3350,7 +3381,7 @@ webpackJsonp([1],[
 	    value: true
 	});
 
-	var _defineProperty2 = __webpack_require__(78);
+	var _defineProperty2 = __webpack_require__(84);
 
 	var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -3386,14 +3417,14 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 78 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 
 	exports.__esModule = true;
 
-	var _defineProperty = __webpack_require__(79);
+	var _defineProperty = __webpack_require__(85);
 
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -3415,31 +3446,31 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 79 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(80), __esModule: true };
+	module.exports = { "default": __webpack_require__(86), __esModule: true };
 
 /***/ },
-/* 80 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(81);
-	var $Object = __webpack_require__(60).Object;
+	__webpack_require__(87);
+	var $Object = __webpack_require__(66).Object;
 	module.exports = function defineProperty(it, key, desc){
 	  return $Object.defineProperty(it, key, desc);
 	};
 
 /***/ },
-/* 81 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $export = __webpack_require__(59);
+	var $export = __webpack_require__(65);
 	// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-	$export($export.S + $export.F * !__webpack_require__(68), 'Object', {defineProperty: __webpack_require__(64).f});
+	$export($export.S + $export.F * !__webpack_require__(74), 'Object', {defineProperty: __webpack_require__(70).f});
 
 /***/ },
-/* 82 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3461,42 +3492,42 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-b01d39a8", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-fafc3c44", module.exports)
 	  }
 	}
 
 /***/ },
-/* 83 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(84)
+	__webpack_require__(90)
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(86),
+	  __webpack_require__(92),
 	  /* template */
-	  __webpack_require__(87),
+	  __webpack_require__(93),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/icon/icon.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\icon\\icon.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] icon.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-81af0568", Component.options)
+	    hotAPI.createRecord("data-v-6e1824fe", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-81af0568", Component.options)
+	    hotAPI.reload("data-v-6e1824fe", Component.options)
 	  }
 	})()}
 
@@ -3504,23 +3535,23 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 84 */
+/* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(85);
+	var content = __webpack_require__(91);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("414ef9f2", content, false);
+	var update = __webpack_require__(17)("27157899", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-81af0568\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./icon.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-81af0568\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./icon.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-6e1824fe\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./icon.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-6e1824fe\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./icon.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -3530,10 +3561,10 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 85 */
+/* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
 
@@ -3544,7 +3575,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 86 */
+/* 92 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -3582,7 +3613,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 87 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3596,42 +3627,42 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-81af0568", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-6e1824fe", module.exports)
 	  }
 	}
 
 /***/ },
-/* 88 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(89)
+	__webpack_require__(95)
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(91),
+	  __webpack_require__(97),
 	  /* template */
-	  __webpack_require__(92),
+	  __webpack_require__(98),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/grid/row.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\grid\\row.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] row.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-3575eb24", Component.options)
+	    hotAPI.createRecord("data-v-920cf59c", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-3575eb24", Component.options)
+	    hotAPI.reload("data-v-920cf59c", Component.options)
 	  }
 	})()}
 
@@ -3639,23 +3670,23 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 89 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(90);
+	var content = __webpack_require__(96);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("35019fd5", content, false);
+	var update = __webpack_require__(17)("6a2d4cd6", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-3575eb24\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./row.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-3575eb24\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./row.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-920cf59c\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./row.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-920cf59c\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./row.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -3665,10 +3696,10 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 90 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
 
@@ -3679,7 +3710,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 91 */
+/* 97 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -3719,7 +3750,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 92 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3732,42 +3763,42 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-3575eb24", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-920cf59c", module.exports)
 	  }
 	}
 
 /***/ },
-/* 93 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(94)
+	__webpack_require__(100)
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(96),
+	  __webpack_require__(102),
 	  /* template */
-	  __webpack_require__(97),
+	  __webpack_require__(103),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/grid/col.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\grid\\col.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] col.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-1b5d6fca", Component.options)
+	    hotAPI.createRecord("data-v-c63dec50", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-1b5d6fca", Component.options)
+	    hotAPI.reload("data-v-c63dec50", Component.options)
 	  }
 	})()}
 
@@ -3775,23 +3806,23 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 94 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(95);
+	var content = __webpack_require__(101);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("db6e4b00", content, false);
+	var update = __webpack_require__(17)("1bb194f0", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-1b5d6fca\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./col.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-1b5d6fca\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./col.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-c63dec50\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./col.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-c63dec50\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./col.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -3801,10 +3832,10 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 95 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
 
@@ -3815,7 +3846,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 96 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3824,7 +3855,7 @@ webpackJsonp([1],[
 	    value: true
 	});
 
-	var _defineProperty2 = __webpack_require__(78);
+	var _defineProperty2 = __webpack_require__(84);
 
 	var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -3867,7 +3898,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 97 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3881,12 +3912,90 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-1b5d6fca", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-c63dec50", module.exports)
 	  }
 	}
 
 /***/ },
-/* 98 */
+/* 104 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(105)
+
+	var Component = __webpack_require__(19)(
+	  /* script */
+	  __webpack_require__(107),
+	  /* template */
+	  __webpack_require__(109),
+	  /* scopeId */
+	  "data-v-1d7137c4",
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\list\\list.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] list.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-1d7137c4", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-1d7137c4", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 105 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(106);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(17)("63c09afa", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-1d7137c4\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./list.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-1d7137c4\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./list.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 106 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)(undefined);
+	// imports
+	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
+
+	// module
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.flex-rowstart-middle[data-v-1d7137c4] {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  align-items: center;\n}\n#simple-list-container[data-v-1d7137c4] {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.simple-list-item[data-v-1d7137c4] {\n  box-sizing: border-box;\n  height: 96px;\n  padding: 0 15px;\n  background-color: #fff;\n  margin-top: 4px;\n}\n.simple-list-item .img[data-v-1d7137c4] {\n  display: block;\n  width: 66px;\n  height: 66px;\n  background-color: #ccc;\n  margin-right: 10px;\n}\n.simple-list-item .text-box[data-v-1d7137c4] {\n  height: 66px;\n  line-height: 1;\n}\n.simple-list-item .text-box .title[data-v-1d7137c4] {\n  line-height: inherit;\n  font-size: 14px;\n  color: #383838;\n  margin: 4px 0 8px 0;\n}\n.simple-list-item .text-box .sub-title[data-v-1d7137c4] {\n  line-height: inherit;\n  font-size: 12px;\n  color: #888;\n  margin-bottom: 6px;\n}\n.simple-list-item .text-box .sign[data-v-1d7137c4] {\n  display: inline-block;\n  vertical-align: top;\n  height: 20px;\n  padding: 0 5px;\n  background-color: #fff3f3;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.simple-list-item .text-box .sign .describe[data-v-1d7137c4] {\n  float: left;\n  line-height: 20px;\n  font-size: 11px;\n  color: #fb6165;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -3894,50 +4003,1805 @@ webpackJsonp([1],[
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
-	__webpack_require__(99);
 
-	var el = document.documentElement;
+	var _slideload = __webpack_require__(108);
+
+	var _slideload2 = _interopRequireDefault(_slideload);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = {
-	    init: function init() {
-	        var r = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 200;
-	        var w = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 750;
-
-	        if (r == 0) return;
-	        r = r * 100;
-
-	        if (isNaN(r)) r = 200;
-
-	        var width = el.clientWidth;
-
-	        width = width > w ? w : width;
-
-	        el.style.fontSize = width / w * r + "px";
-
-	        document.body.style.maxWidth = w;
-
-	        window.onresize = this.init;
-	    }
-	};
+	    name: 'list'
+	}; //
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 
 /***/ },
-/* 99 */
+/* 108 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+
+	+function (window, document, Math) {
+					/**
+	     * Tween.js
+	     */
+					var TWEEN = TWEEN || function () {
+
+									var _tweens = [];
+
+									return {
+
+													getAll: function getAll() {
+
+																	return _tweens;
+													},
+
+													removeAll: function removeAll() {
+
+																	_tweens = [];
+													},
+
+													add: function add(tween) {
+
+																	_tweens.push(tween);
+													},
+
+													remove: function remove(tween) {
+
+																	var i = _tweens.indexOf(tween);
+
+																	if (i !== -1) {
+																					_tweens.splice(i, 1);
+																	}
+													},
+
+													update: function update(time, preserve) {
+
+																	if (_tweens.length === 0) {
+																					return false;
+																	}
+
+																	var i = 0;
+
+																	time = time !== undefined ? time : TWEEN.now();
+
+																	while (i < _tweens.length) {
+
+																					if (_tweens[i].update(time) || preserve) {
+																									i++;
+																					} else {
+																									_tweens.splice(i, 1);
+																					}
+																	}
+
+																	return true;
+													}
+									};
+					}();
+
+					// Include a performance.now polyfill.
+					// In node.js, use process.hrtime.
+					if (typeof window === 'undefined' && typeof process !== 'undefined') {
+									TWEEN.now = function () {
+													var time = process.hrtime();
+
+													// Convert [seconds, nanoseconds] to milliseconds.
+													return time[0] * 1000 + time[1] / 1000000;
+									};
+					}
+					// In a browser, use window.performance.now if it is available.
+					else if (typeof window !== 'undefined' && window.performance !== undefined && window.performance.now !== undefined) {
+													// This must be bound, because directly assigning this function
+													// leads to an invocation exception in Chrome.
+													TWEEN.now = window.performance.now.bind(window.performance);
+									}
+									// Use Date.now if it is available.
+									else if (Date.now !== undefined) {
+																	TWEEN.now = Date.now;
+													}
+													// Otherwise, use 'new Date().getTime()'.
+													else {
+																					TWEEN.now = function () {
+																									return new Date().getTime();
+																					};
+																	}
+
+					TWEEN.Tween = function (object) {
+
+									var _object = object; //初始动画数据对象
+									var _valuesStart = {}; //动画数据对象属性初始值
+									var _valuesEnd = {}; //动画数据对象属性目标值
+									var _valuesStartRepeat = {}; //动画循环属性初始值
+									var _duration = 1000; //动画持续时间，默认1000ms
+									var _repeat = 0;
+									var _repeatDelayTime;
+									var _yoyo = false;
+									var _isPlaying = false; //动画开关
+									var _reversed = false;
+									var _delayTime = 0;
+									var _startTime = null; //动画开始时间
+									var _easingFunction = TWEEN.Easing.Linear.None; //通过缓动算法获取动画数据对象属性目标值的函数
+									var _interpolationFunction = TWEEN.Interpolation.Linear;
+									var _chainedTweens = [];
+									var _onStartCallback = null;
+									var _onStartCallbackFired = false; //onStart回调函数触发状态(已触发/未触发)
+									var _onUpdateCallback = null;
+									var _onCompleteCallback = null;
+									var _onStopCallback = null;
+
+									/**
+	         * 设置动画数据目标值方法
+	         */
+									this.to = function (properties, duration) {
+
+													_valuesEnd = properties; //获取动画数据对象属性目标值
+
+													if (duration !== undefined) {
+																	_duration = duration; //获取动画持续时间
+													}
+
+													return this;
+									};
+
+									this.start = function (time) {
+
+													TWEEN.add(this); //添加至动画列表_tweens
+
+													_isPlaying = true; //动画开关
+
+													_onStartCallbackFired = false; //重置onStart回调函数触发状态
+
+													_startTime = time !== undefined ? time : TWEEN.now();
+													_startTime += _delayTime; //设置动画开始时间
+
+													for (var property in _valuesEnd) {
+
+																	// Check if an Array was provided as property value
+																	// 检查动画数据对象是否有数组值
+																	if (_valuesEnd[property] instanceof Array) {
+
+																					if (_valuesEnd[property].length === 0) {
+																									continue;
+																					}
+
+																					// Create a local copy of the Array with the start value at the front
+																					// 复制得到一个动画数据对象的该属性值在数组第一位的数组
+																					_valuesEnd[property] = [_object[property]].concat(_valuesEnd[property]);
+																	}
+
+																	// If `to()` specifies a property that doesn't exist in the source object,
+																	// we should not set that property in the object
+																	if (_object[property] === undefined) {
+																					continue;
+																	}
+
+																	// Save the starting value.
+																	// 设置动画数据对象属性初始值
+																	_valuesStart[property] = _object[property];
+
+																	// Ensures we're using numbers, not strings
+																	// 确保属性值的类型为number
+																	if (_valuesStart[property] instanceof Array === false) {
+																					_valuesStart[property] *= 1.0;
+																	}
+
+																	// 设置动画循环属性初始值
+																	_valuesStartRepeat[property] = _valuesStart[property] || 0;
+													}
+
+													return this;
+									};
+
+									this.stop = function () {
+
+													if (!_isPlaying) {
+																	return this;
+													}
+
+													TWEEN.remove(this);
+													_isPlaying = false;
+
+													if (_onStopCallback !== null) {
+																	_onStopCallback.call(_object, _object);
+													}
+
+													this.stopChainedTweens();
+													return this;
+									};
+
+									this.end = function () {
+
+													this.update(_startTime + _duration);
+													return this;
+									};
+
+									this.stopChainedTweens = function () {
+
+													for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
+																	_chainedTweens[i].stop();
+													}
+									};
+
+									this.delay = function (amount) {
+
+													_delayTime = amount;
+													return this;
+									};
+
+									this.repeat = function (times) {
+
+													_repeat = times;
+													return this;
+									};
+
+									this.repeatDelay = function (amount) {
+
+													_repeatDelayTime = amount;
+													return this;
+									};
+
+									this.yoyo = function (yoyo) {
+
+													_yoyo = yoyo;
+													return this;
+									};
+
+									this.easing = function (easing) {
+
+													_easingFunction = easing;
+													return this;
+									};
+
+									this.interpolation = function (interpolation) {
+
+													_interpolationFunction = interpolation;
+													return this;
+									};
+
+									this.chain = function () {
+
+													_chainedTweens = arguments;
+													return this;
+									};
+
+									this.onStart = function (callback) {
+
+													_onStartCallback = callback;
+													return this;
+									};
+
+									this.onUpdate = function (callback) {
+
+													_onUpdateCallback = callback;
+													return this;
+									};
+
+									this.onComplete = function (callback) {
+
+													_onCompleteCallback = callback;
+													return this;
+									};
+
+									this.onStop = function (callback) {
+
+													_onStopCallback = callback;
+													return this;
+									};
+
+									this.update = function (time) {
+
+													var property;
+													var elapsed;
+													var value;
+
+													if (time < _startTime) {
+																	return true;
+													}
+
+													// 如果onStart回调函数未触发，那么使其触发并执行
+													if (_onStartCallbackFired === false) {
+
+																	if (_onStartCallback !== null) {
+																					_onStartCallback.call(_object, _object);
+																	}
+
+																	_onStartCallbackFired = true;
+													}
+
+													//time - _startTime动画已经执行的时间
+													elapsed = (time - _startTime) / _duration;
+													elapsed = elapsed > 1 ? 1 : elapsed;
+													value = _easingFunction(elapsed);
+
+													for (property in _valuesEnd) {
+
+																	// Don't update properties that do not exist in the source object
+																	if (_valuesStart[property] === undefined) {
+																					continue;
+																	}
+
+																	var start = _valuesStart[property] || 0;
+																	var end = _valuesEnd[property];
+																	if (end instanceof Array) {
+
+																					_object[property] = _interpolationFunction(end, value);
+																	} else {
+
+																					// Parses relative end values with start as base (e.g.: +10, -3)
+																					if (typeof end === 'string') {
+
+																									if (end.charAt(0) === '+' || end.charAt(0) === '-') {
+																													end = start + parseFloat(end);
+																									} else {
+																													end = parseFloat(end);
+																									}
+																					}
+
+																					// Protect against non numeric properties.
+																					if (typeof end === 'number') {
+																									// p = b + c * value;  b:初始值 c:变量值 value:缓动系数
+																									_object[property] = start + (end - start) * value;
+																					}
+																	}
+													}
+
+													if (_onUpdateCallback !== null) {
+																	_onUpdateCallback.call(_object, value);
+													}
+
+													if (elapsed === 1) {
+
+																	if (_repeat > 0) {
+
+																					if (isFinite(_repeat)) {
+																									_repeat--;
+																					}
+
+																					// Reassign starting values, restart by making startTime = now
+																					for (property in _valuesStartRepeat) {
+
+																									if (typeof _valuesEnd[property] === 'string') {
+																													_valuesStartRepeat[property] = _valuesStartRepeat[property] + parseFloat(_valuesEnd[property]);
+																									}
+
+																									if (_yoyo) {
+																													var tmp = _valuesStartRepeat[property];
+
+																													_valuesStartRepeat[property] = _valuesEnd[property];
+																													_valuesEnd[property] = tmp;
+																									}
+
+																									_valuesStart[property] = _valuesStartRepeat[property];
+																					}
+
+																					if (_yoyo) {
+																									_reversed = !_reversed;
+																					}
+
+																					if (_repeatDelayTime !== undefined) {
+																									_startTime = time + _repeatDelayTime;
+																					} else {
+																									_startTime = time + _delayTime;
+																					}
+
+																					return true;
+																	} else {
+
+																					if (_onCompleteCallback !== null) {
+
+																									_onCompleteCallback.call(_object, _object);
+																					}
+
+																					for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
+																									// Make the chained tweens start exactly at the time they should,
+																									// even if the `update()` method was called way past the duration of the tween
+																									_chainedTweens[i].start(_startTime + _duration);
+																					}
+
+																					return false;
+																	}
+													}
+
+													return true;
+									};
+					};
+
+					// k = t/d
+					TWEEN.Easing = {
+									//线性匀速运动效果
+									Linear: {
+
+													None: function None(k) {
+
+																	return k;
+													}
+
+									},
+									//二次方的缓动（t^2）
+									Quadratic: {
+
+													In: function In(k) {
+
+																	return k * k;
+													},
+
+													Out: function Out(k) {
+
+																	return k * (2 - k);
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * k * k;
+																	}
+
+																	return -0.5 * (--k * (k - 2) - 1);
+													}
+
+									},
+									//三次方的缓动（t^2）
+									Cubic: {
+
+													In: function In(k) {
+
+																	return k * k * k;
+													},
+
+													Out: function Out(k) {
+
+																	return --k * k * k + 1;
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * k * k * k;
+																	}
+
+																	return 0.5 * ((k -= 2) * k * k + 2);
+													}
+
+									},
+									//四次方的缓动（t^2）
+									Quartic: {
+
+													In: function In(k) {
+
+																	return k * k * k * k;
+													},
+
+													Out: function Out(k) {
+
+																	return 1 - --k * k * k * k;
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * k * k * k * k;
+																	}
+
+																	return -0.5 * ((k -= 2) * k * k * k - 2);
+													}
+
+									},
+									//五次方的缓动（t^2）
+									Quintic: {
+
+													In: function In(k) {
+
+																	return k * k * k * k * k;
+													},
+
+													Out: function Out(k) {
+
+																	return --k * k * k * k * k + 1;
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * k * k * k * k * k;
+																	}
+
+																	return 0.5 * ((k -= 2) * k * k * k * k + 2);
+													}
+
+									},
+									//正弦曲线的缓动（sin(t)）
+									Sinusoidal: {
+
+													In: function In(k) {
+
+																	return 1 - Math.cos(k * Math.PI / 2);
+													},
+
+													Out: function Out(k) {
+
+																	return Math.sin(k * Math.PI / 2);
+													},
+
+													InOut: function InOut(k) {
+
+																	return 0.5 * (1 - Math.cos(Math.PI * k));
+													}
+
+									},
+									//指数曲线的缓动(2^t)
+									Exponential: {
+
+													In: function In(k) {
+
+																	return k === 0 ? 0 : Math.pow(1024, k - 1);
+													},
+
+													Out: function Out(k) {
+
+																	return k === 1 ? 1 : 1 - Math.pow(2, -10 * k);
+													},
+
+													InOut: function InOut(k) {
+
+																	if (k === 0) {
+																					return 0;
+																	}
+
+																	if (k === 1) {
+																					return 1;
+																	}
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * Math.pow(1024, k - 1);
+																	}
+
+																	return 0.5 * (-Math.pow(2, -10 * (k - 1)) + 2);
+													}
+
+									},
+									//圆形曲线的缓动(sqrt(1-t^2))
+									Circular: {
+
+													In: function In(k) {
+
+																	return 1 - Math.sqrt(1 - k * k);
+													},
+
+													Out: function Out(k) {
+
+																	return Math.sqrt(1 - --k * k);
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return -0.5 * (Math.sqrt(1 - k * k) - 1);
+																	}
+
+																	return 0.5 * (Math.sqrt(1 - (k -= 2) * k) + 1);
+													}
+
+									},
+									//指数衰减的正弦曲线缓动
+									Elastic: {
+
+													In: function In(k) {
+
+																	if (k === 0) {
+																					return 0;
+																	}
+
+																	if (k === 1) {
+																					return 1;
+																	}
+
+																	return -Math.pow(2, 10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI);
+													},
+
+													Out: function Out(k) {
+
+																	if (k === 0) {
+																					return 0;
+																	}
+
+																	if (k === 1) {
+																					return 1;
+																	}
+
+																	return Math.pow(2, -10 * k) * Math.sin((k - 0.1) * 5 * Math.PI) + 1;
+													},
+
+													InOut: function InOut(k) {
+
+																	if (k === 0) {
+																					return 0;
+																	}
+
+																	if (k === 1) {
+																					return 1;
+																	}
+
+																	k *= 2;
+
+																	if (k < 1) {
+																					return -0.5 * Math.pow(2, 10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI);
+																	}
+
+																	return 0.5 * Math.pow(2, -10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI) + 1;
+													}
+
+									},
+									//超过范围的三次方缓动((s+1)*t^3 – s*t^2)
+									Back: {
+
+													In: function In(k) {
+
+																	var s = 1.70158;
+
+																	return k * k * ((s + 1) * k - s);
+													},
+
+													Out: function Out(k) {
+
+																	var s = 1.70158;
+
+																	return --k * k * ((s + 1) * k + s) + 1;
+													},
+
+													InOut: function InOut(k) {
+
+																	var s = 1.70158 * 1.525;
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * (k * k * ((s + 1) * k - s));
+																	}
+
+																	return 0.5 * ((k -= 2) * k * ((s + 1) * k + s) + 2);
+													}
+
+									},
+									//指数衰减的反弹缓动
+									Bounce: {
+
+													In: function In(k) {
+
+																	return 1 - TWEEN.Easing.Bounce.Out(1 - k);
+													},
+
+													Out: function Out(k) {
+
+																	if (k < 1 / 2.75) {
+																					return 7.5625 * k * k;
+																	} else if (k < 2 / 2.75) {
+																					return 7.5625 * (k -= 1.5 / 2.75) * k + 0.75;
+																	} else if (k < 2.5 / 2.75) {
+																					return 7.5625 * (k -= 2.25 / 2.75) * k + 0.9375;
+																	} else {
+																					return 7.5625 * (k -= 2.625 / 2.75) * k + 0.984375;
+																	}
+													},
+
+													InOut: function InOut(k) {
+
+																	if (k < 0.5) {
+																					return TWEEN.Easing.Bounce.In(k * 2) * 0.5;
+																	}
+
+																	return TWEEN.Easing.Bounce.Out(k * 2 - 1) * 0.5 + 0.5;
+													}
+
+									}
+
+					};
+
+					TWEEN.Interpolation = {
+
+									Linear: function Linear(v, k) {
+
+													var m = v.length - 1;
+													var f = m * k;
+													var i = Math.floor(f);
+													var fn = TWEEN.Interpolation.Utils.Linear;
+
+													if (k < 0) {
+																	return fn(v[0], v[1], f);
+													}
+
+													if (k > 1) {
+																	return fn(v[m], v[m - 1], m - f);
+													}
+
+													return fn(v[i], v[i + 1 > m ? m : i + 1], f - i);
+									},
+
+									Bezier: function Bezier(v, k) {
+
+													var b = 0;
+													var n = v.length - 1;
+													var pw = Math.pow;
+													var bn = TWEEN.Interpolation.Utils.Bernstein;
+
+													for (var i = 0; i <= n; i++) {
+																	b += pw(1 - k, n - i) * pw(k, i) * v[i] * bn(n, i);
+													}
+
+													return b;
+									},
+
+									CatmullRom: function CatmullRom(v, k) {
+
+													var m = v.length - 1;
+													var f = m * k;
+													var i = Math.floor(f);
+													var fn = TWEEN.Interpolation.Utils.CatmullRom;
+
+													if (v[0] === v[m]) {
+
+																	if (k < 0) {
+																					i = Math.floor(f = m * (1 + k));
+																	}
+
+																	return fn(v[(i - 1 + m) % m], v[i], v[(i + 1) % m], v[(i + 2) % m], f - i);
+													} else {
+
+																	if (k < 0) {
+																					return v[0] - (fn(v[0], v[0], v[1], v[1], -f) - v[0]);
+																	}
+
+																	if (k > 1) {
+																					return v[m] - (fn(v[m], v[m], v[m - 1], v[m - 1], f - m) - v[m]);
+																	}
+
+																	return fn(v[i ? i - 1 : 0], v[i], v[m < i + 1 ? m : i + 1], v[m < i + 2 ? m : i + 2], f - i);
+													}
+									},
+
+									Utils: {
+
+													Linear: function Linear(p0, p1, t) {
+
+																	return (p1 - p0) * t + p0;
+													},
+
+													Bernstein: function Bernstein(n, i) {
+
+																	var fc = TWEEN.Interpolation.Utils.Factorial;
+
+																	return fc(n) / fc(i) / fc(n - i);
+													},
+
+													Factorial: function () {
+
+																	var a = [1];
+
+																	return function (n) {
+
+																					var s = 1;
+
+																					if (a[n]) {
+																									return a[n];
+																					}
+
+																					for (var i = n; i > 1; i--) {
+																									s *= i;
+																					}
+
+																					a[n] = s;
+																					return s;
+																	};
+													}(),
+
+													CatmullRom: function CatmullRom(p0, p1, p2, p3, t) {
+
+																	var v0 = (p2 - p0) * 0.5;
+																	var v1 = (p3 - p1) * 0.5;
+																	var t2 = t * t;
+																	var t3 = t * t2;
+
+																	return (2 * p1 - 2 * p2 + v0 + v1) * t3 + (-3 * p1 + 3 * p2 - 2 * v0 - v1) * t2 + v0 * t + p1;
+													}
+
+									}
+
+					};
+
+					/**
+	     * 存在兼容性的web API
+	     * touchEvent : Firefox Mobile (Gecko) 6.0 以上版本支持 , IE Mobile 11 以上版本支持
+	     * document.querySelector() : Opera Mobile 10.0 以上版本支持 , IE Mobile 9 以上版本支持
+	     * window.innerHeight : IE Mobile 9 以上版本支持 , Opera Mobile 9 以上版本支持
+	     * 
+	     * 浏览器兼容性(iOS 7.0+ , Android 4.4+) : Safari Mobile , iOS webview , Chrome for iOS
+	     *                                        Android , Android Webview , Chrome for Android
+	     *                                        Firefox Mobile (Gecko) 6.0+ , IE Mobile 11+ , Opera Mobile 9+
+	     *                                        UC browser , QQ browser
+	     * 
+	     * 已真机测试并支持的浏览器 : (iOS 10.1.1) webview , (iOS 10.1.1) Safari , (iOS 10.1.1) Chrome 56.0.2924.79
+	     *                          (iOS 10.1.1) Firefox Mobile (Gecko) 6.1(1) , (iOS 10.1.1)Opera Mobile 11.0.1.107866
+	     *                          (iOS 10.1.1)UC browser 11.4.7.931 , (iOS 10.1.1)QQ browser 7.2.1.2879 
+	     */
+
+					var Slideload = function Slideload(element, options) {
+									var self = this;
+									self.slider = typeof element == 'string' ? document.querySelector(element) : element;
+
+									self.next = function () {
+													self.reset();
+									};
+									self.stop = function () {
+													self.opts.isData = false;
+													self.reset();
+									};
+
+									self.eventList = [];
+									self.initEventProgress = 0;
+									self.on = function (eventName, cb) {
+													//事件监听API load refresh
+													self.eventList.push(eventName);
+													options[eventName + 'Handle'] = cb;
+													setTimeout(function () {
+																	self.initEventProgress += 1;
+																	if (self.eventList.length == self.initEventProgress) {
+																					self.init(options);
+																	}
+													}, 0);
+									};
+					};
+					//初始化
+					Slideload.prototype.init = function (options) {
+									var self = this;
+									self.opts = self.utils.extend({
+													scrollArea: self.slider, //滑动区域
+													scrollAreaHeight: 0, //滑动区域高度
+													scrollCont: undefined, //列表容器
+													loading: false, //loading状态
+													isLockLoad: false, //无线滚动是否锁定
+													isLockRefresh: false, //下拉刷新是否锁定
+													isData: true, //请求结果是否有数据
+													direction: 'up', //滑动方向
+													scrollTop: 0, //滚动条位置
+													scrollContentHeight: 0, //列表容器高度
+													limitNo: 0, //触发上拉加载的阈值
+													threshold: 50, //滚动提前加载距离
+													distance: 50, //出发下拉刷新的阈值
+													loadHandle: null, //上拉加载function
+													refreshHandle: null, //下拉刷新function
+													refreshDOM: '', //刷新提示DOM pull2refresh , release2refresh , loading , refreshSuccess
+													loadMoreDOM: '' //加載更多提示DOM pull2load , loading , loadSuccess
+									}, options);
+
+									//获取滚动区域高度
+									self.utils.getScrollAreaHeight(self);
+
+									if (self.utils.getCssProperty(self.opts.scrollArea, "position") === "static") {
+													self.opts.scrollArea.style.position = "relative";
+									}
+									self.moveEle = typeof self.opts.scrollCont == 'string' ? document.querySelector(self.opts.scrollCont) : self.opts.scrollCont;
+									//如果需要无限滚动则插入加载提示DOM
+									if (self.opts.loadHandle !== null) {
+													self.loadEle = document.createElement("div");
+													self.loadEle.innerHTML = self.opts.loadMoreDOM["pull2load"];
+													self.moveEle.appendChild(self.loadEle);
+									}
+									//如果需要下拉刷新则插入刷新提示DOM
+									if (self.opts.refreshHandle !== null) {
+													self.refreshEle = document.createElement("div");
+													self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
+													if (self.opts.scrollArea === window) {
+																	document.body.insertBefore(self.refreshEle, self.moveEle);
+													} else {
+																	self.opts.scrollArea.insertBefore(self.refreshEle, self.moveEle);
+													}
+													self.refreshEle.style.visibility = "hidden";
+									}
+
+									//自动加载
+									self.autoLoad(self);
+
+									// 窗口调整
+									document.addEventListener('resize', function () {
+													setTimeout(function () {
+																	self.utils.getScrollContentHeight(self);
+																	self.utils.getScrollAreaHeight(self);
+																	self.autoLoad(self);
+													}, 0);
+									}, false);
+
+									//設置transform & transition 浏览器厂商前缀
+									self.transformVendor = self.utils.vendor("transform");
+									self.transitionVendor = self.utils.vendor("transition");
+
+									//获取当前浏览器支持的animatePropertyName
+									if (self.transformVendor !== false) {
+													self.animatePropertyName = self.utils.prefixStyle(self.transformVendor, "transform");
+													self.animatePropertyValue = function (num) {
+																	return "translate3d(0px, " + num + "px, 0.01px)";
+													};
+													self.getAnimatePropertyValue = function (animatePropertyValue) {
+																	var re = /^.*translate3d\(0px\,\s+(\d+\.?\d?)px\,\s+0.01px\)$/i;
+																	return Math.floor(animatePropertyValue.match(re)[1]);
+													};
+									} else {
+													self.animatePropertyName = "top";
+													self.animatePropertyValue = function (num) {
+																	return num + "px";
+													};
+													self.getAnimatePropertyValue = function (animatePropertyValue) {
+																	return animatePropertyValue.slice(0, -2);
+													};
+									}
+
+									//判断当前浏览器是否支持transition
+									self.supportTransition = false;
+									if (self.transitionVendor !== false) {
+													self.supportTransition = true;
+													self.transition = self.utils.prefixStyle(self.transitionVendor, "transition");
+
+													var transEndEventNames = {
+																	WebkitTransition: "webkitTransitionEnd",
+																	MozTransition: "transitionend",
+																	msTransition: "transitionend",
+																	OTransition: "oTransitionEnd otransitionend",
+																	transition: "transitionend"
+													};
+													self.transEndEventNames = transEndEventNames[self.transition];
+													self.moveEle.addEventListener(self.transEndEventNames, function () {
+																	this.style[self.transition] = "";
+																	if (self.translateY == 0) {
+																					self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
+																					self.triggerAutoLoad();
+																	}
+													}, false);
+													//缓动动画
+													self.animate = function (startNum, endNum) {
+																	self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(endNum);
+													};
+									} else {
+													//缓动动画
+													self.animate = function (startNum, endNum) {
+																	var translateY = { y: startNum };
+																	var tween = new TWEEN.Tween(translateY).easing(TWEEN.Easing.Quadratic.Out).to({ y: endNum }, 260).onUpdate(function () {
+																					self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(this.y);
+																	}).onComplete(function (obj) {
+																					if (obj.y == 0) {
+																									self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
+																									self.triggerAutoLoad();
+																					}
+																	}).start();
+																	self.utils.rAF(animate);
+																	function animate(time) {
+																					self.utils.rAF(animate);
+																					TWEEN.update();
+																	}
+													};
+									}
+
+									self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(0);
+									self.moveEle.style.position = "absolute";
+									self.moveEle.style.top = "0";
+									self.translateY = 0;
+									self.touchmoveY = 0;
+
+									//判断浏览器是否支持 Passive event listeners
+									var supportPassive = false;
+									if ("defineProperty" in Object) {
+													try {
+																	var opts = Object.defineProperty({}, "passive", {
+																					get: function get() {
+																									supportPassive = true;
+																					}
+																	});
+																	window.addEventListener("test", null, opts);
+													} catch (e) {}
+									}
+
+									//绑定触摸
+									self.slider.addEventListener('touchstart', function (e) {
+													if (!self.opts.loading) {
+																	self.touchesHandle(e);
+																	self.touchstartHandle(e);
+													}
+									}, supportPassive ? { passive: true } : false);
+									self.slider.addEventListener('touchmove', function (e) {
+													if (!self.opts.loading) {
+																	self.touchesHandle(e);
+																	self.touchmoveHandle(e);
+													}
+									}, supportPassive ? { passive: false } : false);
+									self.slider.addEventListener('touchend', function () {
+													if (!self.opts.loading) {
+																	self.touchendHandle();
+													}
+									}, supportPassive ? { passive: true } : false);
+
+									//监听列表滚动，到底部自动加载数据
+									self.slider.addEventListener('scroll', function () {
+													self.utils.getScrollAreaHeight(self);
+													self.opts.limitNo = Number(self.opts.scrollContentHeight - self.opts.scrollAreaHeight);
+													self.opts.scrollTop = self.utils.getScrollTop(self);
+													//滚动页面触发加载数据
+													if (self.opts.limitNo > 0 && self.opts.direction == 'up' && self.opts.loadHandle !== null && !self.opts.loading && !self.opts.isLockLoad && self.opts.limitNo - self.opts.threshold <= self.opts.scrollTop) {
+																	self.lock("load");
+																	self.triggerLoad();
+													}
+									}, supportPassive ? { passive: true } : false);
+					};
+
+					//touches
+					Slideload.prototype.touchesHandle = function (e) {
+									e.touches = e.changedTouches;
+					};
+
+					//touchstart
+					Slideload.prototype.touchstartHandle = function (e) {
+									var self = this;
+									if (!self.opts.loading && self.opts.isData) {
+													self.unlock("load");
+									}
+									//滑动起点
+									self._startY = e.touches[0].pageY;
+
+									//获取滚动条位置
+									self.opts.scrollTop = self.utils.getScrollTop(self);
+
+									if (self.supportTransition) {
+													self.moveEle.style[self.transition] = "";
+									}
+					};
+
+					//touchmove
+					Slideload.prototype.touchmoveHandle = function (e) {
+									var self = this;
+									self._curY = e.touches[0].pageY;
+									self._moveY = self._curY - self._startY;
+									//获取滑动方向
+									if (self._moveY > 0) {
+													self.opts.direction = 'down';
+									} else if (self._moveY < 0) {
+													self.opts.direction = 'up';
+									}
+									//下拉刷新
+									if (!self.opts.loading && self.opts.refreshHandle !== null && self.opts.scrollTop <= 0 && !self.opts.isLockRefresh && self.opts.direction == 'down') {
+													e.preventDefault();
+													if (self.touchmoveY <= self.opts.distance) {
+																	self.touchmoveY = Math.floor(self._moveY * 0.6);
+													} else if (self.touchmoveY > self.opts.distance && self.touchmoveY <= self.opts.distance * 2) {
+																	self.touchmoveY = Math.floor(self.opts.distance + (self._moveY * 0.6 - self.opts.distance) * 0.5);
+													} else if (self.touchmoveY > self.opts.distance * 2) {
+																	self.touchmoveY = Math.floor(self.opts.distance * 2 + (self.opts.distance + (self._moveY * 0.6 - self.opts.distance) * 0.5 - self.opts.distance * 2) * 0.5);
+													}
+													self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(self.touchmoveY);
+													self.translateY = self.getAnimatePropertyValue(self.moveEle.style[self.animatePropertyName]);
+													if (self.translateY > 50) {
+																	self.refreshEle.innerHTML = self.opts.refreshDOM["release2refresh"];
+													} else {
+																	self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
+													}
+									}
+					};
+
+					//touchend
+					Slideload.prototype.touchendHandle = function () {
+									var self = this;
+									self.opts.scrollTop = self.utils.getScrollTop(self);
+									if (self.opts.scrollTop > 0) return;
+									var returnTarget = 0;
+									if (self.translateY > self.opts.distance) {
+													returnTarget = 50;
+													self.refreshEle.innerHTML = self.opts.refreshDOM["loading"];
+													self.triggerRefresh();
+									}
+									//判断浏览器是否支持 transition过渡
+									if (self.supportTransition) {
+													self.moveEle.style[self.transition] = "260ms ease-out";
+									}
+									self.animate(self.translateY, returnTarget);
+									self.translateY = returnTarget;
+									self.touchmoveY = returnTarget;
+					};
+
+					//触发自动加载
+					Slideload.prototype.triggerAutoLoad = function () {
+									var self = this;
+									//如果有数据
+									if (self.opts.isData) {
+													setTimeout(function () {
+																	self.loadEle.innerHTML = self.opts.loadMoreDOM["pull2load"];
+																	self.utils.getScrollContentHeight(self);
+																	self.autoLoad(self);
+													}, 0);
+									}
+					};
+
+					// 如果列表容器高度不大于滚动区域高度，数据较少，自动加载更多数据
+					Slideload.prototype.autoLoad = function () {
+									var self = this;
+									if (self.opts.scrollContentHeight - self.opts.threshold > self.opts.scrollAreaHeight) return;
+									if (self.opts.loadHandle !== null) {
+													self.opts.loading = true;
+													self.unlock("load");
+													self.triggerLoad();
+									}
+					};
+
+					//刷新數據
+					Slideload.prototype.triggerRefresh = function () {
+									var self = this;
+									self.opts.loading = true;
+									self.opts.refreshHandle(self.next, self.stop);
+					};
+
+					//加载更多数据
+					Slideload.prototype.triggerLoad = function () {
+									var self = this;
+									self.opts.loading = true;
+									self.loadEle.innerHTML = self.opts.loadMoreDOM["loading"];
+									self.opts.loadHandle(self.next, self.stop);
+					};
+
+					//锁定
+					Slideload.prototype.lock = function (type) {
+									var self = this;
+									if (type == 'load') {
+													self.opts.isLockLoad = true;
+									}
+					};
+
+					//解锁
+					Slideload.prototype.unlock = function (type) {
+									var self = this;
+									if (type == 'load') {
+													self.opts.isLockLoad = false;
+									}
+					};
+
+					//重置
+					Slideload.prototype.reset = function () {
+									var self = this;
+
+									if (self.refreshEle.style.visibility = "hidden") {
+													self.refreshEle.style.visibility = "visible";
+									}
+
+									self.opts.loading = false;
+									if (self.opts.direction == 'up') {
+													//加载更多数据重置
+													self.loadEle.innerHTML = self.opts.loadMoreDOM["loadSuccess"];
+													self.triggerAutoLoad();
+									} else {
+													//下拉刷新重置
+													self.opts.direction = 'up'; //刷新之后自动加载的函数属于loadHandle,为了避免错误重置与保持统一
+													self.refreshEle.innerHTML = self.opts.refreshDOM["refreshSuccess"];
+													if (self.supportTransition) {
+																	self.moveEle.style[self.transition] = "260ms ease-out";
+													}
+													setTimeout(function () {
+																	self.animate(self.translateY, 0);
+																	self.translateY = 0;
+																	self.touchmoveY = 0;
+													}, 500);
+									}
+					};
+
+					/**
+	     * 工具函数
+	     */
+					Slideload.prototype.utils = {
+									//对象扩展（浅拷贝）
+									extend: function extend(target, obj) {
+													for (var i in obj) {
+																	target[i] = obj[i];
+													}
+													return target;
+									},
+									//获取滚动条位置
+									getScrollTop: function getScrollTop(self) {
+													var t = 0;
+													if (self.opts.scrollArea == window) {
+																	var supportPageOffset = window.pageYOffset !== undefined;
+																	var isCSS1Compat = (document.compatMode || "") === "CSS1Compat";
+																	t = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+													} else {
+																	t = self.opts.scrollArea.scrollTop;
+													}
+													return t;
+									},
+									//获取滚动区域高度
+									getScrollAreaHeight: function getScrollAreaHeight(self) {
+													if (self.opts.scrollArea == window) {
+																	self.opts.scrollAreaHeight = window.innerHeight;
+													} else {
+																	self.opts.scrollAreaHeight = self.opts.scrollArea.clientHeight;
+													}
+									},
+									//获取列表容器高度
+									getScrollContentHeight: function getScrollContentHeight(self) {
+													self.opts.scrollContentHeight = Math.floor(self.moveEle.scrollHeight);
+									},
+									//獲取css屬性(不需要駝峰式寫法)
+									getCssProperty: function getCssProperty(Element, CssProperty) {
+													var style = "getComputedStyle" in window ? getComputedStyle(Element) : Element.currentStyle;
+													var _getPropertyValue = function _getPropertyValue(CssProperty) {
+																	if ("getPropertyValue" in style) {
+																					return style.getPropertyValue(CssProperty);
+																	}{
+																					return style.getAttribute(CssProperty);
+																	}
+													};
+													return _getPropertyValue(CssProperty);
+									},
+									//获取各浏览器对应的css属性的兼容性前缀
+									vendor: function vendor(property) {
+													var _elementStyle = document.createElement('div').style;
+													var property = property.slice(1);
+													var vendors = ['t', 'webkitT', 'MozT', 'msT', 'OT'],
+													    transform,
+													    i = 0,
+													    l = vendors.length;
+
+													for (; i < l; i++) {
+																	transform = vendors[i] + property;
+																	if (transform in _elementStyle) return vendors[i].substr(0, vendors[i].length - 1);
+													}
+
+													return false;
+									},
+									//给传入的样式添加兼容性前缀
+									prefixStyle: function prefixStyle(vendor, property) {
+													if (vendor === false) return false;
+													if (vendor === '') return property;
+													return vendor + property.charAt(0).toUpperCase() + property.substr(1);
+									},
+									//js动画引擎
+									rAF: function rAF(cb) {
+													var rAF = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (cb) {
+																	window.setTimeout(cb, 1000 / 60);
+													};
+													return rAF(cb);
+									}
+					};
+
+					if (typeof module !== 'undefined' && module.exports) {
+									module.exports = Slideload;
+					} else if (true) {
+									!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
+													return Slideload;
+									}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+					} else {
+									window.Slideload = Slideload;
+					}
+	}(window, document, Math);
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6)))
+
+/***/ },
+/* 109 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    attrs: {
+	      "id": "simple-list-container"
+	    }
+	  }, [_c('ul', {
+	    attrs: {
+	      "id": "simple-list-content"
+	    }
+	  }, [_vm._t("item", [_vm._m(0)])], 2)])
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('li', {
+	    staticClass: "simple-list-item flex-rowstart-middle"
+	  }, [_c('div', {
+	    staticClass: "img"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "text-box"
+	  }, [_c('h2', {
+	    staticClass: "title"
+	  }, [_vm._v("居臣氏(铺上大道二店)")]), _vm._v(" "), _c('p', {
+	    staticClass: "sub-title"
+	  }, [_vm._v("超市 爱琴海购物公园 279m")]), _vm._v(" "), _c('div', {
+	    staticClass: "sign"
+	  }, [_c('span', {
+	    staticClass: "describe"
+	  }, [_vm._v("奖励金商家")])])])])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-hot-reload-api").rerender("data-v-1d7137c4", module.exports)
+	  }
+	}
+
+/***/ },
+/* 110 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(111)
+
+	var Component = __webpack_require__(19)(
+	  /* script */
+	  __webpack_require__(113),
+	  /* template */
+	  __webpack_require__(114),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\nav\\nav.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] nav.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-61b09ca6", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-61b09ca6", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(100);
+	var content = __webpack_require__(112);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(17)("55052de0", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-61b09ca6\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./nav.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-61b09ca6\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./nav.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 112 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)(undefined);
+	// imports
+	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
+
+	// module
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-nav {\n  position: fixed;\n  bottom: 0;\n  width: 100%;\n  text-align: center;\n  display: block;\n  width: 92%;\n  height: 0.46rem;\n  margin: .1rem 4%;\n  line-height: 0.46rem;\n  border-radius: 4px;\n  box-sizing: border-box;\n}\n.simple-ui-nav ul {\n  width: 100%;\n  height: 100%;\n  list-style: none;\n  overflow: hidden;\n}\n.simple-ui-nav ul li {\n  width: 20%;\n  height: 100%;\n  float: left;\n  margin: 0 0.05rem;\n  background: #666;\n  border-radius: 0.1rem;\n  color: #fff;\n}\n.simple-ui-nav ul li:hover {\n  background: #f30;\n}\n.simple-ui-nav .simple-ui-icon {\n  position: relative;\n  top: .02rem;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 113 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _defineProperty2 = __webpack_require__(84);
+
+	var _defineProperty3 = _interopRequireDefault(_defineProperty2);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	    name: 'nav',
+	    props: {
+	        type: String,
+	        pull: Boolean,
+	        edge: Boolean,
+	        icon: String
+	    },
+	    computed: {
+	        classes: function classes() {
+	            var _ref;
+
+	            return _ref = {}, (0, _defineProperty3.default)(_ref, this.type, this.type), (0, _defineProperty3.default)(_ref, 'simple-ui-button-pull', !!this.pull), (0, _defineProperty3.default)(_ref, 'simple-ui-button-edge', !!this.edge), _ref;
+	        }
+	    },
+	    methods: {
+	        onclick: function onclick(ev) {
+	            this.$emit('click', ev);
+	        }
+	    }
+	};
+
+/***/ },
+/* 114 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "simple-ui-nav",
+	    class: _vm.classes,
+	    on: {
+	      "click": _vm.onclick
+	    }
+	  }, [_vm._m(0)])
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('ul', [_c('li', [_vm._v("Nav 1")]), _vm._v(" "), _c('li', [_vm._v("Nav 2")]), _vm._v(" "), _c('li', [_vm._v("Nav 3")]), _vm._v(" "), _c('li', [_vm._v("Nav 4")])])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-hot-reload-api").rerender("data-v-61b09ca6", module.exports)
+	  }
+	}
+
+/***/ },
+/* 115 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(116)
+
+	var Component = __webpack_require__(19)(
+	  /* script */
+	  __webpack_require__(118),
+	  /* template */
+	  __webpack_require__(119),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\input\\input.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] input.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-42091d98", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-42091d98", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 116 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(117);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(17)("591ca87a", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-42091d98\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./input.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-42091d98\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./input.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 117 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)(undefined);
+	// imports
+	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
+
+	// module
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-input-box {\n  padding: 0 .15rem;\n  overflow: hidden;\n  border-top: 1px solid #D9D9D9;\n  border-bottom: 1px solid #D9D9D9;\n  background: #fff;\n  position: relative;\n}\n.simple-ui-input-box.simple-ui-input-underline {\n  background: none;\n  border-top: none;\n}\n.simple-ui-input-box.simple-ui-input-underline input {\n  background: none;\n}\n.simple-ui-input-box label {\n  min-width: .75rem;\n  float: left;\n  height: .44rem;\n  line-height: .44rem;\n}\n.simple-ui-input-box input {\n  float: left;\n  height: .24rem;\n  padding: .1rem;\n  border: none;\n  outline: none;\n  width: 2.5rem;\n}\n.simple-ui-input-box .simple-ui-button,\n.simple-ui-input-box img {\n  width: .75rem;\n  height: .44rem;\n  position: absolute;\n  right: -0.15rem;\n  top: -0.1rem;\n  line-height: .44rem;\n  font-size: 12px;\n  border-radius: 0;\n  border-top: none;\n  border-right: none;\n  border-bottom: none;\n}\n.simple-ui-input-box img {\n  top: 0;\n  right: 0;\n  height: .34rem;\n  padding: .05rem 0;\n  border-left: 1px solid #d9d9d9;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 118 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	    name: 'input',
+	    props: {
+	        type: String,
+	        placeholder: String,
+	        value: String,
+	        label: String,
+	        name: String,
+	        underline: Boolean
+	    },
+	    computed: {
+	        classes: function classes() {
+	            console.log(!!this.underline);
+	            return {
+	                'simple-ui-input-underline': !!this.underline
+	            };
+	        }
+	    },
+	    methods: {
+	        onInput: function onInput(ev) {
+	            this.$emit('input', ev.target.value);
+	        }
+	    }
+	};
+
+/***/ },
+/* 119 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "simple-ui-input-box",
+	    class: _vm.classes
+	  }, [_c('label', {
+	    staticClass: "simple-ui-input-label",
+	    attrs: {
+	      "for": ""
+	    }
+	  }, [_vm._v(_vm._s(_vm.label))]), _vm._v(" "), _c('input', {
+	    staticClass: "simple-ui-input-input",
+	    attrs: {
+	      "type": _vm.type,
+	      "name": _vm.name,
+	      "placeholder": _vm.placeholder
+	    },
+	    domProps: {
+	      "value": _vm.value
+	    },
+	    on: {
+	      "input": _vm.onInput
+	    }
+	  }), _vm._v(" "), _vm._t("default")], 2)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-hot-reload-api").rerender("data-v-42091d98", module.exports)
+	  }
+	}
+
+/***/ },
+/* 120 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(121)
+
+	var Component = __webpack_require__(19)(
+	  /* script */
+	  __webpack_require__(123),
+	  /* template */
+	  __webpack_require__(124),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\input\\InputGroup.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] InputGroup.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-144d7f0a", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-144d7f0a", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 121 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(122);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(17)("f18f1c3e", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-144d7f0a\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./InputGroup.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-144d7f0a\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./InputGroup.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 122 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)(undefined);
+	// imports
+	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
+
+	// module
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-input-group {\n  overflow: hidden;\n  margin: .15rem 0;\n}\n.simple-ui-input-group .simple-ui-input-box:not(:nth-of-type(1)) {\n  border-top: none;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 123 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	    name: 'inputGroup'
+	};
+
+/***/ },
+/* 124 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "simple-ui-input-group",
+	    class: _vm.classes
+	  }, [_vm._t("default")], 2)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-hot-reload-api").rerender("data-v-144d7f0a", module.exports)
+	  }
+	}
+
+/***/ },
+/* 125 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	        value: true
+	});
+	__webpack_require__(126);
+
+	var el = document.documentElement;
+
+	exports.default = {
+	        init: function init() {
+	                var r = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 200;
+	                var w = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 750;
+
+	                if (r == 0) return;
+	                r = r * 100;
+
+	                if (isNaN(r)) r = 200;
+
+	                var width = el.clientWidth;
+
+	                width = width > w ? w : width;
+
+	                el.style.fontSize = width / w * r + "px";
+
+	                document.body.style.maxWidth = w;
+
+	                window.onresize = this.init;
+	        }
+	};
+
+/***/ },
+/* 126 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(127);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(101)(content, {});
+	var update = __webpack_require__(128)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.3.0.0@less-loader/lib/loader.js!./reset.less", function() {
-				var newContent = require("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.3.0.0@less-loader/lib/loader.js!./reset.less");
+			module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/less-loader/lib/loader.js!./reset.less", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/less-loader/lib/loader.js!./reset.less");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -3947,10 +5811,10 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 100 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 
 
@@ -3961,7 +5825,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 101 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -4213,33 +6077,33 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 102 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(103),
+	  __webpack_require__(130),
 	  /* template */
-	  __webpack_require__(109),
+	  __webpack_require__(136),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/common/docbox.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\common\\docbox.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] docbox.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-8251e44c", Component.options)
+	    hotAPI.createRecord("data-v-4cf5d368", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-8251e44c", Component.options)
+	    hotAPI.reload("data-v-4cf5d368", Component.options)
 	  }
 	})()}
 
@@ -4247,7 +6111,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 103 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4256,7 +6120,7 @@ webpackJsonp([1],[
 	    value: true
 	});
 
-	var _phone = __webpack_require__(104);
+	var _phone = __webpack_require__(131);
 
 	var _phone2 = _interopRequireDefault(_phone);
 
@@ -4300,37 +6164,37 @@ webpackJsonp([1],[
 	//
 
 /***/ },
-/* 104 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(105)
+	__webpack_require__(132)
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(107),
+	  __webpack_require__(134),
 	  /* template */
-	  __webpack_require__(108),
+	  __webpack_require__(135),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/common/phone.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\common\\phone.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] phone.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-2cab57f7", Component.options)
+	    hotAPI.createRecord("data-v-07f6a8a9", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-2cab57f7", Component.options)
+	    hotAPI.reload("data-v-07f6a8a9", Component.options)
 	  }
 	})()}
 
@@ -4338,23 +6202,23 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 105 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(106);
+	var content = __webpack_require__(133);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("44a0f81e", content, false);
+	var update = __webpack_require__(17)("595126e8", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-2cab57f7\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./phone.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-2cab57f7\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./phone.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-07f6a8a9\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./phone.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-07f6a8a9\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./phone.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -4364,10 +6228,10 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 106 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 
 
@@ -4378,7 +6242,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 107 */
+/* 134 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -4409,7 +6273,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 108 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -4437,12 +6301,12 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2cab57f7", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-07f6a8a9", module.exports)
 	  }
 	}
 
 /***/ },
-/* 109 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -4476,38 +6340,38 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-8251e44c", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-4cf5d368", module.exports)
 	  }
 	}
 
 /***/ },
-/* 110 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(111),
+	  __webpack_require__(138),
 	  /* template */
-	  __webpack_require__(112),
+	  __webpack_require__(139),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/common/docleft.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\common\\docleft.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] docleft.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-024ac9f0", Component.options)
+	    hotAPI.createRecord("data-v-3494873a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-024ac9f0", Component.options)
+	    hotAPI.reload("data-v-3494873a", Component.options)
 	  }
 	})()}
 
@@ -4515,7 +6379,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 111 */
+/* 138 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -4541,7 +6405,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 112 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -4555,38 +6419,38 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-024ac9f0", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-3494873a", module.exports)
 	  }
 	}
 
 /***/ },
-/* 113 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(114),
+	  __webpack_require__(141),
 	  /* template */
-	  __webpack_require__(115),
+	  __webpack_require__(142),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/common/docright.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\common\\docright.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] docright.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-19bddfeb", Component.options)
+	    hotAPI.createRecord("data-v-c97d0c0e", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-19bddfeb", Component.options)
+	    hotAPI.reload("data-v-c97d0c0e", Component.options)
 	  }
 	})()}
 
@@ -4594,7 +6458,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 114 */
+/* 141 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -4614,7 +6478,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 115 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -4626,28 +6490,28 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-19bddfeb", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-c97d0c0e", module.exports)
 	  }
 	}
 
 /***/ },
-/* 116 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(117);
+	var content = __webpack_require__(144);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(101)(content, {});
+	var update = __webpack_require__(128)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.3.0.0@less-loader/lib/loader.js!./index.less", function() {
-				var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.3.0.0@less-loader/lib/loader.js!./index.less");
+			module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/less-loader/lib/loader.js!./index.less", function() {
+				var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/less-loader/lib/loader.js!./index.less");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -4657,10 +6521,10 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 117 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 
 
@@ -4669,1720 +6533,6 @@ webpackJsonp([1],[
 
 	// exports
 
-
-/***/ },
-/* 118 */,
-/* 119 */,
-/* 120 */,
-/* 121 */,
-/* 122 */,
-/* 123 */,
-/* 124 */,
-/* 125 */,
-/* 126 */,
-/* 127 */,
-/* 128 */,
-/* 129 */,
-/* 130 */,
-/* 131 */,
-/* 132 */,
-/* 133 */,
-/* 134 */,
-/* 135 */,
-/* 136 */,
-/* 137 */,
-/* 138 */,
-/* 139 */,
-/* 140 */,
-/* 141 */,
-/* 142 */,
-/* 143 */,
-/* 144 */,
-/* 145 */,
-/* 146 */,
-/* 147 */,
-/* 148 */,
-/* 149 */,
-/* 150 */,
-/* 151 */,
-/* 152 */,
-/* 153 */,
-/* 154 */,
-/* 155 */,
-/* 156 */,
-/* 157 */,
-/* 158 */,
-/* 159 */,
-/* 160 */,
-/* 161 */,
-/* 162 */,
-/* 163 */,
-/* 164 */,
-/* 165 */,
-/* 166 */,
-/* 167 */,
-/* 168 */,
-/* 169 */,
-/* 170 */,
-/* 171 */,
-/* 172 */,
-/* 173 */,
-/* 174 */,
-/* 175 */,
-/* 176 */,
-/* 177 */,
-/* 178 */,
-/* 179 */,
-/* 180 */,
-/* 181 */,
-/* 182 */,
-/* 183 */,
-/* 184 */,
-/* 185 */,
-/* 186 */,
-/* 187 */,
-/* 188 */,
-/* 189 */,
-/* 190 */,
-/* 191 */,
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */,
-/* 199 */,
-/* 200 */,
-/* 201 */,
-/* 202 */,
-/* 203 */,
-/* 204 */,
-/* 205 */,
-/* 206 */,
-/* 207 */,
-/* 208 */,
-/* 209 */,
-/* 210 */,
-/* 211 */,
-/* 212 */,
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
-/* 219 */,
-/* 220 */,
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
-/* 227 */,
-/* 228 */,
-/* 229 */,
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */,
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */,
-/* 254 */,
-/* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */,
-/* 278 */,
-/* 279 */,
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */,
-/* 286 */,
-/* 287 */,
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */,
-/* 293 */,
-/* 294 */,
-/* 295 */,
-/* 296 */,
-/* 297 */,
-/* 298 */,
-/* 299 */,
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */,
-/* 309 */,
-/* 310 */,
-/* 311 */,
-/* 312 */,
-/* 313 */,
-/* 314 */,
-/* 315 */,
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */,
-/* 322 */,
-/* 323 */,
-/* 324 */,
-/* 325 */,
-/* 326 */,
-/* 327 */,
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */,
-/* 332 */,
-/* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */,
-/* 340 */,
-/* 341 */,
-/* 342 */,
-/* 343 */,
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */,
-/* 373 */,
-/* 374 */,
-/* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */,
-/* 379 */,
-/* 380 */,
-/* 381 */,
-/* 382 */,
-/* 383 */,
-/* 384 */,
-/* 385 */,
-/* 386 */,
-/* 387 */,
-/* 388 */,
-/* 389 */,
-/* 390 */,
-/* 391 */,
-/* 392 */,
-/* 393 */,
-/* 394 */,
-/* 395 */,
-/* 396 */,
-/* 397 */,
-/* 398 */,
-/* 399 */,
-/* 400 */,
-/* 401 */,
-/* 402 */,
-/* 403 */,
-/* 404 */,
-/* 405 */,
-/* 406 */,
-/* 407 */,
-/* 408 */,
-/* 409 */,
-/* 410 */,
-/* 411 */,
-/* 412 */,
-/* 413 */,
-/* 414 */,
-/* 415 */,
-/* 416 */,
-/* 417 */,
-/* 418 */,
-/* 419 */,
-/* 420 */
-/***/ function(module, exports, __webpack_require__) {
-
-	
-	/* styles */
-	__webpack_require__(421)
-
-	var Component = __webpack_require__(18)(
-	  /* script */
-	  __webpack_require__(423),
-	  /* template */
-	  __webpack_require__(425),
-	  /* scopeId */
-	  "data-v-4257bc6c",
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/list/list.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] list.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-4257bc6c", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-4257bc6c", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 421 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(422);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	if(content.locals) module.exports = content.locals;
-	// add the styles to the DOM
-	var update = __webpack_require__(16)("22018e81", content, false);
-	// Hot Module Replacement
-	if(false) {
-	 // When the styles change, update the <style> tags
-	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-4257bc6c\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./list.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-4257bc6c\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./list.vue");
-	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-	     update(newContent);
-	   });
-	 }
-	 // When the module is disposed, remove the <style> tags
-	 module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 422 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(11)(undefined);
-	// imports
-	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
-
-	// module
-	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.flex-rowstart-middle[data-v-4257bc6c] {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  align-items: center;\n}\n#simple-list-container[data-v-4257bc6c] {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.simple-list-item[data-v-4257bc6c] {\n  box-sizing: border-box;\n  height: 96px;\n  padding: 0 15px;\n  background-color: #fff;\n  margin-top: 4px;\n}\n.simple-list-item .img[data-v-4257bc6c] {\n  display: block;\n  width: 66px;\n  height: 66px;\n  background-color: #ccc;\n  margin-right: 10px;\n}\n.simple-list-item .text-box[data-v-4257bc6c] {\n  height: 66px;\n  line-height: 1;\n}\n.simple-list-item .text-box .title[data-v-4257bc6c] {\n  line-height: inherit;\n  font-size: 14px;\n  color: #383838;\n  margin: 4px 0 8px 0;\n}\n.simple-list-item .text-box .sub-title[data-v-4257bc6c] {\n  line-height: inherit;\n  font-size: 12px;\n  color: #888;\n  margin-bottom: 6px;\n}\n.simple-list-item .text-box .sign[data-v-4257bc6c] {\n  display: inline-block;\n  vertical-align: top;\n  height: 20px;\n  padding: 0 5px;\n  background-color: #fff3f3;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.simple-list-item .text-box .sign .describe[data-v-4257bc6c] {\n  float: left;\n  line-height: 20px;\n  font-size: 11px;\n  color: #fb6165;\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 423 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-
-	var _slideload = __webpack_require__(424);
-
-	var _slideload2 = _interopRequireDefault(_slideload);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = {
-	    name: 'list'
-	}; //
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-
-/***/ },
-/* 424 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(process) {'use strict';
-
-	+function (window, document, Math) {
-		/**
-	  * Tween.js
-	  */
-		var TWEEN = TWEEN || function () {
-
-			var _tweens = [];
-
-			return {
-
-				getAll: function getAll() {
-
-					return _tweens;
-				},
-
-				removeAll: function removeAll() {
-
-					_tweens = [];
-				},
-
-				add: function add(tween) {
-
-					_tweens.push(tween);
-				},
-
-				remove: function remove(tween) {
-
-					var i = _tweens.indexOf(tween);
-
-					if (i !== -1) {
-						_tweens.splice(i, 1);
-					}
-				},
-
-				update: function update(time, preserve) {
-
-					if (_tweens.length === 0) {
-						return false;
-					}
-
-					var i = 0;
-
-					time = time !== undefined ? time : TWEEN.now();
-
-					while (i < _tweens.length) {
-
-						if (_tweens[i].update(time) || preserve) {
-							i++;
-						} else {
-							_tweens.splice(i, 1);
-						}
-					}
-
-					return true;
-				}
-			};
-		}();
-
-		// Include a performance.now polyfill.
-		// In node.js, use process.hrtime.
-		if (typeof window === 'undefined' && typeof process !== 'undefined') {
-			TWEEN.now = function () {
-				var time = process.hrtime();
-
-				// Convert [seconds, nanoseconds] to milliseconds.
-				return time[0] * 1000 + time[1] / 1000000;
-			};
-		}
-		// In a browser, use window.performance.now if it is available.
-		else if (typeof window !== 'undefined' && window.performance !== undefined && window.performance.now !== undefined) {
-				// This must be bound, because directly assigning this function
-				// leads to an invocation exception in Chrome.
-				TWEEN.now = window.performance.now.bind(window.performance);
-			}
-			// Use Date.now if it is available.
-			else if (Date.now !== undefined) {
-					TWEEN.now = Date.now;
-				}
-				// Otherwise, use 'new Date().getTime()'.
-				else {
-						TWEEN.now = function () {
-							return new Date().getTime();
-						};
-					}
-
-		TWEEN.Tween = function (object) {
-
-			var _object = object; //初始动画数据对象
-			var _valuesStart = {}; //动画数据对象属性初始值
-			var _valuesEnd = {}; //动画数据对象属性目标值
-			var _valuesStartRepeat = {}; //动画循环属性初始值
-			var _duration = 1000; //动画持续时间，默认1000ms
-			var _repeat = 0;
-			var _repeatDelayTime;
-			var _yoyo = false;
-			var _isPlaying = false; //动画开关
-			var _reversed = false;
-			var _delayTime = 0;
-			var _startTime = null; //动画开始时间
-			var _easingFunction = TWEEN.Easing.Linear.None; //通过缓动算法获取动画数据对象属性目标值的函数
-			var _interpolationFunction = TWEEN.Interpolation.Linear;
-			var _chainedTweens = [];
-			var _onStartCallback = null;
-			var _onStartCallbackFired = false; //onStart回调函数触发状态(已触发/未触发)
-			var _onUpdateCallback = null;
-			var _onCompleteCallback = null;
-			var _onStopCallback = null;
-
-			/**
-	   * 设置动画数据目标值方法
-	   */
-			this.to = function (properties, duration) {
-
-				_valuesEnd = properties; //获取动画数据对象属性目标值
-
-				if (duration !== undefined) {
-					_duration = duration; //获取动画持续时间
-				}
-
-				return this;
-			};
-
-			this.start = function (time) {
-
-				TWEEN.add(this); //添加至动画列表_tweens
-
-				_isPlaying = true; //动画开关
-
-				_onStartCallbackFired = false; //重置onStart回调函数触发状态
-
-				_startTime = time !== undefined ? time : TWEEN.now();
-				_startTime += _delayTime; //设置动画开始时间
-
-				for (var property in _valuesEnd) {
-
-					// Check if an Array was provided as property value
-					// 检查动画数据对象是否有数组值
-					if (_valuesEnd[property] instanceof Array) {
-
-						if (_valuesEnd[property].length === 0) {
-							continue;
-						}
-
-						// Create a local copy of the Array with the start value at the front
-						// 复制得到一个动画数据对象的该属性值在数组第一位的数组
-						_valuesEnd[property] = [_object[property]].concat(_valuesEnd[property]);
-					}
-
-					// If `to()` specifies a property that doesn't exist in the source object,
-					// we should not set that property in the object
-					if (_object[property] === undefined) {
-						continue;
-					}
-
-					// Save the starting value.
-					// 设置动画数据对象属性初始值
-					_valuesStart[property] = _object[property];
-
-					// Ensures we're using numbers, not strings
-					// 确保属性值的类型为number
-					if (_valuesStart[property] instanceof Array === false) {
-						_valuesStart[property] *= 1.0;
-					}
-
-					// 设置动画循环属性初始值
-					_valuesStartRepeat[property] = _valuesStart[property] || 0;
-				}
-
-				return this;
-			};
-
-			this.stop = function () {
-
-				if (!_isPlaying) {
-					return this;
-				}
-
-				TWEEN.remove(this);
-				_isPlaying = false;
-
-				if (_onStopCallback !== null) {
-					_onStopCallback.call(_object, _object);
-				}
-
-				this.stopChainedTweens();
-				return this;
-			};
-
-			this.end = function () {
-
-				this.update(_startTime + _duration);
-				return this;
-			};
-
-			this.stopChainedTweens = function () {
-
-				for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
-					_chainedTweens[i].stop();
-				}
-			};
-
-			this.delay = function (amount) {
-
-				_delayTime = amount;
-				return this;
-			};
-
-			this.repeat = function (times) {
-
-				_repeat = times;
-				return this;
-			};
-
-			this.repeatDelay = function (amount) {
-
-				_repeatDelayTime = amount;
-				return this;
-			};
-
-			this.yoyo = function (yoyo) {
-
-				_yoyo = yoyo;
-				return this;
-			};
-
-			this.easing = function (easing) {
-
-				_easingFunction = easing;
-				return this;
-			};
-
-			this.interpolation = function (interpolation) {
-
-				_interpolationFunction = interpolation;
-				return this;
-			};
-
-			this.chain = function () {
-
-				_chainedTweens = arguments;
-				return this;
-			};
-
-			this.onStart = function (callback) {
-
-				_onStartCallback = callback;
-				return this;
-			};
-
-			this.onUpdate = function (callback) {
-
-				_onUpdateCallback = callback;
-				return this;
-			};
-
-			this.onComplete = function (callback) {
-
-				_onCompleteCallback = callback;
-				return this;
-			};
-
-			this.onStop = function (callback) {
-
-				_onStopCallback = callback;
-				return this;
-			};
-
-			this.update = function (time) {
-
-				var property;
-				var elapsed;
-				var value;
-
-				if (time < _startTime) {
-					return true;
-				}
-
-				// 如果onStart回调函数未触发，那么使其触发并执行
-				if (_onStartCallbackFired === false) {
-
-					if (_onStartCallback !== null) {
-						_onStartCallback.call(_object, _object);
-					}
-
-					_onStartCallbackFired = true;
-				}
-
-				//time - _startTime动画已经执行的时间
-				elapsed = (time - _startTime) / _duration;
-				elapsed = elapsed > 1 ? 1 : elapsed;
-				value = _easingFunction(elapsed);
-
-				for (property in _valuesEnd) {
-
-					// Don't update properties that do not exist in the source object
-					if (_valuesStart[property] === undefined) {
-						continue;
-					}
-
-					var start = _valuesStart[property] || 0;
-					var end = _valuesEnd[property];
-					if (end instanceof Array) {
-
-						_object[property] = _interpolationFunction(end, value);
-					} else {
-
-						// Parses relative end values with start as base (e.g.: +10, -3)
-						if (typeof end === 'string') {
-
-							if (end.charAt(0) === '+' || end.charAt(0) === '-') {
-								end = start + parseFloat(end);
-							} else {
-								end = parseFloat(end);
-							}
-						}
-
-						// Protect against non numeric properties.
-						if (typeof end === 'number') {
-							// p = b + c * value;  b:初始值 c:变量值 value:缓动系数
-							_object[property] = start + (end - start) * value;
-						}
-					}
-				}
-
-				if (_onUpdateCallback !== null) {
-					_onUpdateCallback.call(_object, value);
-				}
-
-				if (elapsed === 1) {
-
-					if (_repeat > 0) {
-
-						if (isFinite(_repeat)) {
-							_repeat--;
-						}
-
-						// Reassign starting values, restart by making startTime = now
-						for (property in _valuesStartRepeat) {
-
-							if (typeof _valuesEnd[property] === 'string') {
-								_valuesStartRepeat[property] = _valuesStartRepeat[property] + parseFloat(_valuesEnd[property]);
-							}
-
-							if (_yoyo) {
-								var tmp = _valuesStartRepeat[property];
-
-								_valuesStartRepeat[property] = _valuesEnd[property];
-								_valuesEnd[property] = tmp;
-							}
-
-							_valuesStart[property] = _valuesStartRepeat[property];
-						}
-
-						if (_yoyo) {
-							_reversed = !_reversed;
-						}
-
-						if (_repeatDelayTime !== undefined) {
-							_startTime = time + _repeatDelayTime;
-						} else {
-							_startTime = time + _delayTime;
-						}
-
-						return true;
-					} else {
-
-						if (_onCompleteCallback !== null) {
-
-							_onCompleteCallback.call(_object, _object);
-						}
-
-						for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
-							// Make the chained tweens start exactly at the time they should,
-							// even if the `update()` method was called way past the duration of the tween
-							_chainedTweens[i].start(_startTime + _duration);
-						}
-
-						return false;
-					}
-				}
-
-				return true;
-			};
-		};
-
-		// k = t/d
-		TWEEN.Easing = {
-			//线性匀速运动效果
-			Linear: {
-
-				None: function None(k) {
-
-					return k;
-				}
-
-			},
-			//二次方的缓动（t^2）
-			Quadratic: {
-
-				In: function In(k) {
-
-					return k * k;
-				},
-
-				Out: function Out(k) {
-
-					return k * (2 - k);
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return 0.5 * k * k;
-					}
-
-					return -0.5 * (--k * (k - 2) - 1);
-				}
-
-			},
-			//三次方的缓动（t^2）
-			Cubic: {
-
-				In: function In(k) {
-
-					return k * k * k;
-				},
-
-				Out: function Out(k) {
-
-					return --k * k * k + 1;
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return 0.5 * k * k * k;
-					}
-
-					return 0.5 * ((k -= 2) * k * k + 2);
-				}
-
-			},
-			//四次方的缓动（t^2）
-			Quartic: {
-
-				In: function In(k) {
-
-					return k * k * k * k;
-				},
-
-				Out: function Out(k) {
-
-					return 1 - --k * k * k * k;
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return 0.5 * k * k * k * k;
-					}
-
-					return -0.5 * ((k -= 2) * k * k * k - 2);
-				}
-
-			},
-			//五次方的缓动（t^2）
-			Quintic: {
-
-				In: function In(k) {
-
-					return k * k * k * k * k;
-				},
-
-				Out: function Out(k) {
-
-					return --k * k * k * k * k + 1;
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return 0.5 * k * k * k * k * k;
-					}
-
-					return 0.5 * ((k -= 2) * k * k * k * k + 2);
-				}
-
-			},
-			//正弦曲线的缓动（sin(t)）
-			Sinusoidal: {
-
-				In: function In(k) {
-
-					return 1 - Math.cos(k * Math.PI / 2);
-				},
-
-				Out: function Out(k) {
-
-					return Math.sin(k * Math.PI / 2);
-				},
-
-				InOut: function InOut(k) {
-
-					return 0.5 * (1 - Math.cos(Math.PI * k));
-				}
-
-			},
-			//指数曲线的缓动(2^t)
-			Exponential: {
-
-				In: function In(k) {
-
-					return k === 0 ? 0 : Math.pow(1024, k - 1);
-				},
-
-				Out: function Out(k) {
-
-					return k === 1 ? 1 : 1 - Math.pow(2, -10 * k);
-				},
-
-				InOut: function InOut(k) {
-
-					if (k === 0) {
-						return 0;
-					}
-
-					if (k === 1) {
-						return 1;
-					}
-
-					if ((k *= 2) < 1) {
-						return 0.5 * Math.pow(1024, k - 1);
-					}
-
-					return 0.5 * (-Math.pow(2, -10 * (k - 1)) + 2);
-				}
-
-			},
-			//圆形曲线的缓动(sqrt(1-t^2))
-			Circular: {
-
-				In: function In(k) {
-
-					return 1 - Math.sqrt(1 - k * k);
-				},
-
-				Out: function Out(k) {
-
-					return Math.sqrt(1 - --k * k);
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return -0.5 * (Math.sqrt(1 - k * k) - 1);
-					}
-
-					return 0.5 * (Math.sqrt(1 - (k -= 2) * k) + 1);
-				}
-
-			},
-			//指数衰减的正弦曲线缓动
-			Elastic: {
-
-				In: function In(k) {
-
-					if (k === 0) {
-						return 0;
-					}
-
-					if (k === 1) {
-						return 1;
-					}
-
-					return -Math.pow(2, 10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI);
-				},
-
-				Out: function Out(k) {
-
-					if (k === 0) {
-						return 0;
-					}
-
-					if (k === 1) {
-						return 1;
-					}
-
-					return Math.pow(2, -10 * k) * Math.sin((k - 0.1) * 5 * Math.PI) + 1;
-				},
-
-				InOut: function InOut(k) {
-
-					if (k === 0) {
-						return 0;
-					}
-
-					if (k === 1) {
-						return 1;
-					}
-
-					k *= 2;
-
-					if (k < 1) {
-						return -0.5 * Math.pow(2, 10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI);
-					}
-
-					return 0.5 * Math.pow(2, -10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI) + 1;
-				}
-
-			},
-			//超过范围的三次方缓动((s+1)*t^3 – s*t^2)
-			Back: {
-
-				In: function In(k) {
-
-					var s = 1.70158;
-
-					return k * k * ((s + 1) * k - s);
-				},
-
-				Out: function Out(k) {
-
-					var s = 1.70158;
-
-					return --k * k * ((s + 1) * k + s) + 1;
-				},
-
-				InOut: function InOut(k) {
-
-					var s = 1.70158 * 1.525;
-
-					if ((k *= 2) < 1) {
-						return 0.5 * (k * k * ((s + 1) * k - s));
-					}
-
-					return 0.5 * ((k -= 2) * k * ((s + 1) * k + s) + 2);
-				}
-
-			},
-			//指数衰减的反弹缓动
-			Bounce: {
-
-				In: function In(k) {
-
-					return 1 - TWEEN.Easing.Bounce.Out(1 - k);
-				},
-
-				Out: function Out(k) {
-
-					if (k < 1 / 2.75) {
-						return 7.5625 * k * k;
-					} else if (k < 2 / 2.75) {
-						return 7.5625 * (k -= 1.5 / 2.75) * k + 0.75;
-					} else if (k < 2.5 / 2.75) {
-						return 7.5625 * (k -= 2.25 / 2.75) * k + 0.9375;
-					} else {
-						return 7.5625 * (k -= 2.625 / 2.75) * k + 0.984375;
-					}
-				},
-
-				InOut: function InOut(k) {
-
-					if (k < 0.5) {
-						return TWEEN.Easing.Bounce.In(k * 2) * 0.5;
-					}
-
-					return TWEEN.Easing.Bounce.Out(k * 2 - 1) * 0.5 + 0.5;
-				}
-
-			}
-
-		};
-
-		TWEEN.Interpolation = {
-
-			Linear: function Linear(v, k) {
-
-				var m = v.length - 1;
-				var f = m * k;
-				var i = Math.floor(f);
-				var fn = TWEEN.Interpolation.Utils.Linear;
-
-				if (k < 0) {
-					return fn(v[0], v[1], f);
-				}
-
-				if (k > 1) {
-					return fn(v[m], v[m - 1], m - f);
-				}
-
-				return fn(v[i], v[i + 1 > m ? m : i + 1], f - i);
-			},
-
-			Bezier: function Bezier(v, k) {
-
-				var b = 0;
-				var n = v.length - 1;
-				var pw = Math.pow;
-				var bn = TWEEN.Interpolation.Utils.Bernstein;
-
-				for (var i = 0; i <= n; i++) {
-					b += pw(1 - k, n - i) * pw(k, i) * v[i] * bn(n, i);
-				}
-
-				return b;
-			},
-
-			CatmullRom: function CatmullRom(v, k) {
-
-				var m = v.length - 1;
-				var f = m * k;
-				var i = Math.floor(f);
-				var fn = TWEEN.Interpolation.Utils.CatmullRom;
-
-				if (v[0] === v[m]) {
-
-					if (k < 0) {
-						i = Math.floor(f = m * (1 + k));
-					}
-
-					return fn(v[(i - 1 + m) % m], v[i], v[(i + 1) % m], v[(i + 2) % m], f - i);
-				} else {
-
-					if (k < 0) {
-						return v[0] - (fn(v[0], v[0], v[1], v[1], -f) - v[0]);
-					}
-
-					if (k > 1) {
-						return v[m] - (fn(v[m], v[m], v[m - 1], v[m - 1], f - m) - v[m]);
-					}
-
-					return fn(v[i ? i - 1 : 0], v[i], v[m < i + 1 ? m : i + 1], v[m < i + 2 ? m : i + 2], f - i);
-				}
-			},
-
-			Utils: {
-
-				Linear: function Linear(p0, p1, t) {
-
-					return (p1 - p0) * t + p0;
-				},
-
-				Bernstein: function Bernstein(n, i) {
-
-					var fc = TWEEN.Interpolation.Utils.Factorial;
-
-					return fc(n) / fc(i) / fc(n - i);
-				},
-
-				Factorial: function () {
-
-					var a = [1];
-
-					return function (n) {
-
-						var s = 1;
-
-						if (a[n]) {
-							return a[n];
-						}
-
-						for (var i = n; i > 1; i--) {
-							s *= i;
-						}
-
-						a[n] = s;
-						return s;
-					};
-				}(),
-
-				CatmullRom: function CatmullRom(p0, p1, p2, p3, t) {
-
-					var v0 = (p2 - p0) * 0.5;
-					var v1 = (p3 - p1) * 0.5;
-					var t2 = t * t;
-					var t3 = t * t2;
-
-					return (2 * p1 - 2 * p2 + v0 + v1) * t3 + (-3 * p1 + 3 * p2 - 2 * v0 - v1) * t2 + v0 * t + p1;
-				}
-
-			}
-
-		};
-
-		/**
-	  * 存在兼容性的web API
-	  * touchEvent : Firefox Mobile (Gecko) 6.0 以上版本支持 , IE Mobile 11 以上版本支持
-	  * document.querySelector() : Opera Mobile 10.0 以上版本支持 , IE Mobile 9 以上版本支持
-	  * window.innerHeight : IE Mobile 9 以上版本支持 , Opera Mobile 9 以上版本支持
-	  * 
-	  * 浏览器兼容性(iOS 7.0+ , Android 4.4+) : Safari Mobile , iOS webview , Chrome for iOS
-	  *                                        Android , Android Webview , Chrome for Android
-	  *                                        Firefox Mobile (Gecko) 6.0+ , IE Mobile 11+ , Opera Mobile 9+
-	  *                                        UC browser , QQ browser
-	  * 
-	  * 已真机测试并支持的浏览器 : (iOS 10.1.1) webview , (iOS 10.1.1) Safari , (iOS 10.1.1) Chrome 56.0.2924.79
-	  *                          (iOS 10.1.1) Firefox Mobile (Gecko) 6.1(1) , (iOS 10.1.1)Opera Mobile 11.0.1.107866
-	  *                          (iOS 10.1.1)UC browser 11.4.7.931 , (iOS 10.1.1)QQ browser 7.2.1.2879 
-	  */
-
-		var Slideload = function Slideload(element, options) {
-			var self = this;
-			self.slider = typeof element == 'string' ? document.querySelector(element) : element;
-
-			self.next = function () {
-				self.reset();
-			};
-			self.stop = function () {
-				self.opts.isData = false;
-				self.reset();
-			};
-
-			self.eventList = [];
-			self.initEventProgress = 0;
-			self.on = function (eventName, cb) {
-				//事件监听API load refresh
-				self.eventList.push(eventName);
-				options[eventName + 'Handle'] = cb;
-				setTimeout(function () {
-					self.initEventProgress += 1;
-					if (self.eventList.length == self.initEventProgress) {
-						self.init(options);
-					}
-				}, 0);
-			};
-		};
-		//初始化
-		Slideload.prototype.init = function (options) {
-			var self = this;
-			self.opts = self.utils.extend({
-				scrollArea: self.slider, //滑动区域
-				scrollAreaHeight: 0, //滑动区域高度
-				scrollCont: undefined, //列表容器
-				loading: false, //loading状态
-				isLockLoad: false, //无线滚动是否锁定
-				isLockRefresh: false, //下拉刷新是否锁定
-				isData: true, //请求结果是否有数据
-				direction: 'up', //滑动方向
-				scrollTop: 0, //滚动条位置
-				scrollContentHeight: 0, //列表容器高度
-				limitNo: 0, //触发上拉加载的阈值
-				threshold: 50, //滚动提前加载距离
-				distance: 50, //出发下拉刷新的阈值
-				loadHandle: null, //上拉加载function
-				refreshHandle: null, //下拉刷新function
-				refreshDOM: '', //刷新提示DOM pull2refresh , release2refresh , loading , refreshSuccess
-				loadMoreDOM: '' //加載更多提示DOM pull2load , loading , loadSuccess
-			}, options);
-
-			//获取滚动区域高度
-			self.utils.getScrollAreaHeight(self);
-
-			if (self.utils.getCssProperty(self.opts.scrollArea, "position") === "static") {
-				self.opts.scrollArea.style.position = "relative";
-			}
-			self.moveEle = typeof self.opts.scrollCont == 'string' ? document.querySelector(self.opts.scrollCont) : self.opts.scrollCont;
-			//如果需要无限滚动则插入加载提示DOM
-			if (self.opts.loadHandle !== null) {
-				self.loadEle = document.createElement("div");
-				self.loadEle.innerHTML = self.opts.loadMoreDOM["pull2load"];
-				self.moveEle.appendChild(self.loadEle);
-			}
-			//如果需要下拉刷新则插入刷新提示DOM
-			if (self.opts.refreshHandle !== null) {
-				self.refreshEle = document.createElement("div");
-				self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
-				if (self.opts.scrollArea === window) {
-					document.body.insertBefore(self.refreshEle, self.moveEle);
-				} else {
-					self.opts.scrollArea.insertBefore(self.refreshEle, self.moveEle);
-				}
-				self.refreshEle.style.visibility = "hidden";
-			}
-
-			//自动加载
-			self.autoLoad(self);
-
-			// 窗口调整
-			document.addEventListener('resize', function () {
-				setTimeout(function () {
-					self.utils.getScrollContentHeight(self);
-					self.utils.getScrollAreaHeight(self);
-					self.autoLoad(self);
-				}, 0);
-			}, false);
-
-			//設置transform & transition 浏览器厂商前缀
-			self.transformVendor = self.utils.vendor("transform");
-			self.transitionVendor = self.utils.vendor("transition");
-
-			//获取当前浏览器支持的animatePropertyName
-			if (self.transformVendor !== false) {
-				self.animatePropertyName = self.utils.prefixStyle(self.transformVendor, "transform");
-				self.animatePropertyValue = function (num) {
-					return "translate3d(0px, " + num + "px, 0.01px)";
-				};
-				self.getAnimatePropertyValue = function (animatePropertyValue) {
-					var re = /^.*translate3d\(0px\,\s+(\d+\.?\d?)px\,\s+0.01px\)$/i;
-					return Math.floor(animatePropertyValue.match(re)[1]);
-				};
-			} else {
-				self.animatePropertyName = "top";
-				self.animatePropertyValue = function (num) {
-					return num + "px";
-				};
-				self.getAnimatePropertyValue = function (animatePropertyValue) {
-					return animatePropertyValue.slice(0, -2);
-				};
-			}
-
-			//判断当前浏览器是否支持transition
-			self.supportTransition = false;
-			if (self.transitionVendor !== false) {
-				self.supportTransition = true;
-				self.transition = self.utils.prefixStyle(self.transitionVendor, "transition");
-
-				var transEndEventNames = {
-					WebkitTransition: "webkitTransitionEnd",
-					MozTransition: "transitionend",
-					msTransition: "transitionend",
-					OTransition: "oTransitionEnd otransitionend",
-					transition: "transitionend"
-				};
-				self.transEndEventNames = transEndEventNames[self.transition];
-				self.moveEle.addEventListener(self.transEndEventNames, function () {
-					this.style[self.transition] = "";
-					if (self.translateY == 0) {
-						self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
-						self.triggerAutoLoad();
-					}
-				}, false);
-				//缓动动画
-				self.animate = function (startNum, endNum) {
-					self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(endNum);
-				};
-			} else {
-				//缓动动画
-				self.animate = function (startNum, endNum) {
-					var translateY = { y: startNum };
-					var tween = new TWEEN.Tween(translateY).easing(TWEEN.Easing.Quadratic.Out).to({ y: endNum }, 260).onUpdate(function () {
-						self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(this.y);
-					}).onComplete(function (obj) {
-						if (obj.y == 0) {
-							self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
-							self.triggerAutoLoad();
-						}
-					}).start();
-					self.utils.rAF(animate);
-					function animate(time) {
-						self.utils.rAF(animate);
-						TWEEN.update();
-					}
-				};
-			}
-
-			self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(0);
-			self.moveEle.style.position = "absolute";
-			self.moveEle.style.top = "0";
-			self.translateY = 0;
-			self.touchmoveY = 0;
-
-			//判断浏览器是否支持 Passive event listeners
-			var supportPassive = false;
-			if ("defineProperty" in Object) {
-				try {
-					var opts = Object.defineProperty({}, "passive", {
-						get: function get() {
-							supportPassive = true;
-						}
-					});
-					window.addEventListener("test", null, opts);
-				} catch (e) {}
-			}
-
-			//绑定触摸
-			self.slider.addEventListener('touchstart', function (e) {
-				if (!self.opts.loading) {
-					self.touchesHandle(e);
-					self.touchstartHandle(e);
-				}
-			}, supportPassive ? { passive: true } : false);
-			self.slider.addEventListener('touchmove', function (e) {
-				if (!self.opts.loading) {
-					self.touchesHandle(e);
-					self.touchmoveHandle(e);
-				}
-			}, supportPassive ? { passive: false } : false);
-			self.slider.addEventListener('touchend', function () {
-				if (!self.opts.loading) {
-					self.touchendHandle();
-				}
-			}, supportPassive ? { passive: true } : false);
-
-			//监听列表滚动，到底部自动加载数据
-			self.slider.addEventListener('scroll', function () {
-				self.utils.getScrollAreaHeight(self);
-				self.opts.limitNo = Number(self.opts.scrollContentHeight - self.opts.scrollAreaHeight);
-				self.opts.scrollTop = self.utils.getScrollTop(self);
-				//滚动页面触发加载数据
-				if (self.opts.limitNo > 0 && self.opts.direction == 'up' && self.opts.loadHandle !== null && !self.opts.loading && !self.opts.isLockLoad && self.opts.limitNo - self.opts.threshold <= self.opts.scrollTop) {
-					self.lock("load");
-					self.triggerLoad();
-				}
-			}, supportPassive ? { passive: true } : false);
-		};
-
-		//touches
-		Slideload.prototype.touchesHandle = function (e) {
-			e.touches = e.changedTouches;
-		};
-
-		//touchstart
-		Slideload.prototype.touchstartHandle = function (e) {
-			var self = this;
-			if (!self.opts.loading && self.opts.isData) {
-				self.unlock("load");
-			}
-			//滑动起点
-			self._startY = e.touches[0].pageY;
-
-			//获取滚动条位置
-			self.opts.scrollTop = self.utils.getScrollTop(self);
-
-			if (self.supportTransition) {
-				self.moveEle.style[self.transition] = "";
-			}
-		};
-
-		//touchmove
-		Slideload.prototype.touchmoveHandle = function (e) {
-			var self = this;
-			self._curY = e.touches[0].pageY;
-			self._moveY = self._curY - self._startY;
-			//获取滑动方向
-			if (self._moveY > 0) {
-				self.opts.direction = 'down';
-			} else if (self._moveY < 0) {
-				self.opts.direction = 'up';
-			}
-			//下拉刷新
-			if (!self.opts.loading && self.opts.refreshHandle !== null && self.opts.scrollTop <= 0 && !self.opts.isLockRefresh && self.opts.direction == 'down') {
-				e.preventDefault();
-				if (self.touchmoveY <= self.opts.distance) {
-					self.touchmoveY = Math.floor(self._moveY * 0.6);
-				} else if (self.touchmoveY > self.opts.distance && self.touchmoveY <= self.opts.distance * 2) {
-					self.touchmoveY = Math.floor(self.opts.distance + (self._moveY * 0.6 - self.opts.distance) * 0.5);
-				} else if (self.touchmoveY > self.opts.distance * 2) {
-					self.touchmoveY = Math.floor(self.opts.distance * 2 + (self.opts.distance + (self._moveY * 0.6 - self.opts.distance) * 0.5 - self.opts.distance * 2) * 0.5);
-				}
-				self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(self.touchmoveY);
-				self.translateY = self.getAnimatePropertyValue(self.moveEle.style[self.animatePropertyName]);
-				if (self.translateY > 50) {
-					self.refreshEle.innerHTML = self.opts.refreshDOM["release2refresh"];
-				} else {
-					self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
-				}
-			}
-		};
-
-		//touchend
-		Slideload.prototype.touchendHandle = function () {
-			var self = this;
-			self.opts.scrollTop = self.utils.getScrollTop(self);
-			if (self.opts.scrollTop > 0) return;
-			var returnTarget = 0;
-			if (self.translateY > self.opts.distance) {
-				returnTarget = 50;
-				self.refreshEle.innerHTML = self.opts.refreshDOM["loading"];
-				self.triggerRefresh();
-			}
-			//判断浏览器是否支持 transition过渡
-			if (self.supportTransition) {
-				self.moveEle.style[self.transition] = "260ms ease-out";
-			}
-			self.animate(self.translateY, returnTarget);
-			self.translateY = returnTarget;
-			self.touchmoveY = returnTarget;
-		};
-
-		//触发自动加载
-		Slideload.prototype.triggerAutoLoad = function () {
-			var self = this;
-			//如果有数据
-			if (self.opts.isData) {
-				setTimeout(function () {
-					self.loadEle.innerHTML = self.opts.loadMoreDOM["pull2load"];
-					self.utils.getScrollContentHeight(self);
-					self.autoLoad(self);
-				}, 0);
-			}
-		};
-
-		// 如果列表容器高度不大于滚动区域高度，数据较少，自动加载更多数据
-		Slideload.prototype.autoLoad = function () {
-			var self = this;
-			if (self.opts.scrollContentHeight - self.opts.threshold > self.opts.scrollAreaHeight) return;
-			if (self.opts.loadHandle !== null) {
-				self.opts.loading = true;
-				self.unlock("load");
-				self.triggerLoad();
-			}
-		};
-
-		//刷新數據
-		Slideload.prototype.triggerRefresh = function () {
-			var self = this;
-			self.opts.loading = true;
-			self.opts.refreshHandle(self.next, self.stop);
-		};
-
-		//加载更多数据
-		Slideload.prototype.triggerLoad = function () {
-			var self = this;
-			self.opts.loading = true;
-			self.loadEle.innerHTML = self.opts.loadMoreDOM["loading"];
-			self.opts.loadHandle(self.next, self.stop);
-		};
-
-		//锁定
-		Slideload.prototype.lock = function (type) {
-			var self = this;
-			if (type == 'load') {
-				self.opts.isLockLoad = true;
-			}
-		};
-
-		//解锁
-		Slideload.prototype.unlock = function (type) {
-			var self = this;
-			if (type == 'load') {
-				self.opts.isLockLoad = false;
-			}
-		};
-
-		//重置
-		Slideload.prototype.reset = function () {
-			var self = this;
-
-			if (self.refreshEle.style.visibility = "hidden") {
-				self.refreshEle.style.visibility = "visible";
-			}
-
-			self.opts.loading = false;
-			if (self.opts.direction == 'up') {
-				//加载更多数据重置
-				self.loadEle.innerHTML = self.opts.loadMoreDOM["loadSuccess"];
-				self.triggerAutoLoad();
-			} else {
-				//下拉刷新重置
-				self.opts.direction = 'up'; //刷新之后自动加载的函数属于loadHandle,为了避免错误重置与保持统一
-				self.refreshEle.innerHTML = self.opts.refreshDOM["refreshSuccess"];
-				if (self.supportTransition) {
-					self.moveEle.style[self.transition] = "260ms ease-out";
-				}
-				setTimeout(function () {
-					self.animate(self.translateY, 0);
-					self.translateY = 0;
-					self.touchmoveY = 0;
-				}, 500);
-			}
-		};
-
-		/**
-	  * 工具函数
-	  */
-		Slideload.prototype.utils = {
-			//对象扩展（浅拷贝）
-			extend: function extend(target, obj) {
-				for (var i in obj) {
-					target[i] = obj[i];
-				}
-				return target;
-			},
-			//获取滚动条位置
-			getScrollTop: function getScrollTop(self) {
-				var t = 0;
-				if (self.opts.scrollArea == window) {
-					var supportPageOffset = window.pageYOffset !== undefined;
-					var isCSS1Compat = (document.compatMode || "") === "CSS1Compat";
-					t = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-				} else {
-					t = self.opts.scrollArea.scrollTop;
-				}
-				return t;
-			},
-			//获取滚动区域高度
-			getScrollAreaHeight: function getScrollAreaHeight(self) {
-				if (self.opts.scrollArea == window) {
-					self.opts.scrollAreaHeight = window.innerHeight;
-				} else {
-					self.opts.scrollAreaHeight = self.opts.scrollArea.clientHeight;
-				}
-			},
-			//获取列表容器高度
-			getScrollContentHeight: function getScrollContentHeight(self) {
-				self.opts.scrollContentHeight = Math.floor(self.moveEle.scrollHeight);
-			},
-			//獲取css屬性(不需要駝峰式寫法)
-			getCssProperty: function getCssProperty(Element, CssProperty) {
-				var style = "getComputedStyle" in window ? getComputedStyle(Element) : Element.currentStyle;
-				var _getPropertyValue = function _getPropertyValue(CssProperty) {
-					if ("getPropertyValue" in style) {
-						return style.getPropertyValue(CssProperty);
-					}{
-						return style.getAttribute(CssProperty);
-					}
-				};
-				return _getPropertyValue(CssProperty);
-			},
-			//获取各浏览器对应的css属性的兼容性前缀
-			vendor: function vendor(property) {
-				var _elementStyle = document.createElement('div').style;
-				var property = property.slice(1);
-				var vendors = ['t', 'webkitT', 'MozT', 'msT', 'OT'],
-				    transform,
-				    i = 0,
-				    l = vendors.length;
-
-				for (; i < l; i++) {
-					transform = vendors[i] + property;
-					if (transform in _elementStyle) return vendors[i].substr(0, vendors[i].length - 1);
-				}
-
-				return false;
-			},
-			//给传入的样式添加兼容性前缀
-			prefixStyle: function prefixStyle(vendor, property) {
-				if (vendor === false) return false;
-				if (vendor === '') return property;
-				return vendor + property.charAt(0).toUpperCase() + property.substr(1);
-			},
-			//js动画引擎
-			rAF: function rAF(cb) {
-				var rAF = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (cb) {
-					window.setTimeout(cb, 1000 / 60);
-				};
-				return rAF(cb);
-			}
-		};
-
-		if (typeof module !== 'undefined' && module.exports) {
-			module.exports = Slideload;
-		} else if (true) {
-			!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
-				return Slideload;
-			}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		} else {
-			window.Slideload = Slideload;
-		}
-	}(window, document, Math);
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
-
-/***/ },
-/* 425 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    attrs: {
-	      "id": "simple-list-container"
-	    }
-	  }, [_c('ul', {
-	    attrs: {
-	      "id": "simple-list-content"
-	    }
-	  }, [_vm._t("item", [_vm._m(0)])], 2)])
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('li', {
-	    staticClass: "simple-list-item flex-rowstart-middle"
-	  }, [_c('div', {
-	    staticClass: "img"
-	  }), _vm._v(" "), _c('div', {
-	    staticClass: "text-box"
-	  }, [_c('h2', {
-	    staticClass: "title"
-	  }, [_vm._v("居臣氏(铺上大道二店)")]), _vm._v(" "), _c('p', {
-	    staticClass: "sub-title"
-	  }, [_vm._v("超市 爱琴海购物公园 279m")]), _vm._v(" "), _c('div', {
-	    staticClass: "sign"
-	  }, [_c('span', {
-	    staticClass: "describe"
-	  }, [_vm._v("奖励金商家")])])])])
-	}]}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-4257bc6c", module.exports)
-	  }
-	}
 
 /***/ }
 ]);
