@@ -57,6 +57,30 @@ export default {
             component:function (resolve) {
                 require(["./grid-3.vue"], resolve);
             },
+        },
+        {
+            "path":"input-1",
+            component:function (resolve) {
+                require(["./input-1.vue"], resolve);
+            },
+        },
+        {
+            "path":"input-2",
+            component:function (resolve) {
+                require(["./input-2.vue"], resolve);
+            },
+        },
+        {
+            "path":"input-3",
+            component:function (resolve) {
+                require(["./input-3.vue"], resolve);
+            },
+        },
+        {
+            "path":"input-4",
+            component:function (resolve) {
+                require(["./input-4.vue"], resolve);
+            },
         }
     ]
 };
