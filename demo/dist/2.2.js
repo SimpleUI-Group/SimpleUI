@@ -1,7 +1,7 @@
 webpackJsonp([2],{
 
 /***/ 22:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
@@ -17,7 +17,7 @@ webpackJsonp([2],{
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/demo/src/index.vue"
+	Component.options.__file = "C:\\mk\\project\\SimpleUI\\demo\\src\\index.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -37,10 +37,10 @@ webpackJsonp([2],{
 	module.exports = Component.exports
 
 
-/***/ },
+/***/ }),
 
 /***/ 23:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
@@ -49,13 +49,13 @@ webpackJsonp([2],{
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("1b145380", content, false);
+	var update = __webpack_require__(16)("5fafbdca", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-37b26be6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./index.vue", function() {
-	     var newContent = require("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-37b26be6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./index.vue");
+	   module.hot.accept("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.3.4@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-37b26be6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.11.3.4@vue-loader/lib/selector.js?type=styles&index=0!./index.vue", function() {
+	     var newContent = require("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.3.4@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-37b26be6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.11.3.4@vue-loader/lib/selector.js?type=styles&index=0!./index.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -64,25 +64,25 @@ webpackJsonp([2],{
 	 module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 
 /***/ 24:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(11)(undefined);
 	// imports
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 	// exports
 
 
-/***/ },
+/***/ }),
 
 /***/ 25:
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -107,15 +107,35 @@ webpackJsonp([2],{
 	//
 	//
 	//
+	//
+	//
+	//
+	//
+	//
+	//
 
 	exports.default = {
-	    name: 'index'
+	    name: 'index',
+	    data: function data() {
+	        return {
+	            num: 1,
+	            num2: 1,
+	            num3: 1,
+	            num4: 1
+	        };
+	    },
+
+	    methods: {
+	        handleChange: function handleChange(value) {
+	            console.log(value);
+	        }
+	    }
 	};
 
-/***/ },
+/***/ }),
 
 /***/ 26:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', [_c('Button', [_vm._v("Default")]), _vm._v(" "), _c('Button', {
@@ -166,7 +186,56 @@ webpackJsonp([2],{
 	      "type": "danger",
 	      "icon": "search"
 	    }
-	  }, [_vm._v("icon")])], 1)
+	  }, [_vm._v("icon")]), _vm._v(" "), _c('PlusMinus', {
+	    attrs: {
+	      "step": 1,
+	      "min": -10,
+	      "max": 100
+	    },
+	    on: {
+	      "change": _vm.handleChange
+	    },
+	    model: {
+	      value: (_vm.num),
+	      callback: function($$v) {
+	        _vm.num = $$v
+	      },
+	      expression: "num"
+	    }
+	  }), _vm._v(" "), _c('PlusMinus', {
+	    attrs: {
+	      "disabled": true
+	    },
+	    model: {
+	      value: (_vm.num2),
+	      callback: function($$v) {
+	        _vm.num2 = $$v
+	      },
+	      expression: "num2"
+	    }
+	  }), _vm._v(" "), _c('PlusMinus', {
+	    attrs: {
+	      "size": "large"
+	    },
+	    model: {
+	      value: (_vm.num3),
+	      callback: function($$v) {
+	        _vm.num3 = $$v
+	      },
+	      expression: "num3"
+	    }
+	  }), _vm._v(" "), _c('PlusMinus', {
+	    attrs: {
+	      "size": "small"
+	    },
+	    model: {
+	      value: (_vm.num4),
+	      callback: function($$v) {
+	        _vm.num4 = $$v
+	      },
+	      expression: "num4"
+	    }
+	  })], 1)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
@@ -176,6 +245,6 @@ webpackJsonp([2],{
 	  }
 	}
 
-/***/ }
+/***/ })
 
 });

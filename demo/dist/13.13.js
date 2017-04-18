@@ -1,7 +1,7 @@
 webpackJsonp([13],{
 
 /***/ 60:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(18)(
 	  /* script */
@@ -13,7 +13,7 @@ webpackJsonp([13],{
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/demo/src/component/grid-3.vue"
+	Component.options.__file = "C:\\mk\\project\\SimpleUI\\demo\\src\\component\\grid-3.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] grid-3.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -33,10 +33,10 @@ webpackJsonp([13],{
 	module.exports = Component.exports
 
 
-/***/ },
+/***/ }),
 
 /***/ 61:
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	"use strict";
 
@@ -97,10 +97,10 @@ webpackJsonp([13],{
 	    name: "grid-3"
 	};
 
-/***/ },
+/***/ }),
 
 /***/ 62:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
@@ -214,6 +214,6 @@ webpackJsonp([13],{
 	  }
 	}
 
-/***/ }
+/***/ })
 
 });

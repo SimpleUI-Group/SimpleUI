@@ -1,7 +1,7 @@
 webpackJsonp([10],{
 
 /***/ 51:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(18)(
 	  /* script */
@@ -13,7 +13,7 @@ webpackJsonp([10],{
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/demo/src/component/icon-3.vue"
+	Component.options.__file = "C:\\mk\\project\\SimpleUI\\demo\\src\\component\\icon-3.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] icon-3.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -33,10 +33,10 @@ webpackJsonp([10],{
 	module.exports = Component.exports
 
 
-/***/ },
+/***/ }),
 
 /***/ 52:
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	"use strict";
 
@@ -57,10 +57,10 @@ webpackJsonp([10],{
 	    name: "icon-3"
 	};
 
-/***/ },
+/***/ }),
 
 /***/ 53:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
@@ -105,6 +105,6 @@ webpackJsonp([10],{
 	  }
 	}
 
-/***/ }
+/***/ })
 
 });
