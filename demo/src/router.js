@@ -16,5 +16,11 @@ export default [
         component:function (resolve) {
             require(["./grid.vue"], resolve);
         }
+    },
+    {
+        "path":"/number",
+        component:function (resolve) {
+            require(["./number.vue"], resolve);
+        }
     }
 ];

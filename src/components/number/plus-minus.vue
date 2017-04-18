@@ -42,7 +42,7 @@
     import { once, on } from './dom';
 
     export default {
-        name: 'ElInputNumber',
+        name: 'plus-minus',
         directives: {
             repeatClick: {
                 bind(el, binding, vnode) {

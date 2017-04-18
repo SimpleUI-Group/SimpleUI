@@ -2601,17 +2601,22 @@ webpackJsonp([1],[
 	exports.default = [{
 	    "path": "/",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(2, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(22)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(15, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(22)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/index",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(2/* duplicate */, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(22)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(15/* duplicate */, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(22)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/grid",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(3, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(27)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(16, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(27)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	    }
+	}, {
+	    "path": "/number",
+	    component: function component(resolve) {
+	        __webpack_require__.e/* require */(17/* empty */, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(474)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}];
 
@@ -4001,7 +4006,7 @@ webpackJsonp([1],[
 	var _dom = __webpack_require__(429);
 
 	exports.default = {
-	    name: 'ElInputNumber',
+	    name: 'plus-minus',
 	    directives: {
 	        repeatClick: {
 	            bind: function bind(el, binding, vnode) {
