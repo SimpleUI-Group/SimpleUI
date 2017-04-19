@@ -6,6 +6,7 @@ import List from "./list/list.vue";
 import Nav from "./nav/nav.vue";
 import Input from "./input/input.vue";
 import InputGroup from "./input/InputGroup.vue";
+import PlusMinus from "./number/plus-minus.vue";
 
 export default {
     Button,
@@ -15,5 +16,6 @@ export default {
     List,
     Nav,
     Input,
-    InputGroup
+    InputGroup,
+    PlusMinus
 };
