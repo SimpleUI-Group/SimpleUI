@@ -39,8 +39,6 @@
     </div>
 </template>
 <script>
-    import { once, on } from './dom';
-
     export default {
         name: 'plus-minus',
         directives: {
@@ -56,13 +54,21 @@
                         clearInterval(interval);
                         interval = null;
                     };
-
-                    on(el, 'mousedown', () => {
+                    const once = (el, event, fn) => {
+                        var listener = function() {
+                            if (fn) {
+                                fn.apply(this, arguments);
+                            }
+                            el.removeEventListener(event, listener, false);
+                        };
+                        el.addEventListener(event, listener, false);
+                    };
+                    el.addEventListener('mousedown', () => {
                         startTime = new Date();
                         once(document, 'mouseup', clear);
                         clearInterval(interval);
                         interval = setInterval(handler, 100);
-                    });
+                    }, false);
                 }
             }
         },
