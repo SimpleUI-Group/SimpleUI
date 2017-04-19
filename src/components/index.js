@@ -5,7 +5,8 @@ import Col from "./grid/col.vue";
 import List from "./list/list.vue";
 import Nav from "./nav/nav.vue";
 import Input from "./input/input.vue";
-import InputGroup from "./input/InputGroup.vue";
+import InputGroup from "./input/inputgroup.vue";
+import Checkbox from "./checkbox/checkbox.vue";
 import PlusMinus from "./number/plus-minus.vue";
 
 export default {
@@ -17,5 +18,6 @@ export default {
     Nav,
     Input,
     InputGroup,
-    PlusMinus
+    PlusMinus,
+    Checkbox
 };

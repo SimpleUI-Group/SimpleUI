@@ -1,5 +1,5 @@
 <template>
-<div style="background:#fafafa">
+<div>
    <!-- <Button>Default</Button>
     <Button type="primary">Primary</Button>
     <Button type="danger">Danger</Button>
@@ -14,7 +14,7 @@
     <Button type="warning" icon="check">icon</Button>
     <Button type="danger" icon="search">icon</Button>-->
     <div style="height:5px;"></div>
-    <InputGroup>
+    <!--<InputGroup>
         <Input 
             type="text" 
             placeholder="text" 
@@ -69,7 +69,13 @@
         >
         <img src="http://i2.muimg.com/567571/fd0e77b92e0160c0.jpg">
         </Input>
-    </InputGroup>
+    </InputGroup>-->
+
+    <Checkbox>选项1</Checkbox>
+    <Checkbox bg="#f00" name="username" value="a" @click="getValue">选项1</Checkbox>
+    <Checkbox type="round">选项1</Checkbox>
+    <Checkbox type="block">选项1</Checkbox>
+
 </div>
 
 </template>

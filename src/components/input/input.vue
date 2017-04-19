@@ -1,6 +1,6 @@
 <template>
     <div class="simple-ui-input-box" :class="classes">
-        <label for="" class="simple-ui-input-label">{{label}}</label>
+        <label class="simple-ui-input-label">{{label}}</label>
         <input :type="type" class="simple-ui-input-input" :name="name" :value="value" :placeholder="placeholder" @input="onInput">
         <slot></slot>
     </div>
@@ -18,7 +18,6 @@ export default {
     },
     computed: {
         classes() {
-            console.log(!!this.underline)
             return {
                 'simple-ui-input-underline': !!this.underline
             }

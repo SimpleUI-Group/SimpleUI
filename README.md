@@ -161,4 +161,4 @@ export default {
 
 
 10. 功能列表(初版)
-![](http://i2.muimg.com/567571/a9a7b8dc67cb17cd.png)
+![](http://i1.piimg.com/567571/63c63610403a6ef0.png)
