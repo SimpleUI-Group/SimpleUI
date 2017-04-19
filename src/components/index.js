@@ -7,6 +7,7 @@ import Nav from "./nav/nav.vue";
 import Input from "./input/input.vue";
 import InputGroup from "./input/inputgroup.vue";
 import Checkbox from "./checkbox/checkbox.vue";
+import PlusMinus from "./number/plus-minus.vue";
 
 export default {
     Button,
@@ -17,5 +18,6 @@ export default {
     Nav,
     Input,
     InputGroup,
+    PlusMinus,
     Checkbox
 };
