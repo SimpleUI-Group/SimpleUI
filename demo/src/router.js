@@ -28,11 +28,5 @@ export default [
         component:function (resolve) {
             require(["./nav.vue"], resolve);
         }
-    },
-    {
-        "path":"/number",
-        component:function (resolve) {
-            require(["./number.vue"], resolve);
-        }
     }
 ];
