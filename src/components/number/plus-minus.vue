@@ -50,6 +50,7 @@
                     const clear = () => {
                         if (new Date() - startTime < 100) {
                             handler();
+                            startTime = new Date();
                         }
                         clearInterval(interval);
                         interval = null;
@@ -65,6 +66,7 @@
                     };
                     el.addEventListener('mousedown', () => {
                         startTime = new Date();
+                        once(el, 'mouseleave', clear);
                         once(document, 'mouseup', clear);
                         clearInterval(interval);
                         interval = setInterval(handler, 100);
