@@ -11,9 +11,9 @@
     "plugins": [ "html" ],
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
-        "quotes": ["error", "double"],
+        //"quotes": ["error", "double"],
         "semi": ["error", "always"],
-        "no-console": ["warn"],
+        //"no-console": ["warn"],
         "no-constant-condition": 2,//禁止在条件中使用常量表达式 if(true) if(1)
         "no-else-return": 2,//如果if语句里面有return,后面不能跟else语句
         "no-implicit-coercion": 1,//禁止隐式转换

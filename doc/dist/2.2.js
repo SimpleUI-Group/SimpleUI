@@ -1,17 +1,17 @@
 webpackJsonp([2],{
 
-/***/ 22:
+/***/ 23:
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(23)
+	__webpack_require__(24)
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(25),
-	  /* template */
 	  __webpack_require__(26),
+	  /* template */
+	  __webpack_require__(27),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -39,17 +39,17 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 23:
+/***/ 24:
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(24);
+	var content = __webpack_require__(25);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("6d5ca60c", content, false);
+	var update = __webpack_require__(17)("6d5ca60c", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
@@ -66,10 +66,10 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 24:
+/***/ 25:
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 
 
@@ -81,7 +81,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 25:
+/***/ 26:
 /***/ function(module, exports) {
 
 	'use strict';
@@ -123,7 +123,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 26:
+/***/ 27:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

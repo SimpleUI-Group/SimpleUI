@@ -1,17 +1,17 @@
 webpackJsonp([4],{
 
-/***/ 32:
+/***/ 33:
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(33)
+	__webpack_require__(34)
 
-	var Component = __webpack_require__(18)(
+	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(35),
-	  /* template */
 	  __webpack_require__(36),
+	  /* template */
+	  __webpack_require__(37),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -39,17 +39,17 @@ webpackJsonp([4],{
 
 /***/ },
 
-/***/ 33:
+/***/ 34:
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(34);
+	var content = __webpack_require__(35);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(16)("b331e382", content, false);
+	var update = __webpack_require__(17)("b331e382", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
@@ -66,10 +66,10 @@ webpackJsonp([4],{
 
 /***/ },
 
-/***/ 34:
+/***/ 35:
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(11)(undefined);
+	exports = module.exports = __webpack_require__(12)(undefined);
 	// imports
 
 
@@ -81,7 +81,7 @@ webpackJsonp([4],{
 
 /***/ },
 
-/***/ 35:
+/***/ 36:
 /***/ function(module, exports) {
 
 	'use strict';
@@ -137,12 +137,12 @@ webpackJsonp([4],{
 	//
 
 	exports.default = {
-	    name: 'grid'
+	    name: 'icon'
 	};
 
 /***/ },
 
-/***/ 36:
+/***/ 37:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

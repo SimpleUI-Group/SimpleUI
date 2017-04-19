@@ -28,5 +28,11 @@ export default [
         component:function (resolve) {
             require(["./component/grid.vue"], resolve);
         }
+    },
+    {
+        "path":"/input",
+        component:function (resolve) {
+            require(["./component/input.vue"], resolve);
+        }
     }
 ];

@@ -1,5 +1,5 @@
 <template>
-    <div class="box-contianer">
+    <div class="box-contianer" style="padding-top:1px;box-sizing:border-box">
         <Button>Default</Button>
         <Button type="primary">Primary</Button>
         <Button type="warning">Warning</Button>
