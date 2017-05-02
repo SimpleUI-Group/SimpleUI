@@ -1,12 +1,8 @@
-<template>
+<!-- <template>
 
     <div class="simple-ui-nav" :class="classes" >
         <ul>
-            <li >
-            <i :class="{ 'simple-ui-icon iconfont  simple-ui-rotate': isA, 'icon-loading': isNeedIcon}" ></i>
-                <span>Nav 1</span>
-            </li>
-            <li>
+           <li>
                 <i :class="{ 'simple-ui-icon iconfont  ': isA, 'icon-search': isNeedIcon}" ></i>
                 <span>Nav 2</span> 
             </li>
@@ -19,7 +15,7 @@
        <ul>
         <li >Nav 1</li>
         <li >Nav 2</li>
-        <li >Nav 3</li>
+      
 
         
     </ul>
@@ -38,16 +34,17 @@
         },
         data:function(){
             return {
-              isA: true,  //当isA改变时，将更新class
-              isNeedIcon: true    //当isNeedIcon改变时，将更新class
+              isA: true,  
+              isNeedIcon: true ,   
+               nav_name:""
           }
       },
       computed: {
         classes() {
             return {
-                // [this.type] : this.type,
-                // 'simple-ui-button-pull': !!this.pull,
-                // 'simple-ui-button-edge': !!this.edge
+                [this.type] : this.type,
+                'simple-ui-button-pull': !!this.pull,
+                'simple-ui-button-edge': !!this.edge
             }
         }
     }
@@ -57,8 +54,7 @@
 <style lang="less">
     @import '../../styles/index.less';
     .simple-ui-nav {
-    // position: fixed;
-    // bottom:0;
+    
     width: 100%;
     text-align:center;
     display:block;
@@ -110,4 +106,46 @@
 }
 
 
+</style> -->
+
+<template>
+<div class="simple-ui-nav" :style="styles">
+    
+    <slot></slot>
+</div>
+</template>
+<script>
+export default {
+    name:'nav',
+    props:{
+        space:String
+    },
+    computed:{
+        styles() {
+            return {
+                'margin-left':this.space ? `-${this.space / 2}px` : '',
+                'margin-right':this.space ? `-${this.space / 2}px` : ''
+            }
+        }
+    },
+    methods:{
+       
+    }
+}
+</script>
+
+<style lang="less">
+@import '../../styles/index.less';
+.simple-ui-nav {
+   width: 100%;
+    text-align:center;
+    display:block;
+    width:92%;
+    height: @BUTTON_HEIGHT;
+    margin:.1rem 4%;
+    line-height: @BUTTON_HEIGHT;
+    border-radius:4px;
+    box-sizing:border-box;
+}
 </style>
+
