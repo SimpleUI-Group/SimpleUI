@@ -39,8 +39,6 @@
     </div>
 </template>
 <script>
-    import { once, on } from './dom';
-
     export default {
         name: 'plus-minus',
         directives: {
@@ -48,21 +46,39 @@
                 bind(el, binding, vnode) {
                     let interval = null;
                     let startTime;
+                    let isSupportTouch = 'ontouchend' in document ? true : false;
                     const handler = () => vnode.context[binding.expression].apply();
                     const clear = () => {
                         if (new Date() - startTime < 100) {
                             handler();
+                            startTime = new Date();
                         }
                         clearInterval(interval);
                         interval = null;
                     };
-
-                    on(el, 'mousedown', () => {
+                    const once = (el, event, fn) => {
+                        var listener = function() {
+                            if (fn) {
+                                fn.apply(this, arguments);
+                            }
+                            el.removeEventListener(event, listener, false);
+                        };
+                        el.addEventListener(event, listener, false);
+                    };
+                    el.addEventListener('touchstart', () => {
                         startTime = new Date();
+                        once(document, 'touchend', clear);
+                        clearInterval(interval);
+                        interval = setInterval(handler, 100);
+                    }, false);
+                    el.addEventListener('mousedown', () => {
+                        if (isSupportTouch) return;
+                        startTime = new Date();
+                        once(el, 'mouseleave', clear);
                         once(document, 'mouseup', clear);
                         clearInterval(interval);
                         interval = setInterval(handler, 100);
-                    });
+                    }, false);
                 }
             }
         },
