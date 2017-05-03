@@ -50,7 +50,7 @@ export default {
             background: #187b92;
             border-radius: 0.1rem;
             color: #fff;
-            flex:2;
+            flex:1;
             &:hover {
              background: #f30;
          }
