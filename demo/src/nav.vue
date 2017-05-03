@@ -1,7 +1,11 @@
 <template>
     <div class="demo-nav">
-    	<Nav>
-    		 <NavItem bgcolor="#f40" navNames="nav1,nav2" color="#fff"> </NavItem>
+    	<Nav size="14">
+    		 <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="#fff"></NavItem>
+             <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
+             <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
+             <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
+             <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
     	</Nav>
         
     </div>

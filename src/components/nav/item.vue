@@ -1,10 +1,12 @@
 <template>
-  <ul class="simple-ui-NavItem" >
-      <li :style="styles"  v-for="items in navNames.split(',')">
-       {{items }}
-      </li>
+ 
+      <a href="javascript:;" :style="styles"  >
+      {{navNames}} 
+      <Icon v-if="icon" :type="icon" size="14" color="#fff"></Icon>
+                        <span><slot></slot></span> 
+      </a>
      
-  </ul>
+ 
 </template>
 <script>
 export default {
@@ -14,22 +16,20 @@ export default {
         name:String,
         space:String,
         bgcolor:String,
+        size:String,
         color:String,
         navNames:String
         
         
     },
-     created() {
-        // console.log('navNames:' + this.navNames);
-        // this.navNames_arr = this.navNames.split(",");
-        // console.log(this.navNames_arr)
-    },
+    
     computed:{
        
          styles() {
             return {
                 "background": this.bgcolor ? `${this.bgcolor}` : '',
-                "color": this.color ? `${this.color}` : ''
+                "color": this.color ? `${this.color}` : '',
+                "font-size": this.size ? `${this.size}px` : ''
             }
         }
     }
@@ -39,14 +39,9 @@ export default {
 
 <style lang="less">
 @import '../../styles/index.less';
-.simple-ui-NavItem {
 
-        width: 100%;
-        height: 100%;
-        list-style: none;
-        overflow: hidden;
-        margin:10px 0;
-        li{
+        a{
+            text-decoration: none;
             position: relative;
             width: 20%;
             height: 100%;
@@ -55,10 +50,11 @@ export default {
             background: #187b92;
             border-radius: 0.1rem;
             color: #fff;
+            flex:2;
             &:hover {
              background: #f30;
          }
          
-    }
+    
 }
 </style>
