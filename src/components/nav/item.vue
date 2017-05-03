@@ -1,7 +1,7 @@
 <template>
   <ul class="simple-ui-NavItem" >
-      <li :style="styles"  v-for="todo in navNames.split(',')">
-       {{todo}}
+      <li :style="styles"  v-for="items in navNames.split(',')">
+       {{items }}
       </li>
      
   </ul>
@@ -15,7 +15,6 @@ export default {
         space:String,
         bgcolor:String,
         color:String,
-        number:String,
         navNames:String
         
         
