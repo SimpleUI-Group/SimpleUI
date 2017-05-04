@@ -3,7 +3,7 @@
       <a href="javascript:;" :style="styles"  >
       {{navNames}} 
       <Icon v-if="icon" :type="icon" size="14" color="#fff"></Icon>
-                        <span><slot></slot></span> 
+                        <!-- <span><slot></slot></span>  -->
       </a>
      
  
