@@ -18,7 +18,7 @@ export default {
             return {
                 'margin-left':this.space ? `-${this.space / 2}px` : '',
                 'margin-right':this.space ? `-${this.space / 2}px` : '',
-                 "font-size": this.size ? `${this.size}px` : ''
+                "font-size": this.size ? `${this.size}px` : ''
             }
         }
     },

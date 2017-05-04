@@ -3,9 +3,9 @@
     	<Nav size="14">
     		 <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="#fff"></NavItem>
              <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
+             <NavItem bgcolor="yellow" icon="loading" navNames="nav1" color="green"></NavItem>
              <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
-             <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
-             <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
+             
     	</Nav>
         
     </div>
@@ -21,10 +21,10 @@
 .demo-nav{
     width:100%; 
     height:100%;
-    background-color:#fff;
+    
 }
 .simple-ui-icon {
         position:relative;
-        top:.02rem;
+        
     } 
 </style> 

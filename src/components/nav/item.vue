@@ -42,8 +42,6 @@ export default {
 
         a{
             text-decoration: none;
-            position: relative;
-            width: 20%;
             height: 100%;
             float: left;
             margin: 0 0.05rem;
