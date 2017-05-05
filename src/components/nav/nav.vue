@@ -2,7 +2,6 @@
 
 <template>
 <div class="simple-ui-nav" :style="styles">
-    
     <slot></slot>
 </div>
 </template>
