@@ -29,11 +29,11 @@ To Do ...
 
 6.tabbar 底部菜单 (coding)
 
-7.plus input (coding)
+7.plus input (100%)
 
 8.banner(coding)
 
-9.checkbox(coding)
+9.checkbox(80%)
 
 # 开发说明
 
