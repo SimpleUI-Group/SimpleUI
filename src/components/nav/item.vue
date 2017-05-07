@@ -1,6 +1,6 @@
 <template>
  
-      <a href="javascript:;" :style="styles"  >
+      <a href="javascript:;" :style="styles"  class="simple-ui-nav-item">
       {{navNames}} 
       <Icon v-if="icon" :type="icon" size="14" color="#fff"></Icon>
                         <!-- <span><slot></slot></span>  -->
@@ -40,7 +40,7 @@ export default {
 <style lang="less">
 @import '../../styles/index.less';
 
-        a{
+        .simple-ui-nav-item {
             text-decoration: none;
             height: 100%;
             float: left;
