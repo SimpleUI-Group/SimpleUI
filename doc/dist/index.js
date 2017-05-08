@@ -38,35 +38,19 @@ webpackJsonp([1],[
 
 	var _index2 = _interopRequireDefault(_index);
 
-<<<<<<< HEAD
-	var _docbox = __webpack_require__(135);
+	var _docbox = __webpack_require__(149);
 
 	var _docbox2 = _interopRequireDefault(_docbox);
 
-	var _docleft = __webpack_require__(143);
+	var _docleft = __webpack_require__(157);
 
 	var _docleft2 = _interopRequireDefault(_docleft);
 
-	var _docright = __webpack_require__(146);
+	var _docright = __webpack_require__(160);
 
 	var _docright2 = _interopRequireDefault(_docright);
 
-	__webpack_require__(149);
-=======
-	var _docbox = __webpack_require__(134);
-
-	var _docbox2 = _interopRequireDefault(_docbox);
-
-	var _docleft = __webpack_require__(142);
-
-	var _docleft2 = _interopRequireDefault(_docleft);
-
-	var _docright = __webpack_require__(145);
-
-	var _docright2 = _interopRequireDefault(_docright);
-
-	__webpack_require__(148);
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	__webpack_require__(163);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -112,20 +96,20 @@ webpackJsonp([1],[
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/main.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\main.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] main.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7eb622e6", Component.options)
+	    hotAPI.createRecord("data-v-b8a374d0", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7eb622e6", Component.options)
+	    hotAPI.reload("data-v-b8a374d0", Component.options)
 	  }
 	})()}
 
@@ -143,13 +127,13 @@ webpackJsonp([1],[
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("eac3d32c", content, false);
+	var update = __webpack_require__(17)("ca4e32d6", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-7eb622e6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.3.0.0@less-loader/lib/loader.js!../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./main.vue", function() {
-	     var newContent = require("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-7eb622e6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.3.0.0@less-loader/lib/loader.js!../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./main.vue");
+	   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-b8a374d0\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/less-loader/lib/loader.js!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./main.vue", function() {
+	     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-b8a374d0\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/less-loader/lib/loader.js!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./main.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -167,7 +151,7 @@ webpackJsonp([1],[
 
 
 	// module
-	exports.push([module.id, "\n.box-contianer {\n  height: 100%;\n}\n.main-header {\n  height: 80px;\n  background: #20a0ff;\n  line-height: 80px;\n  font-size: 28px;\n  color: #fff;\n  text-indent: 60px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10;\n}\n.main-header small {\n  font-size: 16px;\n  text-indent: 20px;\n  display: inline-block;\n  position: relative;\n  top: -2px;\n}\n.main-left {\n  width: 200px;\n  height: 100%;\n  float: left;\n  background: #fff;\n  color: #333;\n  padding-top: 100px;\n  border-right: 1px solid #f1f1f1;\n  margin-right: -200px;\n  position: relative;\n  box-sizing: border-box;\n}\n.main-left a {\n  font-size: 16px;\n  line-height: 28px;\n  color: #333;\n  text-decoration: none;\n  display: block;\n  text-indent: 10px;\n}\n.main-right {\n  width: 100%;\n  float: right;\n  height: 100%;\n  box-sizing: border-box;\n  overflow-y: scroll;\n  padding-right: 20px;\n  padding-top: 80px;\n}\n.main-right .main-body {\n  margin-left: 220px;\n  padding-top: 30px;\n}\n", ""]);
+	exports.push([module.id, "\n.box-contianer {\n  height: 100%;\n}\n.main-header {\n  height: 80px;\n  background: #20a0ff;\n  line-height: 80px;\n  font-size: 28px;\n  color: #fff;\n  text-indent: 60px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  z-index: 10;\n}\n.main-header small {\n  font-size: 16px;\n  text-indent: 20px;\n  display: inline-block;\n  position: relative;\n  top: -2px;\n}\n.main-left {\n  width: 200px;\n  height: 100%;\n  float: left;\n  background: #fff;\n  color: #333;\n  padding-top: 100px;\n  border-right: 1px solid #f1f1f1;\n  margin-right: -200px;\n  position: relative;\n  box-sizing: border-box;\n}\n.main-left a {\n  font-size: 16px;\n  line-height: 36px;\n  color: #333;\n  text-decoration: none;\n  display: block;\n  text-indent: 10px;\n}\n.main-right {\n  width: 100%;\n  float: right;\n  height: 100%;\n  box-sizing: border-box;\n  overflow-y: scroll;\n  padding-right: 20px;\n  padding-top: 80px;\n}\n.main-right .main-body {\n  margin-left: 220px;\n  padding-top: 30px;\n}\n", ""]);
 
 	// exports
 
@@ -2611,6 +2595,8 @@ webpackJsonp([1],[
 	//
 	//
 	//
+	//
+	//
 
 	exports.default = {
 	    name: 'main'
@@ -2645,7 +2631,15 @@ webpackJsonp([1],[
 	    attrs: {
 	      "to": "/input"
 	    }
-	  }, [_vm._v("Input(输入框)")])], 1), _vm._v(" "), _c('div', {
+	  }, [_vm._v("Input(输入框)")]), _vm._v(" "), _c('router-link', {
+	    attrs: {
+	      "to": "/nav"
+	    }
+	  }, [_vm._v("Nav(底部导航)")]), _vm._v(" "), _c('router-link', {
+	    attrs: {
+	      "to": "/plusminus"
+	    }
+	  }, [_vm._v("PlusMinus(加减输入框)")])], 1), _vm._v(" "), _c('div', {
 	    staticClass: "main-right"
 	  }, [_c('div', {
 	    staticClass: "main-body"
@@ -2659,7 +2653,7 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7eb622e6", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-b8a374d0", module.exports)
 	  }
 	}
 
@@ -2675,32 +2669,42 @@ webpackJsonp([1],[
 	exports.default = [{
 	    "path": "/",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(2, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(23)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(14, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(23)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/index",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(2/* duplicate */, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(23)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(14/* duplicate */, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(23)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/button",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(3, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(28)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(15, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(28)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/icon",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(4, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(33)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(16, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(33)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/grid",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(5, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(38)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(17, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(38)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}, {
 	    "path": "/input",
 	    component: function component(resolve) {
-	        __webpack_require__.e/* require */(6, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(43)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	        __webpack_require__.e/* require */(18, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(43)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	    }
+	}, {
+	    "path": "/nav",
+	    component: function component(resolve) {
+	        __webpack_require__.e/* require */(19, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(461)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
+	    }
+	}, {
+	    "path": "/plusminus",
+	    component: function component(resolve) {
+	        __webpack_require__.e/* require */(20, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(466)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this));
 	    }
 	}];
 
@@ -2747,11 +2751,7 @@ webpackJsonp([1],[
 
 	var _index2 = _interopRequireDefault(_index);
 
-<<<<<<< HEAD
-	var _index3 = __webpack_require__(131);
-=======
-	var _index3 = __webpack_require__(130);
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	var _index3 = __webpack_require__(145);
 
 	var _index4 = _interopRequireDefault(_index3);
 
@@ -3297,21 +3297,25 @@ webpackJsonp([1],[
 
 	var _nav2 = _interopRequireDefault(_nav);
 
-	var _input = __webpack_require__(120);
+	var _item = __webpack_require__(120);
+
+	var _item2 = _interopRequireDefault(_item);
+
+	var _input = __webpack_require__(125);
 
 	var _input2 = _interopRequireDefault(_input);
 
-<<<<<<< HEAD
-	var _inputgroup = __webpack_require__(125);
-=======
-	var _InputGroup = __webpack_require__(125);
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	var _inputgroup = __webpack_require__(130);
 
 	var _inputgroup2 = _interopRequireDefault(_inputgroup);
 
-	var _checkbox = __webpack_require__(130);
+	var _checkbox = __webpack_require__(135);
 
 	var _checkbox2 = _interopRequireDefault(_checkbox);
+
+	var _plusMinus = __webpack_require__(140);
+
+	var _plusMinus2 = _interopRequireDefault(_plusMinus);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3322,8 +3326,10 @@ webpackJsonp([1],[
 	    Col: _col2.default,
 	    List: _list2.default,
 	    Nav: _nav2.default,
+	    NavItem: _item2.default,
 	    Input: _input2.default,
 	    InputGroup: _inputgroup2.default,
+	    PlusMinus: _plusMinus2.default,
 	    Checkbox: _checkbox2.default
 	};
 
@@ -3345,20 +3351,20 @@ webpackJsonp([1],[
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/button/button.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\button\\button.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] button.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-b01d39a8", Component.options)
+	    hotAPI.createRecord("data-v-fafc3c44", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-b01d39a8", Component.options)
+	    hotAPI.reload("data-v-fafc3c44", Component.options)
 	  }
 	})()}
 
@@ -3376,13 +3382,13 @@ webpackJsonp([1],[
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("eeb9871c", content, false);
+	var update = __webpack_require__(17)("68a38caf", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-b01d39a8\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./button.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-b01d39a8\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./button.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-fafc3c44\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./button.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-fafc3c44\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./button.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -3526,7 +3532,7 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-b01d39a8", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-fafc3c44", module.exports)
 	  }
 	}
 
@@ -3548,20 +3554,20 @@ webpackJsonp([1],[
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/icon/icon.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\icon\\icon.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] icon.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-81af0568", Component.options)
+	    hotAPI.createRecord("data-v-6e1824fe", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-81af0568", Component.options)
+	    hotAPI.reload("data-v-6e1824fe", Component.options)
 	  }
 	})()}
 
@@ -3579,13 +3585,13 @@ webpackJsonp([1],[
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("414ef9f2", content, false);
+	var update = __webpack_require__(17)("27157899", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-81af0568\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./icon.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-81af0568\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./icon.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-6e1824fe\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./icon.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-6e1824fe\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./icon.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -3661,7 +3667,7 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-81af0568", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-6e1824fe", module.exports)
 	  }
 	}
 
@@ -3683,20 +3689,20 @@ webpackJsonp([1],[
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/grid/row.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\grid\\row.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] row.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-3575eb24", Component.options)
+	    hotAPI.createRecord("data-v-920cf59c", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-3575eb24", Component.options)
+	    hotAPI.reload("data-v-920cf59c", Component.options)
 	  }
 	})()}
 
@@ -3714,13 +3720,13 @@ webpackJsonp([1],[
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("35019fd5", content, false);
+	var update = __webpack_require__(17)("6a2d4cd6", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-3575eb24\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./row.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-3575eb24\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./row.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-920cf59c\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./row.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-920cf59c\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./row.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -3797,7 +3803,7 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-3575eb24", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-920cf59c", module.exports)
 	  }
 	}
 
@@ -3819,20 +3825,20 @@ webpackJsonp([1],[
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/grid/col.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\grid\\col.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] col.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-1b5d6fca", Component.options)
+	    hotAPI.createRecord("data-v-c63dec50", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-1b5d6fca", Component.options)
+	    hotAPI.reload("data-v-c63dec50", Component.options)
 	  }
 	})()}
 
@@ -3850,13 +3856,13 @@ webpackJsonp([1],[
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("db6e4b00", content, false);
+	var update = __webpack_require__(17)("1bb194f0", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-1b5d6fca\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./col.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-1b5d6fca\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./col.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-c63dec50\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./col.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-c63dec50\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./col.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -3946,7 +3952,7 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-1b5d6fca", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-c63dec50", module.exports)
 	  }
 	}
 
@@ -3964,24 +3970,24 @@ webpackJsonp([1],[
 	  /* template */
 	  __webpack_require__(114),
 	  /* scopeId */
-	  "data-v-4257bc6c",
+	  "data-v-1d7137c4",
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/list/list.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\list\\list.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] list.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-4257bc6c", Component.options)
+	    hotAPI.createRecord("data-v-1d7137c4", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-4257bc6c", Component.options)
+	    hotAPI.reload("data-v-1d7137c4", Component.options)
 	  }
 	})()}
 
@@ -3999,13 +4005,13 @@ webpackJsonp([1],[
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("22018e81", content, false);
+	var update = __webpack_require__(17)("63c09afa", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-4257bc6c\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./list.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-4257bc6c\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./list.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-1d7137c4\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./list.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-1d7137c4\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./list.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -4023,7 +4029,7 @@ webpackJsonp([1],[
 	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
 
 	// module
-	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.flex-rowstart-middle[data-v-4257bc6c] {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  align-items: center;\n}\n#simple-list-container[data-v-4257bc6c] {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.simple-list-item[data-v-4257bc6c] {\n  box-sizing: border-box;\n  height: 96px;\n  padding: 0 15px;\n  background-color: #fff;\n  margin-top: 4px;\n}\n.simple-list-item .img[data-v-4257bc6c] {\n  display: block;\n  width: 66px;\n  height: 66px;\n  background-color: #ccc;\n  margin-right: 10px;\n}\n.simple-list-item .text-box[data-v-4257bc6c] {\n  height: 66px;\n  line-height: 1;\n}\n.simple-list-item .text-box .title[data-v-4257bc6c] {\n  line-height: inherit;\n  font-size: 14px;\n  color: #383838;\n  margin: 4px 0 8px 0;\n}\n.simple-list-item .text-box .sub-title[data-v-4257bc6c] {\n  line-height: inherit;\n  font-size: 12px;\n  color: #888;\n  margin-bottom: 6px;\n}\n.simple-list-item .text-box .sign[data-v-4257bc6c] {\n  display: inline-block;\n  vertical-align: top;\n  height: 20px;\n  padding: 0 5px;\n  background-color: #fff3f3;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.simple-list-item .text-box .sign .describe[data-v-4257bc6c] {\n  float: left;\n  line-height: 20px;\n  font-size: 11px;\n  color: #fb6165;\n}\n", ""]);
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.flex-rowstart-middle[data-v-1d7137c4] {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  align-items: center;\n}\n#simple-list-container[data-v-1d7137c4] {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.simple-list-item[data-v-1d7137c4] {\n  box-sizing: border-box;\n  height: 96px;\n  padding: 0 15px;\n  background-color: #fff;\n  margin-top: 4px;\n}\n.simple-list-item .img[data-v-1d7137c4] {\n  display: block;\n  width: 66px;\n  height: 66px;\n  background-color: #ccc;\n  margin-right: 10px;\n}\n.simple-list-item .text-box[data-v-1d7137c4] {\n  height: 66px;\n  line-height: 1;\n}\n.simple-list-item .text-box .title[data-v-1d7137c4] {\n  line-height: inherit;\n  font-size: 14px;\n  color: #383838;\n  margin: 4px 0 8px 0;\n}\n.simple-list-item .text-box .sub-title[data-v-1d7137c4] {\n  line-height: inherit;\n  font-size: 12px;\n  color: #888;\n  margin-bottom: 6px;\n}\n.simple-list-item .text-box .sign[data-v-1d7137c4] {\n  display: inline-block;\n  vertical-align: top;\n  height: 20px;\n  padding: 0 5px;\n  background-color: #fff3f3;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.simple-list-item .text-box .sign .describe[data-v-1d7137c4] {\n  float: left;\n  line-height: 20px;\n  font-size: 11px;\n  color: #fb6165;\n}\n", ""]);
 
 	// exports
 
@@ -4072,1254 +4078,1254 @@ webpackJsonp([1],[
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
 	+function (window, document, Math) {
-		/**
-	  * Tween.js
-	  */
-		var TWEEN = TWEEN || function () {
+					/**
+	     * Tween.js
+	     */
+					var TWEEN = TWEEN || function () {
 
-			var _tweens = [];
+									var _tweens = [];
 
-			return {
+									return {
 
-				getAll: function getAll() {
+													getAll: function getAll() {
 
-					return _tweens;
-				},
+																	return _tweens;
+													},
 
-				removeAll: function removeAll() {
+													removeAll: function removeAll() {
 
-					_tweens = [];
-				},
+																	_tweens = [];
+													},
 
-				add: function add(tween) {
+													add: function add(tween) {
 
-					_tweens.push(tween);
-				},
+																	_tweens.push(tween);
+													},
 
-				remove: function remove(tween) {
+													remove: function remove(tween) {
 
-					var i = _tweens.indexOf(tween);
+																	var i = _tweens.indexOf(tween);
 
-					if (i !== -1) {
-						_tweens.splice(i, 1);
+																	if (i !== -1) {
+																					_tweens.splice(i, 1);
+																	}
+													},
+
+													update: function update(time, preserve) {
+
+																	if (_tweens.length === 0) {
+																					return false;
+																	}
+
+																	var i = 0;
+
+																	time = time !== undefined ? time : TWEEN.now();
+
+																	while (i < _tweens.length) {
+
+																					if (_tweens[i].update(time) || preserve) {
+																									i++;
+																					} else {
+																									_tweens.splice(i, 1);
+																					}
+																	}
+
+																	return true;
+													}
+									};
+					}();
+
+					// Include a performance.now polyfill.
+					// In node.js, use process.hrtime.
+					if (typeof window === 'undefined' && typeof process !== 'undefined') {
+									TWEEN.now = function () {
+													var time = process.hrtime();
+
+													// Convert [seconds, nanoseconds] to milliseconds.
+													return time[0] * 1000 + time[1] / 1000000;
+									};
 					}
-				},
-
-				update: function update(time, preserve) {
-
-					if (_tweens.length === 0) {
-						return false;
-					}
-
-					var i = 0;
-
-					time = time !== undefined ? time : TWEEN.now();
-
-					while (i < _tweens.length) {
-
-						if (_tweens[i].update(time) || preserve) {
-							i++;
-						} else {
-							_tweens.splice(i, 1);
-						}
-					}
-
-					return true;
-				}
-			};
-		}();
-
-		// Include a performance.now polyfill.
-		// In node.js, use process.hrtime.
-		if (typeof window === 'undefined' && typeof process !== 'undefined') {
-			TWEEN.now = function () {
-				var time = process.hrtime();
-
-				// Convert [seconds, nanoseconds] to milliseconds.
-				return time[0] * 1000 + time[1] / 1000000;
-			};
-		}
-		// In a browser, use window.performance.now if it is available.
-		else if (typeof window !== 'undefined' && window.performance !== undefined && window.performance.now !== undefined) {
-				// This must be bound, because directly assigning this function
-				// leads to an invocation exception in Chrome.
-				TWEEN.now = window.performance.now.bind(window.performance);
-			}
-			// Use Date.now if it is available.
-			else if (Date.now !== undefined) {
-					TWEEN.now = Date.now;
-				}
-				// Otherwise, use 'new Date().getTime()'.
-				else {
-						TWEEN.now = function () {
-							return new Date().getTime();
-						};
-					}
-
-		TWEEN.Tween = function (object) {
-
-			var _object = object; //初始动画数据对象
-			var _valuesStart = {}; //动画数据对象属性初始值
-			var _valuesEnd = {}; //动画数据对象属性目标值
-			var _valuesStartRepeat = {}; //动画循环属性初始值
-			var _duration = 1000; //动画持续时间，默认1000ms
-			var _repeat = 0;
-			var _repeatDelayTime;
-			var _yoyo = false;
-			var _isPlaying = false; //动画开关
-			var _reversed = false;
-			var _delayTime = 0;
-			var _startTime = null; //动画开始时间
-			var _easingFunction = TWEEN.Easing.Linear.None; //通过缓动算法获取动画数据对象属性目标值的函数
-			var _interpolationFunction = TWEEN.Interpolation.Linear;
-			var _chainedTweens = [];
-			var _onStartCallback = null;
-			var _onStartCallbackFired = false; //onStart回调函数触发状态(已触发/未触发)
-			var _onUpdateCallback = null;
-			var _onCompleteCallback = null;
-			var _onStopCallback = null;
-
-			/**
-	   * 设置动画数据目标值方法
-	   */
-			this.to = function (properties, duration) {
-
-				_valuesEnd = properties; //获取动画数据对象属性目标值
-
-				if (duration !== undefined) {
-					_duration = duration; //获取动画持续时间
-				}
-
-				return this;
-			};
-
-			this.start = function (time) {
-
-				TWEEN.add(this); //添加至动画列表_tweens
-
-				_isPlaying = true; //动画开关
-
-				_onStartCallbackFired = false; //重置onStart回调函数触发状态
-
-				_startTime = time !== undefined ? time : TWEEN.now();
-				_startTime += _delayTime; //设置动画开始时间
-
-				for (var property in _valuesEnd) {
+					// In a browser, use window.performance.now if it is available.
+					else if (typeof window !== 'undefined' && window.performance !== undefined && window.performance.now !== undefined) {
+													// This must be bound, because directly assigning this function
+													// leads to an invocation exception in Chrome.
+													TWEEN.now = window.performance.now.bind(window.performance);
+									}
+									// Use Date.now if it is available.
+									else if (Date.now !== undefined) {
+																	TWEEN.now = Date.now;
+													}
+													// Otherwise, use 'new Date().getTime()'.
+													else {
+																					TWEEN.now = function () {
+																									return new Date().getTime();
+																					};
+																	}
+
+					TWEEN.Tween = function (object) {
+
+									var _object = object; //初始动画数据对象
+									var _valuesStart = {}; //动画数据对象属性初始值
+									var _valuesEnd = {}; //动画数据对象属性目标值
+									var _valuesStartRepeat = {}; //动画循环属性初始值
+									var _duration = 1000; //动画持续时间，默认1000ms
+									var _repeat = 0;
+									var _repeatDelayTime;
+									var _yoyo = false;
+									var _isPlaying = false; //动画开关
+									var _reversed = false;
+									var _delayTime = 0;
+									var _startTime = null; //动画开始时间
+									var _easingFunction = TWEEN.Easing.Linear.None; //通过缓动算法获取动画数据对象属性目标值的函数
+									var _interpolationFunction = TWEEN.Interpolation.Linear;
+									var _chainedTweens = [];
+									var _onStartCallback = null;
+									var _onStartCallbackFired = false; //onStart回调函数触发状态(已触发/未触发)
+									var _onUpdateCallback = null;
+									var _onCompleteCallback = null;
+									var _onStopCallback = null;
+
+									/**
+	         * 设置动画数据目标值方法
+	         */
+									this.to = function (properties, duration) {
+
+													_valuesEnd = properties; //获取动画数据对象属性目标值
+
+													if (duration !== undefined) {
+																	_duration = duration; //获取动画持续时间
+													}
+
+													return this;
+									};
+
+									this.start = function (time) {
+
+													TWEEN.add(this); //添加至动画列表_tweens
+
+													_isPlaying = true; //动画开关
+
+													_onStartCallbackFired = false; //重置onStart回调函数触发状态
+
+													_startTime = time !== undefined ? time : TWEEN.now();
+													_startTime += _delayTime; //设置动画开始时间
+
+													for (var property in _valuesEnd) {
+
+																	// Check if an Array was provided as property value
+																	// 检查动画数据对象是否有数组值
+																	if (_valuesEnd[property] instanceof Array) {
+
+																					if (_valuesEnd[property].length === 0) {
+																									continue;
+																					}
+
+																					// Create a local copy of the Array with the start value at the front
+																					// 复制得到一个动画数据对象的该属性值在数组第一位的数组
+																					_valuesEnd[property] = [_object[property]].concat(_valuesEnd[property]);
+																	}
 
-					// Check if an Array was provided as property value
-					// 检查动画数据对象是否有数组值
-					if (_valuesEnd[property] instanceof Array) {
+																	// If `to()` specifies a property that doesn't exist in the source object,
+																	// we should not set that property in the object
+																	if (_object[property] === undefined) {
+																					continue;
+																	}
 
-						if (_valuesEnd[property].length === 0) {
-							continue;
-						}
+																	// Save the starting value.
+																	// 设置动画数据对象属性初始值
+																	_valuesStart[property] = _object[property];
 
-						// Create a local copy of the Array with the start value at the front
-						// 复制得到一个动画数据对象的该属性值在数组第一位的数组
-						_valuesEnd[property] = [_object[property]].concat(_valuesEnd[property]);
-					}
+																	// Ensures we're using numbers, not strings
+																	// 确保属性值的类型为number
+																	if (_valuesStart[property] instanceof Array === false) {
+																					_valuesStart[property] *= 1.0;
+																	}
 
-					// If `to()` specifies a property that doesn't exist in the source object,
-					// we should not set that property in the object
-					if (_object[property] === undefined) {
-						continue;
-					}
+																	// 设置动画循环属性初始值
+																	_valuesStartRepeat[property] = _valuesStart[property] || 0;
+													}
 
-					// Save the starting value.
-					// 设置动画数据对象属性初始值
-					_valuesStart[property] = _object[property];
+													return this;
+									};
 
-					// Ensures we're using numbers, not strings
-					// 确保属性值的类型为number
-					if (_valuesStart[property] instanceof Array === false) {
-						_valuesStart[property] *= 1.0;
-					}
+									this.stop = function () {
 
-					// 设置动画循环属性初始值
-					_valuesStartRepeat[property] = _valuesStart[property] || 0;
-				}
+													if (!_isPlaying) {
+																	return this;
+													}
 
-				return this;
-			};
+													TWEEN.remove(this);
+													_isPlaying = false;
 
-			this.stop = function () {
+													if (_onStopCallback !== null) {
+																	_onStopCallback.call(_object, _object);
+													}
 
-				if (!_isPlaying) {
-					return this;
-				}
+													this.stopChainedTweens();
+													return this;
+									};
 
-				TWEEN.remove(this);
-				_isPlaying = false;
+									this.end = function () {
 
-				if (_onStopCallback !== null) {
-					_onStopCallback.call(_object, _object);
-				}
+													this.update(_startTime + _duration);
+													return this;
+									};
 
-				this.stopChainedTweens();
-				return this;
-			};
+									this.stopChainedTweens = function () {
 
-			this.end = function () {
+													for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
+																	_chainedTweens[i].stop();
+													}
+									};
 
-				this.update(_startTime + _duration);
-				return this;
-			};
+									this.delay = function (amount) {
 
-			this.stopChainedTweens = function () {
+													_delayTime = amount;
+													return this;
+									};
 
-				for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
-					_chainedTweens[i].stop();
-				}
-			};
+									this.repeat = function (times) {
 
-			this.delay = function (amount) {
+													_repeat = times;
+													return this;
+									};
 
-				_delayTime = amount;
-				return this;
-			};
+									this.repeatDelay = function (amount) {
 
-			this.repeat = function (times) {
+													_repeatDelayTime = amount;
+													return this;
+									};
 
-				_repeat = times;
-				return this;
-			};
+									this.yoyo = function (yoyo) {
 
-			this.repeatDelay = function (amount) {
+													_yoyo = yoyo;
+													return this;
+									};
 
-				_repeatDelayTime = amount;
-				return this;
-			};
+									this.easing = function (easing) {
 
-			this.yoyo = function (yoyo) {
+													_easingFunction = easing;
+													return this;
+									};
 
-				_yoyo = yoyo;
-				return this;
-			};
+									this.interpolation = function (interpolation) {
 
-			this.easing = function (easing) {
+													_interpolationFunction = interpolation;
+													return this;
+									};
 
-				_easingFunction = easing;
-				return this;
-			};
+									this.chain = function () {
 
-			this.interpolation = function (interpolation) {
+													_chainedTweens = arguments;
+													return this;
+									};
 
-				_interpolationFunction = interpolation;
-				return this;
-			};
+									this.onStart = function (callback) {
 
-			this.chain = function () {
+													_onStartCallback = callback;
+													return this;
+									};
 
-				_chainedTweens = arguments;
-				return this;
-			};
+									this.onUpdate = function (callback) {
 
-			this.onStart = function (callback) {
+													_onUpdateCallback = callback;
+													return this;
+									};
 
-				_onStartCallback = callback;
-				return this;
-			};
+									this.onComplete = function (callback) {
 
-			this.onUpdate = function (callback) {
+													_onCompleteCallback = callback;
+													return this;
+									};
 
-				_onUpdateCallback = callback;
-				return this;
-			};
+									this.onStop = function (callback) {
 
-			this.onComplete = function (callback) {
+													_onStopCallback = callback;
+													return this;
+									};
 
-				_onCompleteCallback = callback;
-				return this;
-			};
+									this.update = function (time) {
 
-			this.onStop = function (callback) {
+													var property;
+													var elapsed;
+													var value;
 
-				_onStopCallback = callback;
-				return this;
-			};
+													if (time < _startTime) {
+																	return true;
+													}
 
-			this.update = function (time) {
+													// 如果onStart回调函数未触发，那么使其触发并执行
+													if (_onStartCallbackFired === false) {
 
-				var property;
-				var elapsed;
-				var value;
+																	if (_onStartCallback !== null) {
+																					_onStartCallback.call(_object, _object);
+																	}
 
-				if (time < _startTime) {
-					return true;
-				}
+																	_onStartCallbackFired = true;
+													}
 
-				// 如果onStart回调函数未触发，那么使其触发并执行
-				if (_onStartCallbackFired === false) {
+													//time - _startTime动画已经执行的时间
+													elapsed = (time - _startTime) / _duration;
+													elapsed = elapsed > 1 ? 1 : elapsed;
+													value = _easingFunction(elapsed);
 
-					if (_onStartCallback !== null) {
-						_onStartCallback.call(_object, _object);
-					}
+													for (property in _valuesEnd) {
 
-					_onStartCallbackFired = true;
-				}
+																	// Don't update properties that do not exist in the source object
+																	if (_valuesStart[property] === undefined) {
+																					continue;
+																	}
 
-				//time - _startTime动画已经执行的时间
-				elapsed = (time - _startTime) / _duration;
-				elapsed = elapsed > 1 ? 1 : elapsed;
-				value = _easingFunction(elapsed);
+																	var start = _valuesStart[property] || 0;
+																	var end = _valuesEnd[property];
+																	if (end instanceof Array) {
 
-				for (property in _valuesEnd) {
+																					_object[property] = _interpolationFunction(end, value);
+																	} else {
 
-					// Don't update properties that do not exist in the source object
-					if (_valuesStart[property] === undefined) {
-						continue;
-					}
+																					// Parses relative end values with start as base (e.g.: +10, -3)
+																					if (typeof end === 'string') {
 
-					var start = _valuesStart[property] || 0;
-					var end = _valuesEnd[property];
-					if (end instanceof Array) {
+																									if (end.charAt(0) === '+' || end.charAt(0) === '-') {
+																													end = start + parseFloat(end);
+																									} else {
+																													end = parseFloat(end);
+																									}
+																					}
 
-						_object[property] = _interpolationFunction(end, value);
-					} else {
+																					// Protect against non numeric properties.
+																					if (typeof end === 'number') {
+																									// p = b + c * value;  b:初始值 c:变量值 value:缓动系数
+																									_object[property] = start + (end - start) * value;
+																					}
+																	}
+													}
 
-						// Parses relative end values with start as base (e.g.: +10, -3)
-						if (typeof end === 'string') {
+													if (_onUpdateCallback !== null) {
+																	_onUpdateCallback.call(_object, value);
+													}
 
-							if (end.charAt(0) === '+' || end.charAt(0) === '-') {
-								end = start + parseFloat(end);
-							} else {
-								end = parseFloat(end);
-							}
-						}
+													if (elapsed === 1) {
 
-						// Protect against non numeric properties.
-						if (typeof end === 'number') {
-							// p = b + c * value;  b:初始值 c:变量值 value:缓动系数
-							_object[property] = start + (end - start) * value;
-						}
-					}
-				}
+																	if (_repeat > 0) {
 
-				if (_onUpdateCallback !== null) {
-					_onUpdateCallback.call(_object, value);
-				}
+																					if (isFinite(_repeat)) {
+																									_repeat--;
+																					}
 
-				if (elapsed === 1) {
+																					// Reassign starting values, restart by making startTime = now
+																					for (property in _valuesStartRepeat) {
 
-					if (_repeat > 0) {
+																									if (typeof _valuesEnd[property] === 'string') {
+																													_valuesStartRepeat[property] = _valuesStartRepeat[property] + parseFloat(_valuesEnd[property]);
+																									}
 
-						if (isFinite(_repeat)) {
-							_repeat--;
-						}
+																									if (_yoyo) {
+																													var tmp = _valuesStartRepeat[property];
 
-						// Reassign starting values, restart by making startTime = now
-						for (property in _valuesStartRepeat) {
+																													_valuesStartRepeat[property] = _valuesEnd[property];
+																													_valuesEnd[property] = tmp;
+																									}
 
-							if (typeof _valuesEnd[property] === 'string') {
-								_valuesStartRepeat[property] = _valuesStartRepeat[property] + parseFloat(_valuesEnd[property]);
-							}
+																									_valuesStart[property] = _valuesStartRepeat[property];
+																					}
 
-							if (_yoyo) {
-								var tmp = _valuesStartRepeat[property];
+																					if (_yoyo) {
+																									_reversed = !_reversed;
+																					}
 
-								_valuesStartRepeat[property] = _valuesEnd[property];
-								_valuesEnd[property] = tmp;
-							}
+																					if (_repeatDelayTime !== undefined) {
+																									_startTime = time + _repeatDelayTime;
+																					} else {
+																									_startTime = time + _delayTime;
+																					}
 
-							_valuesStart[property] = _valuesStartRepeat[property];
-						}
+																					return true;
+																	} else {
 
-						if (_yoyo) {
-							_reversed = !_reversed;
-						}
+																					if (_onCompleteCallback !== null) {
 
-						if (_repeatDelayTime !== undefined) {
-							_startTime = time + _repeatDelayTime;
-						} else {
-							_startTime = time + _delayTime;
-						}
+																									_onCompleteCallback.call(_object, _object);
+																					}
 
-						return true;
-					} else {
+																					for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
+																									// Make the chained tweens start exactly at the time they should,
+																									// even if the `update()` method was called way past the duration of the tween
+																									_chainedTweens[i].start(_startTime + _duration);
+																					}
 
-						if (_onCompleteCallback !== null) {
+																					return false;
+																	}
+													}
 
-							_onCompleteCallback.call(_object, _object);
-						}
-
-						for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
-							// Make the chained tweens start exactly at the time they should,
-							// even if the `update()` method was called way past the duration of the tween
-							_chainedTweens[i].start(_startTime + _duration);
-						}
-
-						return false;
-					}
-				}
-
-				return true;
-			};
-		};
-
-		// k = t/d
-		TWEEN.Easing = {
-			//线性匀速运动效果
-			Linear: {
-
-				None: function None(k) {
-
-					return k;
-				}
-
-			},
-			//二次方的缓动（t^2）
-			Quadratic: {
-
-				In: function In(k) {
-
-					return k * k;
-				},
-
-				Out: function Out(k) {
-
-					return k * (2 - k);
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return 0.5 * k * k;
-					}
-
-					return -0.5 * (--k * (k - 2) - 1);
-				}
-
-			},
-			//三次方的缓动（t^2）
-			Cubic: {
-
-				In: function In(k) {
-
-					return k * k * k;
-				},
-
-				Out: function Out(k) {
-
-					return --k * k * k + 1;
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return 0.5 * k * k * k;
-					}
-
-					return 0.5 * ((k -= 2) * k * k + 2);
-				}
-
-			},
-			//四次方的缓动（t^2）
-			Quartic: {
-
-				In: function In(k) {
-
-					return k * k * k * k;
-				},
-
-				Out: function Out(k) {
-
-					return 1 - --k * k * k * k;
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return 0.5 * k * k * k * k;
-					}
-
-					return -0.5 * ((k -= 2) * k * k * k - 2);
-				}
-
-			},
-			//五次方的缓动（t^2）
-			Quintic: {
-
-				In: function In(k) {
-
-					return k * k * k * k * k;
-				},
-
-				Out: function Out(k) {
-
-					return --k * k * k * k * k + 1;
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return 0.5 * k * k * k * k * k;
-					}
-
-					return 0.5 * ((k -= 2) * k * k * k * k + 2);
-				}
-
-			},
-			//正弦曲线的缓动（sin(t)）
-			Sinusoidal: {
-
-				In: function In(k) {
-
-					return 1 - Math.cos(k * Math.PI / 2);
-				},
-
-				Out: function Out(k) {
-
-					return Math.sin(k * Math.PI / 2);
-				},
-
-				InOut: function InOut(k) {
-
-					return 0.5 * (1 - Math.cos(Math.PI * k));
-				}
-
-			},
-			//指数曲线的缓动(2^t)
-			Exponential: {
-
-				In: function In(k) {
-
-					return k === 0 ? 0 : Math.pow(1024, k - 1);
-				},
-
-				Out: function Out(k) {
-
-					return k === 1 ? 1 : 1 - Math.pow(2, -10 * k);
-				},
-
-				InOut: function InOut(k) {
-
-					if (k === 0) {
-						return 0;
-					}
-
-					if (k === 1) {
-						return 1;
-					}
-
-					if ((k *= 2) < 1) {
-						return 0.5 * Math.pow(1024, k - 1);
-					}
-
-					return 0.5 * (-Math.pow(2, -10 * (k - 1)) + 2);
-				}
-
-			},
-			//圆形曲线的缓动(sqrt(1-t^2))
-			Circular: {
-
-				In: function In(k) {
-
-					return 1 - Math.sqrt(1 - k * k);
-				},
-
-				Out: function Out(k) {
-
-					return Math.sqrt(1 - --k * k);
-				},
-
-				InOut: function InOut(k) {
-
-					if ((k *= 2) < 1) {
-						return -0.5 * (Math.sqrt(1 - k * k) - 1);
-					}
-
-					return 0.5 * (Math.sqrt(1 - (k -= 2) * k) + 1);
-				}
-
-			},
-			//指数衰减的正弦曲线缓动
-			Elastic: {
-
-				In: function In(k) {
-
-					if (k === 0) {
-						return 0;
-					}
-
-					if (k === 1) {
-						return 1;
-					}
-
-					return -Math.pow(2, 10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI);
-				},
-
-				Out: function Out(k) {
-
-					if (k === 0) {
-						return 0;
-					}
-
-					if (k === 1) {
-						return 1;
-					}
-
-					return Math.pow(2, -10 * k) * Math.sin((k - 0.1) * 5 * Math.PI) + 1;
-				},
-
-				InOut: function InOut(k) {
-
-					if (k === 0) {
-						return 0;
-					}
-
-					if (k === 1) {
-						return 1;
-					}
-
-					k *= 2;
-
-					if (k < 1) {
-						return -0.5 * Math.pow(2, 10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI);
-					}
-
-					return 0.5 * Math.pow(2, -10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI) + 1;
-				}
-
-			},
-			//超过范围的三次方缓动((s+1)*t^3 – s*t^2)
-			Back: {
-
-				In: function In(k) {
-
-					var s = 1.70158;
-
-					return k * k * ((s + 1) * k - s);
-				},
-
-				Out: function Out(k) {
-
-					var s = 1.70158;
-
-					return --k * k * ((s + 1) * k + s) + 1;
-				},
-
-				InOut: function InOut(k) {
-
-					var s = 1.70158 * 1.525;
-
-					if ((k *= 2) < 1) {
-						return 0.5 * (k * k * ((s + 1) * k - s));
-					}
-
-					return 0.5 * ((k -= 2) * k * ((s + 1) * k + s) + 2);
-				}
-
-			},
-			//指数衰减的反弹缓动
-			Bounce: {
-
-				In: function In(k) {
-
-					return 1 - TWEEN.Easing.Bounce.Out(1 - k);
-				},
-
-				Out: function Out(k) {
-
-					if (k < 1 / 2.75) {
-						return 7.5625 * k * k;
-					} else if (k < 2 / 2.75) {
-						return 7.5625 * (k -= 1.5 / 2.75) * k + 0.75;
-					} else if (k < 2.5 / 2.75) {
-						return 7.5625 * (k -= 2.25 / 2.75) * k + 0.9375;
-					} else {
-						return 7.5625 * (k -= 2.625 / 2.75) * k + 0.984375;
-					}
-				},
-
-				InOut: function InOut(k) {
-
-					if (k < 0.5) {
-						return TWEEN.Easing.Bounce.In(k * 2) * 0.5;
-					}
-
-					return TWEEN.Easing.Bounce.Out(k * 2 - 1) * 0.5 + 0.5;
-				}
-
-			}
-
-		};
-
-		TWEEN.Interpolation = {
-
-			Linear: function Linear(v, k) {
-
-				var m = v.length - 1;
-				var f = m * k;
-				var i = Math.floor(f);
-				var fn = TWEEN.Interpolation.Utils.Linear;
-
-				if (k < 0) {
-					return fn(v[0], v[1], f);
-				}
-
-				if (k > 1) {
-					return fn(v[m], v[m - 1], m - f);
-				}
-
-				return fn(v[i], v[i + 1 > m ? m : i + 1], f - i);
-			},
-
-			Bezier: function Bezier(v, k) {
-
-				var b = 0;
-				var n = v.length - 1;
-				var pw = Math.pow;
-				var bn = TWEEN.Interpolation.Utils.Bernstein;
-
-				for (var i = 0; i <= n; i++) {
-					b += pw(1 - k, n - i) * pw(k, i) * v[i] * bn(n, i);
-				}
-
-				return b;
-			},
-
-			CatmullRom: function CatmullRom(v, k) {
-
-				var m = v.length - 1;
-				var f = m * k;
-				var i = Math.floor(f);
-				var fn = TWEEN.Interpolation.Utils.CatmullRom;
-
-				if (v[0] === v[m]) {
-
-					if (k < 0) {
-						i = Math.floor(f = m * (1 + k));
-					}
-
-					return fn(v[(i - 1 + m) % m], v[i], v[(i + 1) % m], v[(i + 2) % m], f - i);
-				} else {
-
-					if (k < 0) {
-						return v[0] - (fn(v[0], v[0], v[1], v[1], -f) - v[0]);
-					}
-
-					if (k > 1) {
-						return v[m] - (fn(v[m], v[m], v[m - 1], v[m - 1], f - m) - v[m]);
-					}
-
-					return fn(v[i ? i - 1 : 0], v[i], v[m < i + 1 ? m : i + 1], v[m < i + 2 ? m : i + 2], f - i);
-				}
-			},
-
-			Utils: {
-
-				Linear: function Linear(p0, p1, t) {
-
-					return (p1 - p0) * t + p0;
-				},
-
-				Bernstein: function Bernstein(n, i) {
-
-					var fc = TWEEN.Interpolation.Utils.Factorial;
-
-					return fc(n) / fc(i) / fc(n - i);
-				},
-
-				Factorial: function () {
-
-					var a = [1];
-
-					return function (n) {
-
-						var s = 1;
-
-						if (a[n]) {
-							return a[n];
-						}
-
-						for (var i = n; i > 1; i--) {
-							s *= i;
-						}
-
-						a[n] = s;
-						return s;
+													return true;
+									};
 					};
-				}(),
 
-				CatmullRom: function CatmullRom(p0, p1, p2, p3, t) {
+					// k = t/d
+					TWEEN.Easing = {
+									//线性匀速运动效果
+									Linear: {
 
-					var v0 = (p2 - p0) * 0.5;
-					var v1 = (p3 - p1) * 0.5;
-					var t2 = t * t;
-					var t3 = t * t2;
+													None: function None(k) {
 
-					return (2 * p1 - 2 * p2 + v0 + v1) * t3 + (-3 * p1 + 3 * p2 - 2 * v0 - v1) * t2 + v0 * t + p1;
-				}
+																	return k;
+													}
 
-			}
+									},
+									//二次方的缓动（t^2）
+									Quadratic: {
 
-		};
+													In: function In(k) {
 
-		/**
-	  * 存在兼容性的web API
-	  * touchEvent : Firefox Mobile (Gecko) 6.0 以上版本支持 , IE Mobile 11 以上版本支持
-	  * document.querySelector() : Opera Mobile 10.0 以上版本支持 , IE Mobile 9 以上版本支持
-	  * window.innerHeight : IE Mobile 9 以上版本支持 , Opera Mobile 9 以上版本支持
-	  * 
-	  * 浏览器兼容性(iOS 7.0+ , Android 4.4+) : Safari Mobile , iOS webview , Chrome for iOS
-	  *                                        Android , Android Webview , Chrome for Android
-	  *                                        Firefox Mobile (Gecko) 6.0+ , IE Mobile 11+ , Opera Mobile 9+
-	  *                                        UC browser , QQ browser
-	  * 
-	  * 已真机测试并支持的浏览器 : (iOS 10.1.1) webview , (iOS 10.1.1) Safari , (iOS 10.1.1) Chrome 56.0.2924.79
-	  *                          (iOS 10.1.1) Firefox Mobile (Gecko) 6.1(1) , (iOS 10.1.1)Opera Mobile 11.0.1.107866
-	  *                          (iOS 10.1.1)UC browser 11.4.7.931 , (iOS 10.1.1)QQ browser 7.2.1.2879 
-	  */
+																	return k * k;
+													},
 
-		var Slideload = function Slideload(element, options) {
-			var self = this;
-			self.slider = typeof element == 'string' ? document.querySelector(element) : element;
+													Out: function Out(k) {
 
-			self.next = function () {
-				self.reset();
-			};
-			self.stop = function () {
-				self.opts.isData = false;
-				self.reset();
-			};
+																	return k * (2 - k);
+													},
 
-			self.eventList = [];
-			self.initEventProgress = 0;
-			self.on = function (eventName, cb) {
-				//事件监听API load refresh
-				self.eventList.push(eventName);
-				options[eventName + 'Handle'] = cb;
-				setTimeout(function () {
-					self.initEventProgress += 1;
-					if (self.eventList.length == self.initEventProgress) {
-						self.init(options);
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * k * k;
+																	}
+
+																	return -0.5 * (--k * (k - 2) - 1);
+													}
+
+									},
+									//三次方的缓动（t^2）
+									Cubic: {
+
+													In: function In(k) {
+
+																	return k * k * k;
+													},
+
+													Out: function Out(k) {
+
+																	return --k * k * k + 1;
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * k * k * k;
+																	}
+
+																	return 0.5 * ((k -= 2) * k * k + 2);
+													}
+
+									},
+									//四次方的缓动（t^2）
+									Quartic: {
+
+													In: function In(k) {
+
+																	return k * k * k * k;
+													},
+
+													Out: function Out(k) {
+
+																	return 1 - --k * k * k * k;
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * k * k * k * k;
+																	}
+
+																	return -0.5 * ((k -= 2) * k * k * k - 2);
+													}
+
+									},
+									//五次方的缓动（t^2）
+									Quintic: {
+
+													In: function In(k) {
+
+																	return k * k * k * k * k;
+													},
+
+													Out: function Out(k) {
+
+																	return --k * k * k * k * k + 1;
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * k * k * k * k * k;
+																	}
+
+																	return 0.5 * ((k -= 2) * k * k * k * k + 2);
+													}
+
+									},
+									//正弦曲线的缓动（sin(t)）
+									Sinusoidal: {
+
+													In: function In(k) {
+
+																	return 1 - Math.cos(k * Math.PI / 2);
+													},
+
+													Out: function Out(k) {
+
+																	return Math.sin(k * Math.PI / 2);
+													},
+
+													InOut: function InOut(k) {
+
+																	return 0.5 * (1 - Math.cos(Math.PI * k));
+													}
+
+									},
+									//指数曲线的缓动(2^t)
+									Exponential: {
+
+													In: function In(k) {
+
+																	return k === 0 ? 0 : Math.pow(1024, k - 1);
+													},
+
+													Out: function Out(k) {
+
+																	return k === 1 ? 1 : 1 - Math.pow(2, -10 * k);
+													},
+
+													InOut: function InOut(k) {
+
+																	if (k === 0) {
+																					return 0;
+																	}
+
+																	if (k === 1) {
+																					return 1;
+																	}
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * Math.pow(1024, k - 1);
+																	}
+
+																	return 0.5 * (-Math.pow(2, -10 * (k - 1)) + 2);
+													}
+
+									},
+									//圆形曲线的缓动(sqrt(1-t^2))
+									Circular: {
+
+													In: function In(k) {
+
+																	return 1 - Math.sqrt(1 - k * k);
+													},
+
+													Out: function Out(k) {
+
+																	return Math.sqrt(1 - --k * k);
+													},
+
+													InOut: function InOut(k) {
+
+																	if ((k *= 2) < 1) {
+																					return -0.5 * (Math.sqrt(1 - k * k) - 1);
+																	}
+
+																	return 0.5 * (Math.sqrt(1 - (k -= 2) * k) + 1);
+													}
+
+									},
+									//指数衰减的正弦曲线缓动
+									Elastic: {
+
+													In: function In(k) {
+
+																	if (k === 0) {
+																					return 0;
+																	}
+
+																	if (k === 1) {
+																					return 1;
+																	}
+
+																	return -Math.pow(2, 10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI);
+													},
+
+													Out: function Out(k) {
+
+																	if (k === 0) {
+																					return 0;
+																	}
+
+																	if (k === 1) {
+																					return 1;
+																	}
+
+																	return Math.pow(2, -10 * k) * Math.sin((k - 0.1) * 5 * Math.PI) + 1;
+													},
+
+													InOut: function InOut(k) {
+
+																	if (k === 0) {
+																					return 0;
+																	}
+
+																	if (k === 1) {
+																					return 1;
+																	}
+
+																	k *= 2;
+
+																	if (k < 1) {
+																					return -0.5 * Math.pow(2, 10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI);
+																	}
+
+																	return 0.5 * Math.pow(2, -10 * (k - 1)) * Math.sin((k - 1.1) * 5 * Math.PI) + 1;
+													}
+
+									},
+									//超过范围的三次方缓动((s+1)*t^3 – s*t^2)
+									Back: {
+
+													In: function In(k) {
+
+																	var s = 1.70158;
+
+																	return k * k * ((s + 1) * k - s);
+													},
+
+													Out: function Out(k) {
+
+																	var s = 1.70158;
+
+																	return --k * k * ((s + 1) * k + s) + 1;
+													},
+
+													InOut: function InOut(k) {
+
+																	var s = 1.70158 * 1.525;
+
+																	if ((k *= 2) < 1) {
+																					return 0.5 * (k * k * ((s + 1) * k - s));
+																	}
+
+																	return 0.5 * ((k -= 2) * k * ((s + 1) * k + s) + 2);
+													}
+
+									},
+									//指数衰减的反弹缓动
+									Bounce: {
+
+													In: function In(k) {
+
+																	return 1 - TWEEN.Easing.Bounce.Out(1 - k);
+													},
+
+													Out: function Out(k) {
+
+																	if (k < 1 / 2.75) {
+																					return 7.5625 * k * k;
+																	} else if (k < 2 / 2.75) {
+																					return 7.5625 * (k -= 1.5 / 2.75) * k + 0.75;
+																	} else if (k < 2.5 / 2.75) {
+																					return 7.5625 * (k -= 2.25 / 2.75) * k + 0.9375;
+																	} else {
+																					return 7.5625 * (k -= 2.625 / 2.75) * k + 0.984375;
+																	}
+													},
+
+													InOut: function InOut(k) {
+
+																	if (k < 0.5) {
+																					return TWEEN.Easing.Bounce.In(k * 2) * 0.5;
+																	}
+
+																	return TWEEN.Easing.Bounce.Out(k * 2 - 1) * 0.5 + 0.5;
+													}
+
+									}
+
+					};
+
+					TWEEN.Interpolation = {
+
+									Linear: function Linear(v, k) {
+
+													var m = v.length - 1;
+													var f = m * k;
+													var i = Math.floor(f);
+													var fn = TWEEN.Interpolation.Utils.Linear;
+
+													if (k < 0) {
+																	return fn(v[0], v[1], f);
+													}
+
+													if (k > 1) {
+																	return fn(v[m], v[m - 1], m - f);
+													}
+
+													return fn(v[i], v[i + 1 > m ? m : i + 1], f - i);
+									},
+
+									Bezier: function Bezier(v, k) {
+
+													var b = 0;
+													var n = v.length - 1;
+													var pw = Math.pow;
+													var bn = TWEEN.Interpolation.Utils.Bernstein;
+
+													for (var i = 0; i <= n; i++) {
+																	b += pw(1 - k, n - i) * pw(k, i) * v[i] * bn(n, i);
+													}
+
+													return b;
+									},
+
+									CatmullRom: function CatmullRom(v, k) {
+
+													var m = v.length - 1;
+													var f = m * k;
+													var i = Math.floor(f);
+													var fn = TWEEN.Interpolation.Utils.CatmullRom;
+
+													if (v[0] === v[m]) {
+
+																	if (k < 0) {
+																					i = Math.floor(f = m * (1 + k));
+																	}
+
+																	return fn(v[(i - 1 + m) % m], v[i], v[(i + 1) % m], v[(i + 2) % m], f - i);
+													} else {
+
+																	if (k < 0) {
+																					return v[0] - (fn(v[0], v[0], v[1], v[1], -f) - v[0]);
+																	}
+
+																	if (k > 1) {
+																					return v[m] - (fn(v[m], v[m], v[m - 1], v[m - 1], f - m) - v[m]);
+																	}
+
+																	return fn(v[i ? i - 1 : 0], v[i], v[m < i + 1 ? m : i + 1], v[m < i + 2 ? m : i + 2], f - i);
+													}
+									},
+
+									Utils: {
+
+													Linear: function Linear(p0, p1, t) {
+
+																	return (p1 - p0) * t + p0;
+													},
+
+													Bernstein: function Bernstein(n, i) {
+
+																	var fc = TWEEN.Interpolation.Utils.Factorial;
+
+																	return fc(n) / fc(i) / fc(n - i);
+													},
+
+													Factorial: function () {
+
+																	var a = [1];
+
+																	return function (n) {
+
+																					var s = 1;
+
+																					if (a[n]) {
+																									return a[n];
+																					}
+
+																					for (var i = n; i > 1; i--) {
+																									s *= i;
+																					}
+
+																					a[n] = s;
+																					return s;
+																	};
+													}(),
+
+													CatmullRom: function CatmullRom(p0, p1, p2, p3, t) {
+
+																	var v0 = (p2 - p0) * 0.5;
+																	var v1 = (p3 - p1) * 0.5;
+																	var t2 = t * t;
+																	var t3 = t * t2;
+
+																	return (2 * p1 - 2 * p2 + v0 + v1) * t3 + (-3 * p1 + 3 * p2 - 2 * v0 - v1) * t2 + v0 * t + p1;
+													}
+
+									}
+
+					};
+
+					/**
+	     * 存在兼容性的web API
+	     * touchEvent : Firefox Mobile (Gecko) 6.0 以上版本支持 , IE Mobile 11 以上版本支持
+	     * document.querySelector() : Opera Mobile 10.0 以上版本支持 , IE Mobile 9 以上版本支持
+	     * window.innerHeight : IE Mobile 9 以上版本支持 , Opera Mobile 9 以上版本支持
+	     * 
+	     * 浏览器兼容性(iOS 7.0+ , Android 4.4+) : Safari Mobile , iOS webview , Chrome for iOS
+	     *                                        Android , Android Webview , Chrome for Android
+	     *                                        Firefox Mobile (Gecko) 6.0+ , IE Mobile 11+ , Opera Mobile 9+
+	     *                                        UC browser , QQ browser
+	     * 
+	     * 已真机测试并支持的浏览器 : (iOS 10.1.1) webview , (iOS 10.1.1) Safari , (iOS 10.1.1) Chrome 56.0.2924.79
+	     *                          (iOS 10.1.1) Firefox Mobile (Gecko) 6.1(1) , (iOS 10.1.1)Opera Mobile 11.0.1.107866
+	     *                          (iOS 10.1.1)UC browser 11.4.7.931 , (iOS 10.1.1)QQ browser 7.2.1.2879 
+	     */
+
+					var Slideload = function Slideload(element, options) {
+									var self = this;
+									self.slider = typeof element == 'string' ? document.querySelector(element) : element;
+
+									self.next = function () {
+													self.reset();
+									};
+									self.stop = function () {
+													self.opts.isData = false;
+													self.reset();
+									};
+
+									self.eventList = [];
+									self.initEventProgress = 0;
+									self.on = function (eventName, cb) {
+													//事件监听API load refresh
+													self.eventList.push(eventName);
+													options[eventName + 'Handle'] = cb;
+													setTimeout(function () {
+																	self.initEventProgress += 1;
+																	if (self.eventList.length == self.initEventProgress) {
+																					self.init(options);
+																	}
+													}, 0);
+									};
+					};
+					//初始化
+					Slideload.prototype.init = function (options) {
+									var self = this;
+									self.opts = self.utils.extend({
+													scrollArea: self.slider, //滑动区域
+													scrollAreaHeight: 0, //滑动区域高度
+													scrollCont: undefined, //列表容器
+													loading: false, //loading状态
+													isLockLoad: false, //无线滚动是否锁定
+													isLockRefresh: false, //下拉刷新是否锁定
+													isData: true, //请求结果是否有数据
+													direction: 'up', //滑动方向
+													scrollTop: 0, //滚动条位置
+													scrollContentHeight: 0, //列表容器高度
+													limitNo: 0, //触发上拉加载的阈值
+													threshold: 50, //滚动提前加载距离
+													distance: 50, //出发下拉刷新的阈值
+													loadHandle: null, //上拉加载function
+													refreshHandle: null, //下拉刷新function
+													refreshDOM: '', //刷新提示DOM pull2refresh , release2refresh , loading , refreshSuccess
+													loadMoreDOM: '' //加載更多提示DOM pull2load , loading , loadSuccess
+									}, options);
+
+									//获取滚动区域高度
+									self.utils.getScrollAreaHeight(self);
+
+									if (self.utils.getCssProperty(self.opts.scrollArea, "position") === "static") {
+													self.opts.scrollArea.style.position = "relative";
+									}
+									self.moveEle = typeof self.opts.scrollCont == 'string' ? document.querySelector(self.opts.scrollCont) : self.opts.scrollCont;
+									//如果需要无限滚动则插入加载提示DOM
+									if (self.opts.loadHandle !== null) {
+													self.loadEle = document.createElement("div");
+													self.loadEle.innerHTML = self.opts.loadMoreDOM["pull2load"];
+													self.moveEle.appendChild(self.loadEle);
+									}
+									//如果需要下拉刷新则插入刷新提示DOM
+									if (self.opts.refreshHandle !== null) {
+													self.refreshEle = document.createElement("div");
+													self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
+													if (self.opts.scrollArea === window) {
+																	document.body.insertBefore(self.refreshEle, self.moveEle);
+													} else {
+																	self.opts.scrollArea.insertBefore(self.refreshEle, self.moveEle);
+													}
+													self.refreshEle.style.visibility = "hidden";
+									}
+
+									//自动加载
+									self.autoLoad(self);
+
+									// 窗口调整
+									document.addEventListener('resize', function () {
+													setTimeout(function () {
+																	self.utils.getScrollContentHeight(self);
+																	self.utils.getScrollAreaHeight(self);
+																	self.autoLoad(self);
+													}, 0);
+									}, false);
+
+									//設置transform & transition 浏览器厂商前缀
+									self.transformVendor = self.utils.vendor("transform");
+									self.transitionVendor = self.utils.vendor("transition");
+
+									//获取当前浏览器支持的animatePropertyName
+									if (self.transformVendor !== false) {
+													self.animatePropertyName = self.utils.prefixStyle(self.transformVendor, "transform");
+													self.animatePropertyValue = function (num) {
+																	return "translate3d(0px, " + num + "px, 0.01px)";
+													};
+													self.getAnimatePropertyValue = function (animatePropertyValue) {
+																	var re = /^.*translate3d\(0px\,\s+(\d+\.?\d?)px\,\s+0.01px\)$/i;
+																	return Math.floor(animatePropertyValue.match(re)[1]);
+													};
+									} else {
+													self.animatePropertyName = "top";
+													self.animatePropertyValue = function (num) {
+																	return num + "px";
+													};
+													self.getAnimatePropertyValue = function (animatePropertyValue) {
+																	return animatePropertyValue.slice(0, -2);
+													};
+									}
+
+									//判断当前浏览器是否支持transition
+									self.supportTransition = false;
+									if (self.transitionVendor !== false) {
+													self.supportTransition = true;
+													self.transition = self.utils.prefixStyle(self.transitionVendor, "transition");
+
+													var transEndEventNames = {
+																	WebkitTransition: "webkitTransitionEnd",
+																	MozTransition: "transitionend",
+																	msTransition: "transitionend",
+																	OTransition: "oTransitionEnd otransitionend",
+																	transition: "transitionend"
+													};
+													self.transEndEventNames = transEndEventNames[self.transition];
+													self.moveEle.addEventListener(self.transEndEventNames, function () {
+																	this.style[self.transition] = "";
+																	if (self.translateY == 0) {
+																					self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
+																					self.triggerAutoLoad();
+																	}
+													}, false);
+													//缓动动画
+													self.animate = function (startNum, endNum) {
+																	self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(endNum);
+													};
+									} else {
+													//缓动动画
+													self.animate = function (startNum, endNum) {
+																	var translateY = { y: startNum };
+																	var tween = new TWEEN.Tween(translateY).easing(TWEEN.Easing.Quadratic.Out).to({ y: endNum }, 260).onUpdate(function () {
+																					self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(this.y);
+																	}).onComplete(function (obj) {
+																					if (obj.y == 0) {
+																									self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
+																									self.triggerAutoLoad();
+																					}
+																	}).start();
+																	self.utils.rAF(animate);
+																	function animate(time) {
+																					self.utils.rAF(animate);
+																					TWEEN.update();
+																	}
+													};
+									}
+
+									self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(0);
+									self.moveEle.style.position = "absolute";
+									self.moveEle.style.top = "0";
+									self.translateY = 0;
+									self.touchmoveY = 0;
+
+									//判断浏览器是否支持 Passive event listeners
+									var supportPassive = false;
+									if ("defineProperty" in Object) {
+													try {
+																	var opts = Object.defineProperty({}, "passive", {
+																					get: function get() {
+																									supportPassive = true;
+																					}
+																	});
+																	window.addEventListener("test", null, opts);
+													} catch (e) {}
+									}
+
+									//绑定触摸
+									self.slider.addEventListener('touchstart', function (e) {
+													if (!self.opts.loading) {
+																	self.touchesHandle(e);
+																	self.touchstartHandle(e);
+													}
+									}, supportPassive ? { passive: true } : false);
+									self.slider.addEventListener('touchmove', function (e) {
+													if (!self.opts.loading) {
+																	self.touchesHandle(e);
+																	self.touchmoveHandle(e);
+													}
+									}, supportPassive ? { passive: false } : false);
+									self.slider.addEventListener('touchend', function () {
+													if (!self.opts.loading) {
+																	self.touchendHandle();
+													}
+									}, supportPassive ? { passive: true } : false);
+
+									//监听列表滚动，到底部自动加载数据
+									self.slider.addEventListener('scroll', function () {
+													self.utils.getScrollAreaHeight(self);
+													self.opts.limitNo = Number(self.opts.scrollContentHeight - self.opts.scrollAreaHeight);
+													self.opts.scrollTop = self.utils.getScrollTop(self);
+													//滚动页面触发加载数据
+													if (self.opts.limitNo > 0 && self.opts.direction == 'up' && self.opts.loadHandle !== null && !self.opts.loading && !self.opts.isLockLoad && self.opts.limitNo - self.opts.threshold <= self.opts.scrollTop) {
+																	self.lock("load");
+																	self.triggerLoad();
+													}
+									}, supportPassive ? { passive: true } : false);
+					};
+
+					//touches
+					Slideload.prototype.touchesHandle = function (e) {
+									e.touches = e.changedTouches;
+					};
+
+					//touchstart
+					Slideload.prototype.touchstartHandle = function (e) {
+									var self = this;
+									if (!self.opts.loading && self.opts.isData) {
+													self.unlock("load");
+									}
+									//滑动起点
+									self._startY = e.touches[0].pageY;
+
+									//获取滚动条位置
+									self.opts.scrollTop = self.utils.getScrollTop(self);
+
+									if (self.supportTransition) {
+													self.moveEle.style[self.transition] = "";
+									}
+					};
+
+					//touchmove
+					Slideload.prototype.touchmoveHandle = function (e) {
+									var self = this;
+									self._curY = e.touches[0].pageY;
+									self._moveY = self._curY - self._startY;
+									//获取滑动方向
+									if (self._moveY > 0) {
+													self.opts.direction = 'down';
+									} else if (self._moveY < 0) {
+													self.opts.direction = 'up';
+									}
+									//下拉刷新
+									if (!self.opts.loading && self.opts.refreshHandle !== null && self.opts.scrollTop <= 0 && !self.opts.isLockRefresh && self.opts.direction == 'down') {
+													e.preventDefault();
+													if (self.touchmoveY <= self.opts.distance) {
+																	self.touchmoveY = Math.floor(self._moveY * 0.6);
+													} else if (self.touchmoveY > self.opts.distance && self.touchmoveY <= self.opts.distance * 2) {
+																	self.touchmoveY = Math.floor(self.opts.distance + (self._moveY * 0.6 - self.opts.distance) * 0.5);
+													} else if (self.touchmoveY > self.opts.distance * 2) {
+																	self.touchmoveY = Math.floor(self.opts.distance * 2 + (self.opts.distance + (self._moveY * 0.6 - self.opts.distance) * 0.5 - self.opts.distance * 2) * 0.5);
+													}
+													self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(self.touchmoveY);
+													self.translateY = self.getAnimatePropertyValue(self.moveEle.style[self.animatePropertyName]);
+													if (self.translateY > 50) {
+																	self.refreshEle.innerHTML = self.opts.refreshDOM["release2refresh"];
+													} else {
+																	self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
+													}
+									}
+					};
+
+					//touchend
+					Slideload.prototype.touchendHandle = function () {
+									var self = this;
+									self.opts.scrollTop = self.utils.getScrollTop(self);
+									if (self.opts.scrollTop > 0) return;
+									var returnTarget = 0;
+									if (self.translateY > self.opts.distance) {
+													returnTarget = 50;
+													self.refreshEle.innerHTML = self.opts.refreshDOM["loading"];
+													self.triggerRefresh();
+									}
+									//判断浏览器是否支持 transition过渡
+									if (self.supportTransition) {
+													self.moveEle.style[self.transition] = "260ms ease-out";
+									}
+									self.animate(self.translateY, returnTarget);
+									self.translateY = returnTarget;
+									self.touchmoveY = returnTarget;
+					};
+
+					//触发自动加载
+					Slideload.prototype.triggerAutoLoad = function () {
+									var self = this;
+									//如果有数据
+									if (self.opts.isData) {
+													setTimeout(function () {
+																	self.loadEle.innerHTML = self.opts.loadMoreDOM["pull2load"];
+																	self.utils.getScrollContentHeight(self);
+																	self.autoLoad(self);
+													}, 0);
+									}
+					};
+
+					// 如果列表容器高度不大于滚动区域高度，数据较少，自动加载更多数据
+					Slideload.prototype.autoLoad = function () {
+									var self = this;
+									if (self.opts.scrollContentHeight - self.opts.threshold > self.opts.scrollAreaHeight) return;
+									if (self.opts.loadHandle !== null) {
+													self.opts.loading = true;
+													self.unlock("load");
+													self.triggerLoad();
+									}
+					};
+
+					//刷新數據
+					Slideload.prototype.triggerRefresh = function () {
+									var self = this;
+									self.opts.loading = true;
+									self.opts.refreshHandle(self.next, self.stop);
+					};
+
+					//加载更多数据
+					Slideload.prototype.triggerLoad = function () {
+									var self = this;
+									self.opts.loading = true;
+									self.loadEle.innerHTML = self.opts.loadMoreDOM["loading"];
+									self.opts.loadHandle(self.next, self.stop);
+					};
+
+					//锁定
+					Slideload.prototype.lock = function (type) {
+									var self = this;
+									if (type == 'load') {
+													self.opts.isLockLoad = true;
+									}
+					};
+
+					//解锁
+					Slideload.prototype.unlock = function (type) {
+									var self = this;
+									if (type == 'load') {
+													self.opts.isLockLoad = false;
+									}
+					};
+
+					//重置
+					Slideload.prototype.reset = function () {
+									var self = this;
+
+									if (self.refreshEle.style.visibility = "hidden") {
+													self.refreshEle.style.visibility = "visible";
+									}
+
+									self.opts.loading = false;
+									if (self.opts.direction == 'up') {
+													//加载更多数据重置
+													self.loadEle.innerHTML = self.opts.loadMoreDOM["loadSuccess"];
+													self.triggerAutoLoad();
+									} else {
+													//下拉刷新重置
+													self.opts.direction = 'up'; //刷新之后自动加载的函数属于loadHandle,为了避免错误重置与保持统一
+													self.refreshEle.innerHTML = self.opts.refreshDOM["refreshSuccess"];
+													if (self.supportTransition) {
+																	self.moveEle.style[self.transition] = "260ms ease-out";
+													}
+													setTimeout(function () {
+																	self.animate(self.translateY, 0);
+																	self.translateY = 0;
+																	self.touchmoveY = 0;
+													}, 500);
+									}
+					};
+
+					/**
+	     * 工具函数
+	     */
+					Slideload.prototype.utils = {
+									//对象扩展（浅拷贝）
+									extend: function extend(target, obj) {
+													for (var i in obj) {
+																	target[i] = obj[i];
+													}
+													return target;
+									},
+									//获取滚动条位置
+									getScrollTop: function getScrollTop(self) {
+													var t = 0;
+													if (self.opts.scrollArea == window) {
+																	var supportPageOffset = window.pageYOffset !== undefined;
+																	var isCSS1Compat = (document.compatMode || "") === "CSS1Compat";
+																	t = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+													} else {
+																	t = self.opts.scrollArea.scrollTop;
+													}
+													return t;
+									},
+									//获取滚动区域高度
+									getScrollAreaHeight: function getScrollAreaHeight(self) {
+													if (self.opts.scrollArea == window) {
+																	self.opts.scrollAreaHeight = window.innerHeight;
+													} else {
+																	self.opts.scrollAreaHeight = self.opts.scrollArea.clientHeight;
+													}
+									},
+									//获取列表容器高度
+									getScrollContentHeight: function getScrollContentHeight(self) {
+													self.opts.scrollContentHeight = Math.floor(self.moveEle.scrollHeight);
+									},
+									//獲取css屬性(不需要駝峰式寫法)
+									getCssProperty: function getCssProperty(Element, CssProperty) {
+													var style = "getComputedStyle" in window ? getComputedStyle(Element) : Element.currentStyle;
+													var _getPropertyValue = function _getPropertyValue(CssProperty) {
+																	if ("getPropertyValue" in style) {
+																					return style.getPropertyValue(CssProperty);
+																	}{
+																					return style.getAttribute(CssProperty);
+																	}
+													};
+													return _getPropertyValue(CssProperty);
+									},
+									//获取各浏览器对应的css属性的兼容性前缀
+									vendor: function vendor(property) {
+													var _elementStyle = document.createElement('div').style;
+													var property = property.slice(1);
+													var vendors = ['t', 'webkitT', 'MozT', 'msT', 'OT'],
+													    transform,
+													    i = 0,
+													    l = vendors.length;
+
+													for (; i < l; i++) {
+																	transform = vendors[i] + property;
+																	if (transform in _elementStyle) return vendors[i].substr(0, vendors[i].length - 1);
+													}
+
+													return false;
+									},
+									//给传入的样式添加兼容性前缀
+									prefixStyle: function prefixStyle(vendor, property) {
+													if (vendor === false) return false;
+													if (vendor === '') return property;
+													return vendor + property.charAt(0).toUpperCase() + property.substr(1);
+									},
+									//js动画引擎
+									rAF: function rAF(cb) {
+													var rAF = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (cb) {
+																	window.setTimeout(cb, 1000 / 60);
+													};
+													return rAF(cb);
+									}
+					};
+
+					if (typeof module !== 'undefined' && module.exports) {
+									module.exports = Slideload;
+					} else if (true) {
+									!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
+													return Slideload;
+									}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+					} else {
+									window.Slideload = Slideload;
 					}
-				}, 0);
-			};
-		};
-		//初始化
-		Slideload.prototype.init = function (options) {
-			var self = this;
-			self.opts = self.utils.extend({
-				scrollArea: self.slider, //滑动区域
-				scrollAreaHeight: 0, //滑动区域高度
-				scrollCont: undefined, //列表容器
-				loading: false, //loading状态
-				isLockLoad: false, //无线滚动是否锁定
-				isLockRefresh: false, //下拉刷新是否锁定
-				isData: true, //请求结果是否有数据
-				direction: 'up', //滑动方向
-				scrollTop: 0, //滚动条位置
-				scrollContentHeight: 0, //列表容器高度
-				limitNo: 0, //触发上拉加载的阈值
-				threshold: 50, //滚动提前加载距离
-				distance: 50, //出发下拉刷新的阈值
-				loadHandle: null, //上拉加载function
-				refreshHandle: null, //下拉刷新function
-				refreshDOM: '', //刷新提示DOM pull2refresh , release2refresh , loading , refreshSuccess
-				loadMoreDOM: '' //加載更多提示DOM pull2load , loading , loadSuccess
-			}, options);
-
-			//获取滚动区域高度
-			self.utils.getScrollAreaHeight(self);
-
-			if (self.utils.getCssProperty(self.opts.scrollArea, "position") === "static") {
-				self.opts.scrollArea.style.position = "relative";
-			}
-			self.moveEle = typeof self.opts.scrollCont == 'string' ? document.querySelector(self.opts.scrollCont) : self.opts.scrollCont;
-			//如果需要无限滚动则插入加载提示DOM
-			if (self.opts.loadHandle !== null) {
-				self.loadEle = document.createElement("div");
-				self.loadEle.innerHTML = self.opts.loadMoreDOM["pull2load"];
-				self.moveEle.appendChild(self.loadEle);
-			}
-			//如果需要下拉刷新则插入刷新提示DOM
-			if (self.opts.refreshHandle !== null) {
-				self.refreshEle = document.createElement("div");
-				self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
-				if (self.opts.scrollArea === window) {
-					document.body.insertBefore(self.refreshEle, self.moveEle);
-				} else {
-					self.opts.scrollArea.insertBefore(self.refreshEle, self.moveEle);
-				}
-				self.refreshEle.style.visibility = "hidden";
-			}
-
-			//自动加载
-			self.autoLoad(self);
-
-			// 窗口调整
-			document.addEventListener('resize', function () {
-				setTimeout(function () {
-					self.utils.getScrollContentHeight(self);
-					self.utils.getScrollAreaHeight(self);
-					self.autoLoad(self);
-				}, 0);
-			}, false);
-
-			//設置transform & transition 浏览器厂商前缀
-			self.transformVendor = self.utils.vendor("transform");
-			self.transitionVendor = self.utils.vendor("transition");
-
-			//获取当前浏览器支持的animatePropertyName
-			if (self.transformVendor !== false) {
-				self.animatePropertyName = self.utils.prefixStyle(self.transformVendor, "transform");
-				self.animatePropertyValue = function (num) {
-					return "translate3d(0px, " + num + "px, 0.01px)";
-				};
-				self.getAnimatePropertyValue = function (animatePropertyValue) {
-					var re = /^.*translate3d\(0px\,\s+(\d+\.?\d?)px\,\s+0.01px\)$/i;
-					return Math.floor(animatePropertyValue.match(re)[1]);
-				};
-			} else {
-				self.animatePropertyName = "top";
-				self.animatePropertyValue = function (num) {
-					return num + "px";
-				};
-				self.getAnimatePropertyValue = function (animatePropertyValue) {
-					return animatePropertyValue.slice(0, -2);
-				};
-			}
-
-			//判断当前浏览器是否支持transition
-			self.supportTransition = false;
-			if (self.transitionVendor !== false) {
-				self.supportTransition = true;
-				self.transition = self.utils.prefixStyle(self.transitionVendor, "transition");
-
-				var transEndEventNames = {
-					WebkitTransition: "webkitTransitionEnd",
-					MozTransition: "transitionend",
-					msTransition: "transitionend",
-					OTransition: "oTransitionEnd otransitionend",
-					transition: "transitionend"
-				};
-				self.transEndEventNames = transEndEventNames[self.transition];
-				self.moveEle.addEventListener(self.transEndEventNames, function () {
-					this.style[self.transition] = "";
-					if (self.translateY == 0) {
-						self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
-						self.triggerAutoLoad();
-					}
-				}, false);
-				//缓动动画
-				self.animate = function (startNum, endNum) {
-					self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(endNum);
-				};
-			} else {
-				//缓动动画
-				self.animate = function (startNum, endNum) {
-					var translateY = { y: startNum };
-					var tween = new TWEEN.Tween(translateY).easing(TWEEN.Easing.Quadratic.Out).to({ y: endNum }, 260).onUpdate(function () {
-						self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(this.y);
-					}).onComplete(function (obj) {
-						if (obj.y == 0) {
-							self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
-							self.triggerAutoLoad();
-						}
-					}).start();
-					self.utils.rAF(animate);
-					function animate(time) {
-						self.utils.rAF(animate);
-						TWEEN.update();
-					}
-				};
-			}
-
-			self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(0);
-			self.moveEle.style.position = "absolute";
-			self.moveEle.style.top = "0";
-			self.translateY = 0;
-			self.touchmoveY = 0;
-
-			//判断浏览器是否支持 Passive event listeners
-			var supportPassive = false;
-			if ("defineProperty" in Object) {
-				try {
-					var opts = Object.defineProperty({}, "passive", {
-						get: function get() {
-							supportPassive = true;
-						}
-					});
-					window.addEventListener("test", null, opts);
-				} catch (e) {}
-			}
-
-			//绑定触摸
-			self.slider.addEventListener('touchstart', function (e) {
-				if (!self.opts.loading) {
-					self.touchesHandle(e);
-					self.touchstartHandle(e);
-				}
-			}, supportPassive ? { passive: true } : false);
-			self.slider.addEventListener('touchmove', function (e) {
-				if (!self.opts.loading) {
-					self.touchesHandle(e);
-					self.touchmoveHandle(e);
-				}
-			}, supportPassive ? { passive: false } : false);
-			self.slider.addEventListener('touchend', function () {
-				if (!self.opts.loading) {
-					self.touchendHandle();
-				}
-			}, supportPassive ? { passive: true } : false);
-
-			//监听列表滚动，到底部自动加载数据
-			self.slider.addEventListener('scroll', function () {
-				self.utils.getScrollAreaHeight(self);
-				self.opts.limitNo = Number(self.opts.scrollContentHeight - self.opts.scrollAreaHeight);
-				self.opts.scrollTop = self.utils.getScrollTop(self);
-				//滚动页面触发加载数据
-				if (self.opts.limitNo > 0 && self.opts.direction == 'up' && self.opts.loadHandle !== null && !self.opts.loading && !self.opts.isLockLoad && self.opts.limitNo - self.opts.threshold <= self.opts.scrollTop) {
-					self.lock("load");
-					self.triggerLoad();
-				}
-			}, supportPassive ? { passive: true } : false);
-		};
-
-		//touches
-		Slideload.prototype.touchesHandle = function (e) {
-			e.touches = e.changedTouches;
-		};
-
-		//touchstart
-		Slideload.prototype.touchstartHandle = function (e) {
-			var self = this;
-			if (!self.opts.loading && self.opts.isData) {
-				self.unlock("load");
-			}
-			//滑动起点
-			self._startY = e.touches[0].pageY;
-
-			//获取滚动条位置
-			self.opts.scrollTop = self.utils.getScrollTop(self);
-
-			if (self.supportTransition) {
-				self.moveEle.style[self.transition] = "";
-			}
-		};
-
-		//touchmove
-		Slideload.prototype.touchmoveHandle = function (e) {
-			var self = this;
-			self._curY = e.touches[0].pageY;
-			self._moveY = self._curY - self._startY;
-			//获取滑动方向
-			if (self._moveY > 0) {
-				self.opts.direction = 'down';
-			} else if (self._moveY < 0) {
-				self.opts.direction = 'up';
-			}
-			//下拉刷新
-			if (!self.opts.loading && self.opts.refreshHandle !== null && self.opts.scrollTop <= 0 && !self.opts.isLockRefresh && self.opts.direction == 'down') {
-				e.preventDefault();
-				if (self.touchmoveY <= self.opts.distance) {
-					self.touchmoveY = Math.floor(self._moveY * 0.6);
-				} else if (self.touchmoveY > self.opts.distance && self.touchmoveY <= self.opts.distance * 2) {
-					self.touchmoveY = Math.floor(self.opts.distance + (self._moveY * 0.6 - self.opts.distance) * 0.5);
-				} else if (self.touchmoveY > self.opts.distance * 2) {
-					self.touchmoveY = Math.floor(self.opts.distance * 2 + (self.opts.distance + (self._moveY * 0.6 - self.opts.distance) * 0.5 - self.opts.distance * 2) * 0.5);
-				}
-				self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(self.touchmoveY);
-				self.translateY = self.getAnimatePropertyValue(self.moveEle.style[self.animatePropertyName]);
-				if (self.translateY > 50) {
-					self.refreshEle.innerHTML = self.opts.refreshDOM["release2refresh"];
-				} else {
-					self.refreshEle.innerHTML = self.opts.refreshDOM["pull2refresh"];
-				}
-			}
-		};
-
-		//touchend
-		Slideload.prototype.touchendHandle = function () {
-			var self = this;
-			self.opts.scrollTop = self.utils.getScrollTop(self);
-			if (self.opts.scrollTop > 0) return;
-			var returnTarget = 0;
-			if (self.translateY > self.opts.distance) {
-				returnTarget = 50;
-				self.refreshEle.innerHTML = self.opts.refreshDOM["loading"];
-				self.triggerRefresh();
-			}
-			//判断浏览器是否支持 transition过渡
-			if (self.supportTransition) {
-				self.moveEle.style[self.transition] = "260ms ease-out";
-			}
-			self.animate(self.translateY, returnTarget);
-			self.translateY = returnTarget;
-			self.touchmoveY = returnTarget;
-		};
-
-		//触发自动加载
-		Slideload.prototype.triggerAutoLoad = function () {
-			var self = this;
-			//如果有数据
-			if (self.opts.isData) {
-				setTimeout(function () {
-					self.loadEle.innerHTML = self.opts.loadMoreDOM["pull2load"];
-					self.utils.getScrollContentHeight(self);
-					self.autoLoad(self);
-				}, 0);
-			}
-		};
-
-		// 如果列表容器高度不大于滚动区域高度，数据较少，自动加载更多数据
-		Slideload.prototype.autoLoad = function () {
-			var self = this;
-			if (self.opts.scrollContentHeight - self.opts.threshold > self.opts.scrollAreaHeight) return;
-			if (self.opts.loadHandle !== null) {
-				self.opts.loading = true;
-				self.unlock("load");
-				self.triggerLoad();
-			}
-		};
-
-		//刷新數據
-		Slideload.prototype.triggerRefresh = function () {
-			var self = this;
-			self.opts.loading = true;
-			self.opts.refreshHandle(self.next, self.stop);
-		};
-
-		//加载更多数据
-		Slideload.prototype.triggerLoad = function () {
-			var self = this;
-			self.opts.loading = true;
-			self.loadEle.innerHTML = self.opts.loadMoreDOM["loading"];
-			self.opts.loadHandle(self.next, self.stop);
-		};
-
-		//锁定
-		Slideload.prototype.lock = function (type) {
-			var self = this;
-			if (type == 'load') {
-				self.opts.isLockLoad = true;
-			}
-		};
-
-		//解锁
-		Slideload.prototype.unlock = function (type) {
-			var self = this;
-			if (type == 'load') {
-				self.opts.isLockLoad = false;
-			}
-		};
-
-		//重置
-		Slideload.prototype.reset = function () {
-			var self = this;
-
-			if (self.refreshEle.style.visibility = "hidden") {
-				self.refreshEle.style.visibility = "visible";
-			}
-
-			self.opts.loading = false;
-			if (self.opts.direction == 'up') {
-				//加载更多数据重置
-				self.loadEle.innerHTML = self.opts.loadMoreDOM["loadSuccess"];
-				self.triggerAutoLoad();
-			} else {
-				//下拉刷新重置
-				self.opts.direction = 'up'; //刷新之后自动加载的函数属于loadHandle,为了避免错误重置与保持统一
-				self.refreshEle.innerHTML = self.opts.refreshDOM["refreshSuccess"];
-				if (self.supportTransition) {
-					self.moveEle.style[self.transition] = "260ms ease-out";
-				}
-				setTimeout(function () {
-					self.animate(self.translateY, 0);
-					self.translateY = 0;
-					self.touchmoveY = 0;
-				}, 500);
-			}
-		};
-
-		/**
-	  * 工具函数
-	  */
-		Slideload.prototype.utils = {
-			//对象扩展（浅拷贝）
-			extend: function extend(target, obj) {
-				for (var i in obj) {
-					target[i] = obj[i];
-				}
-				return target;
-			},
-			//获取滚动条位置
-			getScrollTop: function getScrollTop(self) {
-				var t = 0;
-				if (self.opts.scrollArea == window) {
-					var supportPageOffset = window.pageYOffset !== undefined;
-					var isCSS1Compat = (document.compatMode || "") === "CSS1Compat";
-					t = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-				} else {
-					t = self.opts.scrollArea.scrollTop;
-				}
-				return t;
-			},
-			//获取滚动区域高度
-			getScrollAreaHeight: function getScrollAreaHeight(self) {
-				if (self.opts.scrollArea == window) {
-					self.opts.scrollAreaHeight = window.innerHeight;
-				} else {
-					self.opts.scrollAreaHeight = self.opts.scrollArea.clientHeight;
-				}
-			},
-			//获取列表容器高度
-			getScrollContentHeight: function getScrollContentHeight(self) {
-				self.opts.scrollContentHeight = Math.floor(self.moveEle.scrollHeight);
-			},
-			//獲取css屬性(不需要駝峰式寫法)
-			getCssProperty: function getCssProperty(Element, CssProperty) {
-				var style = "getComputedStyle" in window ? getComputedStyle(Element) : Element.currentStyle;
-				var _getPropertyValue = function _getPropertyValue(CssProperty) {
-					if ("getPropertyValue" in style) {
-						return style.getPropertyValue(CssProperty);
-					}{
-						return style.getAttribute(CssProperty);
-					}
-				};
-				return _getPropertyValue(CssProperty);
-			},
-			//获取各浏览器对应的css属性的兼容性前缀
-			vendor: function vendor(property) {
-				var _elementStyle = document.createElement('div').style;
-				var property = property.slice(1);
-				var vendors = ['t', 'webkitT', 'MozT', 'msT', 'OT'],
-				    transform,
-				    i = 0,
-				    l = vendors.length;
-
-				for (; i < l; i++) {
-					transform = vendors[i] + property;
-					if (transform in _elementStyle) return vendors[i].substr(0, vendors[i].length - 1);
-				}
-
-				return false;
-			},
-			//给传入的样式添加兼容性前缀
-			prefixStyle: function prefixStyle(vendor, property) {
-				if (vendor === false) return false;
-				if (vendor === '') return property;
-				return vendor + property.charAt(0).toUpperCase() + property.substr(1);
-			},
-			//js动画引擎
-			rAF: function rAF(cb) {
-				var rAF = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (cb) {
-					window.setTimeout(cb, 1000 / 60);
-				};
-				return rAF(cb);
-			}
-		};
-
-		if (typeof module !== 'undefined' && module.exports) {
-			module.exports = Slideload;
-		} else if (true) {
-			!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
-				return Slideload;
-			}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		} else {
-			window.Slideload = Slideload;
-		}
 	}(window, document, Math);
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6)))
 
@@ -5358,7 +5364,7 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-4257bc6c", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-1d7137c4", module.exports)
 	  }
 	}
 
@@ -5380,20 +5386,20 @@ webpackJsonp([1],[
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/nav/nav.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\nav\\nav.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] nav.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-2bf6b074", Component.options)
+	    hotAPI.createRecord("data-v-61b09ca6", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-2bf6b074", Component.options)
+	    hotAPI.reload("data-v-61b09ca6", Component.options)
 	  }
 	})()}
 
@@ -5411,13 +5417,13 @@ webpackJsonp([1],[
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("4b7b0fa0", content, false);
+	var update = __webpack_require__(17)("55052de0", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-2bf6b074\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./nav.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-2bf6b074\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./nav.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-61b09ca6\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./nav.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-61b09ca6\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./nav.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -5435,30 +5441,20 @@ webpackJsonp([1],[
 	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
 
 	// module
-	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-nav {\n  position: fixed;\n  bottom: 0;\n  width: 100%;\n  text-align: center;\n  display: block;\n  width: 92%;\n  height: 0.46rem;\n  margin: .1rem 4%;\n  line-height: 0.46rem;\n  border-radius: 4px;\n  box-sizing: border-box;\n}\n.simple-ui-nav ul {\n  width: 100%;\n  height: 100%;\n  list-style: none;\n  overflow: hidden;\n}\n.simple-ui-nav ul li {\n  width: 20%;\n  height: 100%;\n  float: left;\n  margin: 0 0.05rem;\n  background: #666;\n  border-radius: 0.1rem;\n  color: #fff;\n}\n.simple-ui-nav ul li:hover {\n  background: #f30;\n}\n.simple-ui-nav .simple-ui-icon {\n  position: relative;\n  top: .02rem;\n}\n", ""]);
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-nav {\n  width: 100%;\n  text-align: center;\n  display: flex;\n  height: 0.46rem;\n  margin: .1rem 0;\n  line-height: 0.46rem;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
 /* 118 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
-
-	var _defineProperty2 = __webpack_require__(89);
-
-	var _defineProperty3 = _interopRequireDefault(_defineProperty2);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	//
-	//
-	//
 	//
 	//
 	//
@@ -5470,23 +5466,19 @@ webpackJsonp([1],[
 	exports.default = {
 	    name: 'nav',
 	    props: {
-	        type: String,
-	        pull: Boolean,
-	        edge: Boolean,
-	        icon: String
+	        space: String,
+	        size: String
 	    },
 	    computed: {
-	        classes: function classes() {
-	            var _ref;
-
-	            return _ref = {}, (0, _defineProperty3.default)(_ref, this.type, this.type), (0, _defineProperty3.default)(_ref, 'simple-ui-button-pull', !!this.pull), (0, _defineProperty3.default)(_ref, 'simple-ui-button-edge', !!this.edge), _ref;
+	        styles: function styles() {
+	            return {
+	                'margin-left': this.space ? '-' + this.space / 2 + 'px' : '',
+	                'margin-right': this.space ? '-' + this.space / 2 + 'px' : '',
+	                "font-size": this.size ? this.size + 'px' : ''
+	            };
 	        }
 	    },
-	    methods: {
-	        onclick: function onclick(ev) {
-	            this.$emit('click', ev);
-	        }
-	    }
+	    methods: {}
 	};
 
 /***/ },
@@ -5496,19 +5488,14 @@ webpackJsonp([1],[
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    staticClass: "simple-ui-nav",
-	    class: _vm.classes,
-	    on: {
-	      "click": _vm.onclick
-	    }
-	  }, [_vm._m(0)])
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('ul', [_c('li', [_vm._v("Nav 1")]), _vm._v(" "), _c('li', [_vm._v("Nav 2")]), _vm._v(" "), _c('li', [_vm._v("Nav 3")]), _vm._v(" "), _c('li', [_vm._v("Nav 4")])])
-	}]}
+	    style: (_vm.styles)
+	  }, [_vm._t("default")], 2)
+	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2bf6b074", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-61b09ca6", module.exports)
 	  }
 	}
 
@@ -5530,20 +5517,20 @@ webpackJsonp([1],[
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/input/input.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\nav\\item.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] input.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] item.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-2d56ee02", Component.options)
+	    hotAPI.createRecord("data-v-bf2fa1c0", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-2d56ee02", Component.options)
+	    hotAPI.reload("data-v-bf2fa1c0", Component.options)
 	  }
 	})()}
 
@@ -5561,13 +5548,13 @@ webpackJsonp([1],[
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("ee430ae2", content, false);
+	var update = __webpack_require__(17)("2e441cfe", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-2d56ee02\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./input.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-2d56ee02\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./input.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-bf2fa1c0\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./item.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-bf2fa1c0\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./item.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -5585,13 +5572,163 @@ webpackJsonp([1],[
 	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
 
 	// module
-	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-input-box {\n  padding: 0 .15rem;\n  overflow: hidden;\n  border-top: 1px solid #D9D9D9;\n  border-bottom: 1px solid #D9D9D9;\n  background: #fff;\n  position: relative;\n}\n.simple-ui-input-box.simple-ui-input-underline {\n  background: none;\n  border-top: none;\n}\n.simple-ui-input-box.simple-ui-input-underline input {\n  background: none;\n}\n.simple-ui-input-box label {\n  min-width: .75rem;\n  float: left;\n  height: .44rem;\n  line-height: .44rem;\n}\n.simple-ui-input-box input {\n  float: left;\n  height: .24rem;\n  padding: .1rem;\n  border: none;\n  outline: none;\n  width: 2.5rem;\n}\n.simple-ui-input-box .simple-ui-button,\n.simple-ui-input-box img {\n  width: .75rem;\n  height: .44rem;\n  position: absolute;\n  right: -0.15rem;\n  top: -0.1rem;\n  line-height: .44rem;\n  font-size: 12px;\n  border-radius: 0;\n  border-top: none;\n  border-right: none;\n  border-bottom: none;\n}\n.simple-ui-input-box img {\n  top: 0;\n  right: 0;\n  height: .34rem;\n  padding: .05rem 0;\n  border-left: 1px solid #d9d9d9;\n}\n", ""]);
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-nav-item {\n  text-decoration: none;\n  height: 100%;\n  float: left;\n  margin: 0 0.05rem;\n  background: #187b92;\n  border-radius: 0.1rem;\n  color: #fff;\n  flex: 1;\n}\n.simple-ui-nav-item:hover {\n  background: #f30;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
 /* 123 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	    name: 'item',
+	    props: {
+	        icon: String,
+	        name: String,
+	        space: String,
+	        bgcolor: String,
+	        size: String,
+	        color: String,
+	        navNames: String
+
+	    },
+
+	    computed: {
+	        styles: function styles() {
+	            return {
+	                "background": this.bgcolor ? '' + this.bgcolor : '',
+	                "color": this.color ? '' + this.color : '',
+	                "font-size": this.size ? this.size + 'px' : ''
+	            };
+	        }
+	    }
+
+	};
+
+/***/ },
+/* 124 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('a', {
+	    staticClass: "simple-ui-nav-item",
+	    style: (_vm.styles),
+	    attrs: {
+	      "href": "javascript:;"
+	    }
+	  }, [_vm._v("\n" + _vm._s(_vm.navNames) + " \n"), (_vm.icon) ? _c('Icon', {
+	    attrs: {
+	      "type": _vm.icon,
+	      "size": "14",
+	      "color": "#fff"
+	    }
+	  }) : _vm._e()], 1)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-hot-reload-api").rerender("data-v-bf2fa1c0", module.exports)
+	  }
+	}
+
+/***/ },
+/* 125 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(126)
+
+	var Component = __webpack_require__(19)(
+	  /* script */
+	  __webpack_require__(128),
+	  /* template */
+	  __webpack_require__(129),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\input\\input.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] input.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-42091d98", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-42091d98", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 126 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(127);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(17)("591ca87a", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-42091d98\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./input.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-42091d98\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./input.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 127 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)(undefined);
+	// imports
+	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
+
+	// module
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-input-box {\n  padding: 0 .15rem;\n  overflow: hidden;\n  border-top: 1px solid #D9D9D9;\n  border-bottom: 1px solid #D9D9D9;\n  background: #fff;\n  position: relative;\n}\n.simple-ui-input-box.simple-ui-input-underline {\n  background: none;\n  border-top: none;\n}\n.simple-ui-input-box.simple-ui-input-underline input {\n  background: none;\n}\n.simple-ui-input-box label {\n  min-width: .75rem;\n  float: left;\n  height: .44rem;\n  line-height: .44rem;\n}\n.simple-ui-input-box input {\n  float: left;\n  height: .24rem;\n  padding: .1rem;\n  border: none;\n  outline: none;\n  width: 2.5rem;\n}\n.simple-ui-input-box .simple-ui-button,\n.simple-ui-input-box img {\n  width: .75rem;\n  height: .44rem;\n  position: absolute;\n  right: -0.15rem;\n  top: -0.1rem;\n  line-height: .44rem;\n  font-size: 12px;\n  border-radius: 0;\n  border-top: none;\n  border-right: none;\n  border-bottom: none;\n}\n.simple-ui-input-box img {\n  top: 0;\n  right: 0;\n  height: .34rem;\n  padding: .05rem 0;\n  border-left: 1px solid #d9d9d9;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 128 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5632,7 +5769,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 124 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -5660,52 +5797,42 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2d56ee02", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-42091d98", module.exports)
 	  }
 	}
 
 /***/ },
-/* 125 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(126)
+	__webpack_require__(131)
 
 	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(128),
+	  __webpack_require__(133),
 	  /* template */
-	  __webpack_require__(129),
+	  __webpack_require__(134),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-<<<<<<< HEAD
 	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\input\\inputgroup.vue"
-=======
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/src/components/input/InputGroup.vue"
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] inputgroup.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-<<<<<<< HEAD
 	    hotAPI.createRecord("data-v-8bbf570a", Component.options)
 	  } else {
 	    hotAPI.reload("data-v-8bbf570a", Component.options)
-=======
-	    hotAPI.createRecord("data-v-60d1946d", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-60d1946d", Component.options)
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
 	  }
 	})()}
 
@@ -5713,32 +5840,23 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 126 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(127);
+	var content = __webpack_require__(132);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-<<<<<<< HEAD
 	var update = __webpack_require__(17)("3b225c73", content, false);
-=======
-	var update = __webpack_require__(17)("40138ba1", content, false);
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-<<<<<<< HEAD
 	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-8bbf570a\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./inputgroup.vue", function() {
 	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-8bbf570a\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./inputgroup.vue");
-=======
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-60d1946d\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./InputGroup.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-60d1946d\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.3.0.0@less-loader/lib/loader.js!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./InputGroup.vue");
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -5748,7 +5866,7 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-/* 127 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(12)(undefined);
@@ -5762,7 +5880,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 128 */
+/* 133 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5781,7 +5899,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-/* 129 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -5794,28 +5912,23 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-<<<<<<< HEAD
 	     require("vue-hot-reload-api").rerender("data-v-8bbf570a", module.exports)
-=======
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-60d1946d", module.exports)
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
 	  }
 	}
 
 /***/ },
-/* 130 */
-<<<<<<< HEAD
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(447)
+	__webpack_require__(136)
 
 	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(449),
+	  __webpack_require__(138),
 	  /* template */
-	  __webpack_require__(450),
+	  __webpack_require__(139),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -5842,75 +5955,588 @@ webpackJsonp([1],[
 
 
 /***/ },
-/* 131 */
-=======
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-<<<<<<< HEAD
-	__webpack_require__(132);
-=======
-	__webpack_require__(131);
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
-
-	var el = document.documentElement;
-
-	exports.default = {
-	    init: function init() {
-	        var r = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 200;
-	        var w = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 750;
-
-	        if (r == 0) return;
-	        r = r * 100;
-
-	        if (isNaN(r)) r = 200;
-
-	        var width = el.clientWidth;
-
-	        width = width > w ? w : width;
-
-	        el.style.fontSize = width / w * r + "px";
-
-	        document.body.style.maxWidth = w;
-
-	        window.onresize = this.init;
-	    }
-	};
-
-/***/ },
-<<<<<<< HEAD
-/* 132 */
-=======
-/* 131 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-<<<<<<< HEAD
-	var content = __webpack_require__(133);
+	var content = __webpack_require__(137);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(17)("8c642dd6", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-0f279384\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./checkbox.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-0f279384\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./checkbox.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 137 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)(undefined);
+	// imports
+	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
+
+	// module
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-checkbox-box {\n  overflow: hidden;\n  display: inline-block;\n}\n.simple-ui-checkbox-box label {\n  width: 100%;\n  height: 100%;\n  display: block;\n  padding: 0 .05rem;\n  box-sizing: border-box;\n  overflow: hidden;\n}\n.simple-ui-checkbox-box label input[type=\"checkbox\"] {\n  width: 0;\n  height: 0;\n  opacity: 0;\n}\n.simple-ui-checkbox-box label input[type=\"checkbox\"]:checked ~ .simple-ui-checkbox-body {\n  width: .14rem;\n  height: .14rem;\n  border: none;\n}\n.simple-ui-checkbox-box label input[type=\"checkbox\"]:checked ~ .simple-ui-checkbox-body .simple-ui-checkbox-body-bg {\n  background: none;\n}\n.simple-ui-checkbox-box label .simple-ui-checkbox-body {\n  float: left;\n  position: relative;\n  top: .05rem;\n  width: .12rem;\n  height: .12rem;\n  border: 0.01rem solid #d9d9d9;\n  border-radius: 2px;\n  overflow: hidden;\n  background: #108ee9;\n}\n.simple-ui-checkbox-box label .simple-ui-checkbox-body .simple-ui-checkbox-body-bg {\n  width: 100%;\n  height: 100%;\n  background: #fff;\n}\n.simple-ui-checkbox-box label .simple-ui-checkbox-body .simple-ui-checkbox-body-bg i {\n  width: .12rem;\n  font-size: .12rem;\n  height: 12px;\n  position: relative;\n  top: -0.06rem;\n  left: .01rem;\n  color: #fff;\n}\n.simple-ui-checkbox-box label .simple-ui-checkbox-txt {\n  float: left;\n  margin-left: .05rem;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-round .simple-ui-checkbox-body {\n  border-radius: 50%;\n  width: .14rem;\n  height: .14rem;\n  position: relative;\n  top: .035rem;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-round .simple-ui-checkbox-body .simple-ui-checkbox-body-bg i {\n  width: .14rem;\n  height: .14rem;\n  font-size: .14rem;\n  top: -0.05rem;\n  left: 0;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-round label input[type=\"checkbox\"]:checked ~ .simple-ui-checkbox-body {\n  width: .16rem;\n  height: .16rem;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-block .simple-ui-checkbox-label {\n  border: 1px solid #f1f1f1;\n  height: .34rem;\n  line-height: .34rem;\n  min-width: .7rem;\n  text-align: center;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-block .simple-ui-checkbox-label .simple-ui-checkbox-body {\n  display: none;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-block .simple-ui-checkbox-label .simple-ui-checkbox-txt {\n  display: inline;\n  float: none;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-block input[type=\"checkbox\"]:checked ~ .simple-ui-checkbox-body {\n  display: block;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 138 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _defineProperty2 = __webpack_require__(89);
+
+	var _defineProperty3 = _interopRequireDefault(_defineProperty2);
+
+	var _props;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	    name: 'input',
+	    props: (_props = {
+	        type: String,
+	        value: String,
+	        name: String
+	    }, (0, _defineProperty3.default)(_props, 'value', String), (0, _defineProperty3.default)(_props, 'bg', String), _props),
+	    computed: {
+	        classes: function classes() {
+	            return {
+	                'simpleui-input-checkbox-round': this.type == 'round',
+	                'simpleui-input-checkbox-block': this.type == 'block'
+	            };
+	        },
+	        styles: function styles() {
+	            return {
+	                'background-color': this.bg
+	            };
+	        }
+	    },
+	    methods: {
+	        onClick: function onClick(ev) {
+	            this.$emit('click', (0, _defineProperty3.default)({}, ev.target.value, !!ev.target.checked));
+	        }
+	    }
+	};
+
+/***/ },
+/* 139 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "simple-ui-checkbox-box",
+	    class: _vm.classes
+	  }, [_c('label', {
+	    staticClass: "simple-ui-checkbox-label"
+	  }, [_c('input', {
+	    staticClass: "simple-ui-checkbox-input",
+	    attrs: {
+	      "type": "checkbox",
+	      "name": _vm.name
+	    },
+	    domProps: {
+	      "value": _vm.value
+	    },
+	    on: {
+	      "click": _vm.onClick
+	    }
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "simple-ui-checkbox-body",
+	    style: (_vm.styles)
+	  }, [_c('div', {
+	    staticClass: "simple-ui-checkbox-body-bg"
+	  }, [_c('Icon', {
+	    attrs: {
+	      "type": "check"
+	    }
+	  })], 1)]), _vm._v(" "), _c('div', {
+	    staticClass: "simple-ui-checkbox-txt"
+	  }, [_vm._t("default")], 2)])])
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-hot-reload-api").rerender("data-v-0f279384", module.exports)
+	  }
+	}
+
+/***/ },
+/* 140 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(141)
+
+	var Component = __webpack_require__(19)(
+	  /* script */
+	  __webpack_require__(143),
+	  /* template */
+	  __webpack_require__(144),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\github\\group-SimpleUI\\src\\components\\number\\plus-minus.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] plus-minus.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-73761cb2", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-73761cb2", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 141 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(142);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(17)("7a51a08f", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-73761cb2\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./plus-minus.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-73761cb2\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./plus-minus.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 142 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)(undefined);
+	// imports
+	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
+
+	// module
+	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-plus-minus {\n  display: inline-block;\n  overflow: hidden;\n  width: 140px;\n  position: relative;\n  font-size: 14px;\n}\n.simple-ui-plus-minus:hover input {\n  border-color: #20a0ff;\n}\n.simple-ui-plus-minus.is-disabled input,\n.simple-ui-plus-minus.is-disabled .minus,\n.simple-ui-plus-minus.is-disabled .plus {\n  cursor: not-allowed;\n}\n.simple-ui-plus-minus.is-disabled input {\n  background-color: #eef1f6;\n  border-color: #d1dbe5;\n  color: #bbb;\n}\n.simple-ui-plus-minus input {\n  appearance: none;\n  background-color: #fff;\n  background-image: none;\n  border-radius: 4px;\n  border: 1px solid #bfcbd9;\n  box-sizing: border-box;\n  color: #1f2d3d;\n  display: block;\n  font-size: inherit;\n  height: 36px;\n  line-height: 1;\n  outline: none;\n  padding: 3px 40px;\n  transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);\n  width: 100%;\n  text-align: center;\n  -moz-appearance: textfield;\n}\n.simple-ui-plus-minus input:focus {\n  border-color: #20a0ff;\n}\n.simple-ui-plus-minus input::-webkit-outer-spin-button,\n.simple-ui-plus-minus input::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n}\n.simple-ui-plus-minus .minus,\n.simple-ui-plus-minus .plus {\n  height: auto;\n  width: 36px;\n  line-height: 34px;\n  top: 1px;\n  text-align: center;\n  color: #97a8be;\n  cursor: pointer;\n  position: absolute;\n  z-index: 1;\n  user-select: none;\n  font-weight: bold;\n}\n.simple-ui-plus-minus .minus:hover,\n.simple-ui-plus-minus .plus:hover {\n  color: #20a0ff;\n}\n.simple-ui-plus-minus .minus.is-disabled,\n.simple-ui-plus-minus .plus.is-disabled {\n  cursor: not-allowed;\n  color: #d1dbe5;\n}\n.simple-ui-plus-minus .minus {\n  left: 0;\n  border-right: 1px solid #bfcbd9;\n}\n.simple-ui-plus-minus .plus {\n  right: 0;\n  border-left: 1px solid #bfcbd9;\n}\n.simple-ui-plus-minus.plus-minus-large {\n  font-size: 16px;\n  width: 160px;\n}\n.simple-ui-plus-minus.plus-minus-large input {\n  height: 42px;\n}\n.simple-ui-plus-minus.plus-minus-large .minus,\n.simple-ui-plus-minus.plus-minus-large .plus {\n  width: 42px;\n  line-height: 42px;\n}\n.simple-ui-plus-minus.plus-minus-small {\n  font-size: 13px;\n  width: 120px;\n}\n.simple-ui-plus-minus.plus-minus-small input {\n  height: 30px;\n}\n.simple-ui-plus-minus.plus-minus-small .minus,\n.simple-ui-plus-minus.plus-minus-small .plus {\n  width: 30px;\n  line-height: 30px;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 143 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	    name: 'plus-minus',
+	    directives: {
+	        repeatClick: {
+	            bind: function bind(el, binding, vnode) {
+	                var interval = null;
+	                var startTime = void 0;
+	                var isSupportTouch = 'ontouchend' in document ? true : false;
+	                var handler = function handler() {
+	                    return vnode.context[binding.expression].apply();
+	                };
+	                var clear = function clear() {
+	                    if (new Date() - startTime < 100) {
+	                        handler();
+	                        startTime = new Date();
+	                    }
+	                    clearInterval(interval);
+	                    interval = null;
+	                };
+	                var once = function once(el, event, fn) {
+	                    var listener = function listener() {
+	                        if (fn) {
+	                            fn.apply(this, arguments);
+	                        }
+	                        el.removeEventListener(event, listener, false);
+	                    };
+	                    el.addEventListener(event, listener, false);
+	                };
+	                el.addEventListener('touchstart', function () {
+	                    startTime = new Date();
+	                    once(document, 'touchend', clear);
+	                    clearInterval(interval);
+	                    interval = setInterval(handler, 100);
+	                }, false);
+	                el.addEventListener('mousedown', function () {
+	                    if (isSupportTouch) return;
+	                    startTime = new Date();
+	                    once(el, 'mouseleave', clear);
+	                    once(document, 'mouseup', clear);
+	                    clearInterval(interval);
+	                    interval = setInterval(handler, 100);
+	                }, false);
+	            }
+	        }
+	    },
+	    props: {
+	        step: {
+	            type: String,
+	            default: "1"
+	        },
+	        max: {
+	            type: Number,
+	            default: Infinity
+	        },
+	        min: {
+	            type: Number,
+	            default: -Infinity
+	        },
+	        value: {
+	            default: 0
+	        },
+	        disabled: Boolean,
+	        size: String,
+	        controls: {
+	            type: Boolean,
+	            default: true
+	        }
+	    },
+	    data: function data() {
+	        return {
+	            currentValue: 0,
+	            oldVal: 0
+	        };
+	    },
+
+	    watch: {
+	        value: {
+	            immediate: true,
+	            handler: function handler(value) {
+	                var newVal = Number(value);
+	                if (isNaN(newVal)) return;
+	                if (newVal >= this.max) newVal = this.max;
+	                if (newVal <= this.min) newVal = this.min;
+	                this.currentValue = newVal;
+	                this.$emit('input', newVal);
+	            }
+	        }
+	    },
+	    computed: {
+	        minDisabled: function minDisabled() {
+	            return this._minus(this.value, this.step) < this.min;
+	        },
+	        maxDisabled: function maxDisabled() {
+	            return this._plus(this.value, this.step) > this.max;
+	        },
+	        precision: function precision() {
+	            var value = this.value,
+	                step = this.step,
+	                getPrecision = this.getPrecision;
+
+	            return Math.max(getPrecision(value), getPrecision(step));
+	        }
+	    },
+	    methods: {
+	        toPrecision: function toPrecision(num, precision) {
+	            if (precision === undefined) precision = this.precision;
+	            return parseFloat(parseFloat(Number(num).toFixed(precision)));
+	        },
+	        getPrecision: function getPrecision(value) {
+	            var valueString = value.toString();
+	            var dotPosition = valueString.indexOf('.');
+	            var precision = 0;
+	            if (dotPosition !== -1) {
+	                precision = valueString.length - dotPosition - 1;
+	            }
+	            return precision;
+	        },
+	        _plus: function _plus(val, step) {
+	            if (typeof val !== 'number') return this.currentValue;
+
+	            var precisionFactor = Math.pow(10, this.precision);
+
+	            return this.toPrecision((precisionFactor * val + precisionFactor * step) / precisionFactor);
+	        },
+	        _minus: function _minus(val, step) {
+	            if (typeof val !== 'number') return this.currentValue;
+
+	            var precisionFactor = Math.pow(10, this.precision);
+
+	            return this.toPrecision((precisionFactor * val - precisionFactor * step) / precisionFactor);
+	        },
+	        plus: function plus() {
+	            if (this.disabled || this.maxDisabled) return;
+	            var value = this.value || 0;
+	            var newVal = this._plus(value, this.step);
+	            if (newVal > this.max) return;
+	            this.setCurrentValue(newVal);
+	        },
+	        minus: function minus() {
+	            if (this.disabled || this.minDisabled) return;
+	            var value = this.value || 0;
+	            var newVal = this._minus(value, this.step);
+	            if (newVal < this.min) return;
+	            this.setCurrentValue(newVal);
+	        },
+	        setCurrentValue: function setCurrentValue(newVal) {
+	            var oldVal = this.currentValue;
+	            if (newVal >= this.max) newVal = this.max;
+	            if (newVal <= this.min) newVal = this.min;
+	            if (oldVal === newVal) return;
+	            this.$emit('change', newVal, oldVal);
+	            this.$emit('input', newVal);
+	            this.currentValue = newVal;
+	        },
+	        handleFocus: function handleFocus() {
+	            this.oldVal = this.currentValue;
+	        },
+	        handleBlur: function handleBlur() {
+	            var value = this.currentValue;
+	            if (/^-?\d*\.?\d*$/.test(this.currentValue)) {
+	                if (value >= this.max) value = this.max;
+	                if (value <= this.min) value = this.min;
+	            } else {
+	                value = this.oldVal;
+	            }
+	            this.currentValue = value;
+	            this.$emit('change', value);
+	            this.$emit('input', value);
+	        }
+	    }
+	};
+
+/***/ },
+/* 144 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "simple-ui-plus-minus",
+	    class: [
+	      _vm.size ? 'plus-minus-' + _vm.size : '',
+	      {
+	        'is-disabled': _vm.disabled
+	      },
+	      {
+	        'is-without-controls': !_vm.controls
+	      }
+	    ]
+	  }, [(_vm.controls) ? _c('div', {
+	    directives: [{
+	      name: "repeat-click",
+	      rawName: "v-repeat-click",
+	      value: (_vm.minus),
+	      expression: "minus"
+	    }],
+	    staticClass: "minus",
+	    class: {
+	      'is-disabled': _vm.minDisabled
+	    }
+	  }, [_vm._v("-")]) : _vm._e(), _vm._v(" "), _c('input', {
+	    directives: [{
+	      name: "model",
+	      rawName: "v-model",
+	      value: (_vm.currentValue),
+	      expression: "currentValue"
+	    }],
+	    ref: "input",
+	    attrs: {
+	      "disabled": _vm.disabled,
+	      "size": _vm.size,
+	      "max": _vm.max,
+	      "min": _vm.min
+	    },
+	    domProps: {
+	      "value": (_vm.currentValue)
+	    },
+	    on: {
+	      "keydown": [function($event) {
+	        if (!('button' in $event) && _vm._k($event.keyCode, "up", 38)) { return null; }
+	        $event.preventDefault();
+	        _vm.plus($event)
+	      }, function($event) {
+	        if (!('button' in $event) && _vm._k($event.keyCode, "down", 40)) { return null; }
+	        $event.preventDefault();
+	        _vm.minus($event)
+	      }],
+	      "focus": _vm.handleFocus,
+	      "blur": _vm.handleBlur,
+	      "input": function($event) {
+	        if ($event.target.composing) { return; }
+	        _vm.currentValue = $event.target.value
+	      }
+	    }
+	  }), _vm._v(" "), (_vm.controls) ? _c('div', {
+	    directives: [{
+	      name: "repeat-click",
+	      rawName: "v-repeat-click",
+	      value: (_vm.plus),
+	      expression: "plus"
+	    }],
+	    staticClass: "plus",
+	    class: {
+	      'is-disabled': _vm.maxDisabled
+	    }
+	  }, [_vm._v("+")]) : _vm._e(), _vm._v(" "), (_vm.$slots.prepend) ? _c('template', {
+	    slot: "prepend"
+	  }, [_vm._t("prepend")], 2) : _vm._e(), _vm._v(" "), (_vm.$slots.append) ? _c('template', {
+	    slot: "append"
+	  }, [_vm._t("append")], 2) : _vm._e()], 2)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-hot-reload-api").rerender("data-v-73761cb2", module.exports)
+	  }
+	}
+
+/***/ },
+/* 145 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	        value: true
+	});
+	__webpack_require__(146);
+
+	var el = document.documentElement;
+
+	exports.default = {
+	        init: function init() {
+	                var r = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 200;
+	                var w = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 750;
+
+	                if (r == 0) return;
+	                r = r * 100;
+
+	                if (isNaN(r)) r = 200;
+
+	                var width = el.clientWidth;
+
+	                width = width > w ? w : width;
+
+	                el.style.fontSize = width / w * r + "px";
+
+	                document.body.style.maxWidth = w;
+
+	                window.onresize = this.init;
+	        }
+	};
+
+/***/ },
+/* 146 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(147);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(134)(content, {});
-=======
-	var content = __webpack_require__(132);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(133)(content, {});
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	var update = __webpack_require__(148)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.3.0.0@less-loader/lib/loader.js!./reset.less", function() {
-				var newContent = require("!!../../node_modules/.0.27.3@css-loader/index.js!../../node_modules/.3.0.0@less-loader/lib/loader.js!./reset.less");
+			module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/less-loader/lib/loader.js!./reset.less", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/less-loader/lib/loader.js!./reset.less");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -5920,11 +6546,7 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-<<<<<<< HEAD
-/* 133 */
-=======
-/* 132 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(12)(undefined);
@@ -5938,11 +6560,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-<<<<<<< HEAD
-/* 134 */
-=======
-/* 133 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -6194,43 +6812,33 @@ webpackJsonp([1],[
 
 
 /***/ },
-<<<<<<< HEAD
-/* 135 */
-=======
-/* 134 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(19)(
 	  /* script */
-<<<<<<< HEAD
-	  __webpack_require__(136),
+	  __webpack_require__(150),
 	  /* template */
-	  __webpack_require__(142),
-=======
-	  __webpack_require__(135),
-	  /* template */
-	  __webpack_require__(141),
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	  __webpack_require__(156),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/common/docbox.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\common\\docbox.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] docbox.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-8251e44c", Component.options)
+	    hotAPI.createRecord("data-v-4cf5d368", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-8251e44c", Component.options)
+	    hotAPI.reload("data-v-4cf5d368", Component.options)
 	  }
 	})()}
 
@@ -6238,11 +6846,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-<<<<<<< HEAD
-/* 136 */
-=======
-/* 135 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6251,11 +6855,7 @@ webpackJsonp([1],[
 	    value: true
 	});
 
-<<<<<<< HEAD
-	var _phone = __webpack_require__(137);
-=======
-	var _phone = __webpack_require__(136);
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	var _phone = __webpack_require__(151);
 
 	var _phone2 = _interopRequireDefault(_phone);
 
@@ -6299,51 +6899,37 @@ webpackJsonp([1],[
 	//
 
 /***/ },
-<<<<<<< HEAD
-/* 137 */
-=======
-/* 136 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-<<<<<<< HEAD
-	__webpack_require__(138)
+	__webpack_require__(152)
 
 	var Component = __webpack_require__(19)(
 	  /* script */
-	  __webpack_require__(140),
+	  __webpack_require__(154),
 	  /* template */
-	  __webpack_require__(141),
-=======
-	__webpack_require__(137)
-
-	var Component = __webpack_require__(19)(
-	  /* script */
-	  __webpack_require__(139),
-	  /* template */
-	  __webpack_require__(140),
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	  __webpack_require__(155),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/common/phone.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\common\\phone.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] phone.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-2cab57f7", Component.options)
+	    hotAPI.createRecord("data-v-07f6a8a9", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-2cab57f7", Component.options)
+	    hotAPI.reload("data-v-07f6a8a9", Component.options)
 	  }
 	})()}
 
@@ -6351,31 +6937,23 @@ webpackJsonp([1],[
 
 
 /***/ },
-<<<<<<< HEAD
-/* 138 */
-=======
-/* 137 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-<<<<<<< HEAD
-	var content = __webpack_require__(139);
-=======
-	var content = __webpack_require__(138);
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	var content = __webpack_require__(153);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(17)("44a0f81e", content, false);
+	var update = __webpack_require__(17)("595126e8", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-2cab57f7\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./phone.vue", function() {
-	     var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.11.2.0@vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-2cab57f7\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/.11.2.0@vue-loader/lib/selector.js?type=styles&index=0!./phone.vue");
+	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-07f6a8a9\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./phone.vue", function() {
+	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-07f6a8a9\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./phone.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -6385,11 +6963,7 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-<<<<<<< HEAD
-/* 139 */
-=======
-/* 138 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(12)(undefined);
@@ -6403,11 +6977,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-<<<<<<< HEAD
-/* 140 */
-=======
-/* 139 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 154 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -6438,11 +7008,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-<<<<<<< HEAD
-/* 141 */
-=======
-/* 140 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6470,16 +7036,12 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2cab57f7", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-07f6a8a9", module.exports)
 	  }
 	}
 
 /***/ },
-<<<<<<< HEAD
-/* 142 */
-=======
-/* 141 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6513,48 +7075,38 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-8251e44c", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-4cf5d368", module.exports)
 	  }
 	}
 
 /***/ },
-<<<<<<< HEAD
-/* 143 */
-=======
-/* 142 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(19)(
 	  /* script */
-<<<<<<< HEAD
-	  __webpack_require__(144),
+	  __webpack_require__(158),
 	  /* template */
-	  __webpack_require__(145),
-=======
-	  __webpack_require__(143),
-	  /* template */
-	  __webpack_require__(144),
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	  __webpack_require__(159),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/common/docleft.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\common\\docleft.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] docleft.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-024ac9f0", Component.options)
+	    hotAPI.createRecord("data-v-3494873a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-024ac9f0", Component.options)
+	    hotAPI.reload("data-v-3494873a", Component.options)
 	  }
 	})()}
 
@@ -6562,11 +7114,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-<<<<<<< HEAD
-/* 144 */
-=======
-/* 143 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 158 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -6592,11 +7140,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-<<<<<<< HEAD
-/* 145 */
-=======
-/* 144 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6610,48 +7154,38 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-024ac9f0", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-3494873a", module.exports)
 	  }
 	}
 
 /***/ },
-<<<<<<< HEAD
-/* 146 */
-=======
-/* 145 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(19)(
 	  /* script */
-<<<<<<< HEAD
-	  __webpack_require__(147),
+	  __webpack_require__(161),
 	  /* template */
-	  __webpack_require__(148),
-=======
-	  __webpack_require__(146),
-	  /* template */
-	  __webpack_require__(147),
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	  __webpack_require__(162),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/yinhuang/github/SimpleUI/doc/src/common/docright.vue"
+	Component.options.__file = "D:\\github\\group-SimpleUI\\doc\\src\\common\\docright.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] docright.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-19bddfeb", Component.options)
+	    hotAPI.createRecord("data-v-c97d0c0e", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-19bddfeb", Component.options)
+	    hotAPI.reload("data-v-c97d0c0e", Component.options)
 	  }
 	})()}
 
@@ -6659,11 +7193,7 @@ webpackJsonp([1],[
 
 
 /***/ },
-<<<<<<< HEAD
-/* 147 */
-=======
-/* 146 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 161 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -6683,11 +7213,7 @@ webpackJsonp([1],[
 	};
 
 /***/ },
-<<<<<<< HEAD
-/* 148 */
-=======
-/* 147 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6699,39 +7225,28 @@ webpackJsonp([1],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-19bddfeb", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-c97d0c0e", module.exports)
 	  }
 	}
 
 /***/ },
-<<<<<<< HEAD
-/* 149 */
-=======
-/* 148 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-<<<<<<< HEAD
-	var content = __webpack_require__(150);
+	var content = __webpack_require__(164);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(134)(content, {});
-=======
-	var content = __webpack_require__(149);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(133)(content, {});
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+	var update = __webpack_require__(148)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.3.0.0@less-loader/lib/loader.js!./index.less", function() {
-				var newContent = require("!!../../../node_modules/.0.27.3@css-loader/index.js!../../../node_modules/.3.0.0@less-loader/lib/loader.js!./index.less");
+			module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/less-loader/lib/loader.js!./index.less", function() {
+				var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/less-loader/lib/loader.js!./index.less");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -6741,11 +7256,7 @@ webpackJsonp([1],[
 	}
 
 /***/ },
-<<<<<<< HEAD
-/* 150 */
-=======
-/* 149 */
->>>>>>> a1e4440f844efa364a0f1d7f8d44a14737fa628a
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(12)(undefined);
@@ -6757,446 +7268,6 @@ webpackJsonp([1],[
 
 	// exports
 
-
-/***/ },
-/* 151 */,
-/* 152 */,
-/* 153 */,
-/* 154 */,
-/* 155 */,
-/* 156 */,
-/* 157 */,
-/* 158 */,
-/* 159 */,
-/* 160 */,
-/* 161 */,
-/* 162 */,
-/* 163 */,
-/* 164 */,
-/* 165 */,
-/* 166 */,
-/* 167 */,
-/* 168 */,
-/* 169 */,
-/* 170 */,
-/* 171 */,
-/* 172 */,
-/* 173 */,
-/* 174 */,
-/* 175 */,
-/* 176 */,
-/* 177 */,
-/* 178 */,
-/* 179 */,
-/* 180 */,
-/* 181 */,
-/* 182 */,
-/* 183 */,
-/* 184 */,
-/* 185 */,
-/* 186 */,
-/* 187 */,
-/* 188 */,
-/* 189 */,
-/* 190 */,
-/* 191 */,
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */,
-/* 199 */,
-/* 200 */,
-/* 201 */,
-/* 202 */,
-/* 203 */,
-/* 204 */,
-/* 205 */,
-/* 206 */,
-/* 207 */,
-/* 208 */,
-/* 209 */,
-/* 210 */,
-/* 211 */,
-/* 212 */,
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
-/* 219 */,
-/* 220 */,
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
-/* 227 */,
-/* 228 */,
-/* 229 */,
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */,
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */,
-/* 254 */,
-/* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */,
-/* 278 */,
-/* 279 */,
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */,
-/* 286 */,
-/* 287 */,
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */,
-/* 293 */,
-/* 294 */,
-/* 295 */,
-/* 296 */,
-/* 297 */,
-/* 298 */,
-/* 299 */,
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */,
-/* 309 */,
-/* 310 */,
-/* 311 */,
-/* 312 */,
-/* 313 */,
-/* 314 */,
-/* 315 */,
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */,
-/* 322 */,
-/* 323 */,
-/* 324 */,
-/* 325 */,
-/* 326 */,
-/* 327 */,
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */,
-/* 332 */,
-/* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */,
-/* 340 */,
-/* 341 */,
-/* 342 */,
-/* 343 */,
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */,
-/* 373 */,
-/* 374 */,
-/* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */,
-/* 379 */,
-/* 380 */,
-/* 381 */,
-/* 382 */,
-/* 383 */,
-/* 384 */,
-/* 385 */,
-/* 386 */,
-/* 387 */,
-/* 388 */,
-/* 389 */,
-/* 390 */,
-/* 391 */,
-/* 392 */,
-/* 393 */,
-/* 394 */,
-/* 395 */,
-/* 396 */,
-/* 397 */,
-/* 398 */,
-/* 399 */,
-/* 400 */,
-/* 401 */,
-/* 402 */,
-/* 403 */,
-/* 404 */,
-/* 405 */,
-/* 406 */,
-/* 407 */,
-/* 408 */,
-/* 409 */,
-/* 410 */,
-/* 411 */,
-/* 412 */,
-/* 413 */,
-/* 414 */,
-/* 415 */,
-/* 416 */,
-/* 417 */,
-/* 418 */,
-/* 419 */,
-/* 420 */,
-/* 421 */,
-/* 422 */,
-/* 423 */,
-/* 424 */,
-/* 425 */,
-/* 426 */,
-/* 427 */,
-/* 428 */,
-/* 429 */,
-/* 430 */,
-/* 431 */,
-/* 432 */,
-/* 433 */,
-/* 434 */,
-/* 435 */,
-/* 436 */,
-/* 437 */,
-/* 438 */,
-/* 439 */,
-/* 440 */,
-/* 441 */,
-/* 442 */,
-/* 443 */,
-/* 444 */,
-/* 445 */,
-/* 446 */,
-/* 447 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(448);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	if(content.locals) module.exports = content.locals;
-	// add the styles to the DOM
-	var update = __webpack_require__(17)("8c642dd6", content, false);
-	// Hot Module Replacement
-	if(false) {
-	 // When the styles change, update the <style> tags
-	 if(!content.locals) {
-	   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-0f279384\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./checkbox.vue", function() {
-	     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-0f279384\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/less-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./checkbox.vue");
-	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-	     update(newContent);
-	   });
-	 }
-	 // When the module is disposed, remove the <style> tags
-	 module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 448 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(12)(undefined);
-	// imports
-	exports.push([module.id, "@import url(http://at.alicdn.com/t/font_cvikj3uqyeva38fr.css);", ""]);
-
-	// module
-	exports.push([module.id, "\n@-webkit-keyframes roatate {\n0% {\n    -webkit-transform: rotate(0);\n}\n25% {\n    -webkit-transform: rotate(90deg);\n}\n50% {\n    -webkit-transform: rotate(180deg);\n}\n75% {\n    -webkit-transform: rotate(270deg);\n}\n100% {\n    -webkit-transform: rotate(360deg);\n}\n}\n@keyframes roatate {\n0% {\n    transform: rotate(0);\n}\n25% {\n    transform: rotate(90deg);\n}\n50% {\n    transform: rotate(180deg);\n}\n75% {\n    transform: rotate(270deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n.simple-ui-checkbox-box {\n  overflow: hidden;\n  display: inline-block;\n}\n.simple-ui-checkbox-box label {\n  width: 100%;\n  height: 100%;\n  display: block;\n  padding: 0 .05rem;\n  box-sizing: border-box;\n  overflow: hidden;\n}\n.simple-ui-checkbox-box label input[type=\"checkbox\"] {\n  width: 0;\n  height: 0;\n  opacity: 0;\n}\n.simple-ui-checkbox-box label input[type=\"checkbox\"]:checked ~ .simple-ui-checkbox-body {\n  width: .14rem;\n  height: .14rem;\n  border: none;\n}\n.simple-ui-checkbox-box label input[type=\"checkbox\"]:checked ~ .simple-ui-checkbox-body .simple-ui-checkbox-body-bg {\n  background: none;\n}\n.simple-ui-checkbox-box label .simple-ui-checkbox-body {\n  float: left;\n  position: relative;\n  top: .05rem;\n  width: .12rem;\n  height: .12rem;\n  border: 0.01rem solid #d9d9d9;\n  border-radius: 2px;\n  overflow: hidden;\n  background: #108ee9;\n}\n.simple-ui-checkbox-box label .simple-ui-checkbox-body .simple-ui-checkbox-body-bg {\n  width: 100%;\n  height: 100%;\n  background: #fff;\n}\n.simple-ui-checkbox-box label .simple-ui-checkbox-body .simple-ui-checkbox-body-bg i {\n  width: .12rem;\n  font-size: .12rem;\n  height: 12px;\n  position: relative;\n  top: -0.06rem;\n  left: .01rem;\n  color: #fff;\n}\n.simple-ui-checkbox-box label .simple-ui-checkbox-txt {\n  float: left;\n  margin-left: .05rem;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-round .simple-ui-checkbox-body {\n  border-radius: 50%;\n  width: .14rem;\n  height: .14rem;\n  position: relative;\n  top: .035rem;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-round .simple-ui-checkbox-body .simple-ui-checkbox-body-bg i {\n  width: .14rem;\n  height: .14rem;\n  font-size: .14rem;\n  top: -0.05rem;\n  left: 0;\n}\n.simple-ui-checkbox-box.simpleui-input-checkbox-round label input[type=\"checkbox\"]:checked ~ .simple-ui-checkbox-body {\n  width: .16rem;\n  height: .16rem;\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 449 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-
-	var _defineProperty2 = __webpack_require__(89);
-
-	var _defineProperty3 = _interopRequireDefault(_defineProperty2);
-
-	var _props;
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-
-	exports.default = {
-	    name: 'input',
-	    props: (_props = {
-	        type: String,
-	        value: String,
-	        name: String
-	    }, (0, _defineProperty3.default)(_props, 'value', String), (0, _defineProperty3.default)(_props, 'bg', String), _props),
-	    computed: {
-	        classes: function classes() {
-	            return {
-	                'simpleui-input-checkbox-round': this.type == 'round',
-	                'simpleui-input-checkbox-block': this.type == 'block'
-	            };
-	        },
-	        styles: function styles() {
-	            return {
-	                'background-color': this.bg
-	            };
-	        }
-	    },
-	    methods: {
-	        onClick: function onClick(ev) {
-	            this.$emit('click', (0, _defineProperty3.default)({}, ev.target.value, !!ev.target.checked));
-	        }
-	    }
-	};
-
-/***/ },
-/* 450 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    staticClass: "simple-ui-checkbox-box",
-	    class: _vm.classes
-	  }, [_c('label', {
-	    staticClass: "simple-ui-checkbox-label"
-	  }, [_c('input', {
-	    staticClass: "simple-ui-checkbox-input",
-	    attrs: {
-	      "type": "checkbox",
-	      "name": _vm.name
-	    },
-	    domProps: {
-	      "value": _vm.value
-	    },
-	    on: {
-	      "click": _vm.onClick
-	    }
-	  }), _vm._v(" "), _c('div', {
-	    staticClass: "simple-ui-checkbox-body",
-	    style: (_vm.styles)
-	  }, [_c('div', {
-	    staticClass: "simple-ui-checkbox-body-bg"
-	  }, [_c('Icon', {
-	    attrs: {
-	      "type": "check"
-	    }
-	  })], 1)]), _vm._v(" "), _c('div', {
-	    staticClass: "simple-ui-checkbox-txt"
-	  }, [_vm._t("default")], 2)])])
-	},staticRenderFns: []}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-0f279384", module.exports)
-	  }
-	}
 
 /***/ }
 ]);

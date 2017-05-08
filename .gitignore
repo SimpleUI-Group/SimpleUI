@@ -1,6 +1,6 @@
 node_modules
 dev
-demo/dist
+demo/dist/**
 build/sftp-config.json
 src/sftp-config.json
 /debug.log

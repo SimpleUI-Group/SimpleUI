@@ -1,6 +1,6 @@
 <template>
 <div>
-    <PlusMinus v-model="num" :step="1" :min="-10" :max="100" @change="handleChange"></PlusMinus>
+    <PlusMinus v-model="num" :step="2" :min="-10" :max="100" @change="handleChange"></PlusMinus>
     <PlusMinus v-model="num2" :disabled="true"></PlusMinus>
     <PlusMinus v-model="num3" size="large" ></PlusMinus>
     <PlusMinus v-model="num4" size="small" ></PlusMinus>

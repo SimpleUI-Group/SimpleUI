@@ -81,6 +81,36 @@ export default {
             component:function (resolve) {
                 require(["./input-4.vue"], resolve);
             },
+        },
+        {
+            "path":"plusMinus-1",
+            component:function (resolve) {
+                require(["./plusMinus-1.vue"], resolve);
+            },
+        },
+        {
+            "path":"plusMinus-2",
+            component:function (resolve) {
+                require(["./plusMinus-2.vue"], resolve);
+            },
+        },
+        {
+            "path":"plusMinus-3",
+            component:function (resolve) {
+                require(["./plusMinus-3.vue"], resolve);
+            },
+        },
+        {
+            "path":"plusMinus-4",
+            component:function (resolve) {
+                require(["./plusMinus-4.vue"], resolve);
+            },
+        },
+        {
+            "path":"plusMinus-5",
+            component:function (resolve) {
+                require(["./plusMinus-5.vue"], resolve);
+            },
         }
     ]
 };
