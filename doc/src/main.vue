@@ -10,6 +10,8 @@
             <router-link to="/icon">Icon(图标)</router-link>
             <router-link to="/grid">Grid(栅格)</router-link>
             <router-link to="/input">Input(输入框)</router-link>
+            <router-link to="/nav">Nav(底部导航)</router-link>
+            <router-link to="/plusminus">PlusMinus(加减输入框)</router-link>
         </div>
         <div class="main-right">
             <div class="main-body">
@@ -61,7 +63,7 @@ export default {
         box-sizing: border-box;
         a {
             font-size:16px;
-            line-height:28px;
+            line-height:36px;
             color:#333;
             text-decoration:none;
             display:block;

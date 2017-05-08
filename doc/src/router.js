@@ -34,5 +34,17 @@ export default [
         component:function (resolve) {
             require(["./component/input.vue"], resolve);
         }
+    },
+    {
+        "path":"/nav",
+        component:function (resolve) {
+            require(["./component/nav.vue"], resolve);
+        }
+    },
+    {
+        "path":"/plusminus",
+        component:function (resolve) {
+            require(["./component/plusminus.vue"], resolve);
+        }
     }
 ];
