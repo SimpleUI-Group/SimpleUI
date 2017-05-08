@@ -2,7 +2,7 @@
 
 <template>
 <div class="simple-ui-nav" :style="styles">
-    <slot></slot>
+   <slot></slot>
 </div>
 </template>
 <script>
