@@ -45,15 +45,17 @@
             repeatClick: {
                 bind(el, binding, vnode) {
                     let interval = null;
+                    let gapless = null;
                     let startTime;
                     let isSupportTouch = 'ontouchend' in document ? true : false;
                     const handler = () => vnode.context[binding.expression].apply();
                     const clear = () => {
-                        if (new Date() - startTime < 100) {
+                        if (new Date() - startTime < 400) {
                             handler();
                             startTime = new Date();
                         }
                         clearInterval(interval);
+                        clearInterval(gapless);
                         interval = null;
                     };
                     const once = (el, event, fn) => {
@@ -69,23 +71,29 @@
                         startTime = new Date();
                         once(document, 'touchend', clear);
                         clearInterval(interval);
-                        interval = setInterval(handler, 100);
+                        gapless = setTimeout(function () {
+                            interval = setInterval(handler, 100);
+                        }, 500)
                     }, false);
                     el.addEventListener('mousedown', () => {
                         if (isSupportTouch) return;
                         startTime = new Date();
-                        once(el, 'mouseleave', clear);
                         once(document, 'mouseup', clear);
                         clearInterval(interval);
-                        interval = setInterval(handler, 100);
+                        gapless = setTimeout(function () {
+                            interval = setInterval(handler, 100);
+                        }, 500)
+                    }, false);
+                    el.addEventListener('mouseleave', () => {
+                        clear();
                     }, false);
                 }
             }
         },
         props: {
             step: {
-                type: String,
-                default: "1"
+                type: Number,
+                default: 1
             },
             max: {
                 type: Number,
@@ -205,7 +213,7 @@
         }
     };
 </script>
-<style lang="less">
+<style lang="less" scoped>
 @import '../../styles/index.less';
 .simple-ui-plus-minus {
     display: inline-block;
