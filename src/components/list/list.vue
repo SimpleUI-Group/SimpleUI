@@ -1,34 +1,158 @@
 <template>
-    <div id="simple-list-container">
-        <ul id="simple-list-content">
-            <slot name="item">
-                <li class="simple-list-item flex-rowstart-middle">
-                    <div class="img"></div>
-                    <div class="text-box">
-                        <h2 class="title">居臣氏(铺上大道二店)</h2>
-                        <p class="sub-title">超市&nbsp;爱琴海购物公园&nbsp;279m</p>
-                        <div class="sign">
-                            <span class="describe">奖励金商家</span>
-                        </div>
+    <div ref="scrollWindow" class="simple-list-container">
+        <slot name="refresh-dom" v-if="refresh">
+            <div class="simple-list-loading-box">
+                <Icon class="simple-list-loading-icon" type="loading" size="22"></Icon>
+                <p class="simple-list-loading-text">正在努力刷新…</p>
+            </div>
+        </slot>
+        <div ref="scrollContent" class="simple-list-content">
+            <slot name="items"></slot>
+            <div class="load-hint" @click="retry">
+                <slot name="loading" v-if="loading && infinite">
+                    <div class="simple-list-loading-box">
+                        <Icon class="simple-list-loading-icon" type="loading" size="22"></Icon>
+                        <p class="simple-list-loading-text">正在努力加载…</p>
                     </div>
-                </li>
-            </slot>
-        </ul>
+                </slot>
+                <slot name="load-success" v-if="loadStatus === 1">
+                    <div class="simple-list-loading-box">
+                        <p class="simple-list-loading-text">加载成功！</p>
+                    </div>
+                </slot>
+                <slot name="load-error" v-if="loadStatus === 2">
+                    <div class="simple-list-loading-box">
+                        <p class="simple-list-loading-text">加载失敗了，点我重试吧</p>
+                    </div>
+                </slot>
+                <slot name="load-forbiddance" v-if="loadStatus === 3">
+                    <div class="simple-list-loading-box">
+                        <p class="simple-list-loading-text">我是有底线的！</p>
+                    </div>
+                </slot>
+            </div>
+        </div>
     </div>
 </template>
 <script>
-import slideload from "./slideload.js";
+import TWEEN from 'tween.js';
+import Slideload from './slideload.js';
 export default {
-    name:'list'
+    name:'list',
+    props:{
+        //是否开启无限滚动功能
+        infinite: {
+            type: Boolean,
+            default: false
+        },
+        //是否开启下拉刷新功能
+        refresh: {
+            type: Boolean,
+            default: false
+        },
+        //无限滚动提前加载距离
+        threshold: {
+            type: String,
+            default: ''
+        }
+    },
+    data () {
+        return {
+            slideload: null,
+            loading:false, //是否正在加载
+            loadStatus: 2 //0: 未执行, 1: 成功, 2: 失败, 3: 禁止执行
+        };
+    },
+    computed:{
+        
+    },
+    methods: {
+        next () {
+            this.slideload.next();
+            this.loading = false;
+            this.loadStatus = 1;
+            setTimeout(() => {
+                this.loadStatus = 0;
+            },800);
+        },
+        error () {
+            this.slideload.next();
+            this.loading = false;
+            this.loadStatus = 2;
+        },
+        stop () {
+            this.slideload.stop();
+            this.loading = false;
+            this.loadStatus = 3;
+        },
+        retry () {
+            if (this.loadStatus !== 2) return;
+            this.slideload.lock("load");
+            this.slideload.triggerLoad();
+        }
+    },
+    mounted () {
+        let options = {
+            scrollCont:this.$refs.scrollContent
+        };
+        if (this.threshold !== null) {
+            options.threshold = Number(this.threshold);
+        }
+        this.slideload = new Slideload(this.$refs.scrollWindow,options);
+        if (this.infinite) {
+            this.slideload.on('load', () => {
+                this.loadStatus = 0;
+                this.loading = true;
+                /**  
+                    自定义事件'load', 列表滚动到底部触发
+                    父组件在该事件的回调函数里向服务器请求数据
+                    ↓ next, stop, error 这三个函数作为事件回调函数的参数, 根据不同的请求状态手动调用 ↓
+                      1. 如果请求成功并且还有数据 => next()
+                      2. 如果请求失败 => error()
+                      3. 如果请求成功, 但是没有更多数据了 => stop()
+                 */
+                this.$emit('load', this.next, this.stop, this.error);
+            });
+        }
+        if (this.refresh) {
+            this.slideload.on('refresh', (next) => {
+                console.log('要刷新啦');
+                next();
+            });
+        }
+    }
 }
 </script>
-<style lang="less" scoped>
+<style lang="less">
 @import '../../styles/index.less';
 @import '../../styles/classes.less';
-#simple-list-container{
+.simple-list-container{
+    position:relative;
     width:100%; height:100%;
     overflow:auto;
     -webkit-overflow-scrolling: touch;
+    .load-hint{
+        width: 100%; height: 44px;
+    }
+}
+.simple-list-content{
+    position:absolute; top:0; left:0;
+    width:100%;
+}
+.simple-list-loading-box{
+    width:100%; height:44px;
+    text-align:center;
+    &::before{
+        .inline-middle();
+    }
+}
+.simple-list-loading-icon,
+.simple-list-loading-text{
+    display:inline-block;
+    vertical-align:middle;
+}
+.simple-list-loading-text{
+    font-size:15px;
 }
 .simple-list-item{
     box-sizing:border-box;
