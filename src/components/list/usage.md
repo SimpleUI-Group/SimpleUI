@@ -48,3 +48,20 @@
 - load-success: 自定义列表滚动到底部时加载成功后的提示内容，如：加载成功
 - load-error: 自定义列表滚动到底部时加载失败后的提示内容，如：加载失败
 - load-forbiddance: 自定义列表数据全部加载完后的提示内容，如：我是有底线的
+
+## 4. example
+
+```HTML
+<List infinite @load="loadHandle" refresh @refresh="refreshHandle">
+    <div slot="items" v-for="n in num" class="simple-list-item flex-rowstart-middle">
+        <div class="img"></div>
+        <div class="text-box">
+            <h2 class="title">我是一条标题，您可以自定义标题内容</h2>
+            <p class="sub-title">我是一条副标题，您可以自定义副标题内容</p>
+            <div class="sign">
+                <span class="describe">我是一个标签，您可以自定义标签内容</span>
+            </div>
+        </div>
+    </div>
+</List>
+```
