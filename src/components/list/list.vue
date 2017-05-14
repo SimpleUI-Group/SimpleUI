@@ -1,11 +1,33 @@
 <template>
     <div ref="scrollWindow" class="simple-list-container">
-        <slot name="refresh-dom" v-if="refresh">
-            <div class="simple-list-loading-box">
-                <Icon class="simple-list-loading-icon" type="loading" size="22"></Icon>
-                <p class="simple-list-loading-text">正在努力刷新…</p>
-            </div>
-        </slot>
+        <div class="load-hint">
+            <slot name="pull-hint" v-if="refreshStatus === 0">
+                <div class="simple-list-loading-box">
+                    <p class="simple-list-loading-text">下拉刷新</p>
+                </div>
+            </slot>
+            <slot name="release-hint" v-if="refreshStatus === 1">
+                <div class="simple-list-loading-box">
+                    <p class="simple-list-loading-text">释放即可刷新</p>
+                </div>
+            </slot>
+            <slot name="refreshing" v-if="refreshStatus === 2">
+                <div class="simple-list-loading-box">
+                    <Icon class="simple-list-loading-icon" type="loading" size="22"></Icon>
+                    <p class="simple-list-loading-text">正在努力刷新…</p>
+                </div>
+            </slot>
+            <slot name="refresh-success" v-if="refreshStatus === 3">
+                <div class="simple-list-loading-box">
+                    <p class="simple-list-loading-text">刷新成功！</p>
+                </div>
+            </slot>
+            <slot name="refresh-error" v-if="refreshStatus === 4">
+                <div class="simple-list-loading-box">
+                    <p class="simple-list-loading-text">刷新失敗！</p>
+                </div>
+            </slot>
+        </div>
         <div ref="scrollContent" class="simple-list-content">
             <slot name="items"></slot>
             <div class="load-hint" @click="retry">
@@ -60,7 +82,9 @@ export default {
         return {
             slideload: null,
             loading:false, //是否正在加载
-            loadStatus: 2 //0: 未执行, 1: 成功, 2: 失败, 3: 禁止执行
+            loadStatus: 2, //0: 未执行, 1: 成功, 2: 失败, 3: 禁止执行
+            refreshing: false, //是否正在刷新
+            refreshStatus: 0 //0: 下拉刷新, 1: 释放刷新, 2:正在刷新, 3: 刷新成功, 4: 刷新失败
         };
     },
     computed:{
@@ -69,16 +93,31 @@ export default {
     methods: {
         next () {
             this.slideload.next();
-            this.loading = false;
-            this.loadStatus = 1;
+            if (this.loading) {
+                this.loading = false;
+                this.loadStatus = 1;
+                setTimeout(() => {
+                    this.loadStatus = 0;
+                },800);
+                return;
+            }
+            this.slideload.recover();
+            this.refreshStatus = 3;
             setTimeout(() => {
-                this.loadStatus = 0;
+                this.refreshStatus = 0;
             },800);
         },
         error () {
             this.slideload.next();
-            this.loading = false;
-            this.loadStatus = 2;
+            if (this.loading) {
+                this.loading = false;
+                this.loadStatus = 2;
+                return;
+            }
+            this.refreshStatus = 4;
+            setTimeout(() => {
+                this.refreshStatus = 0;
+            },800);
         },
         stop () {
             this.slideload.stop();
@@ -93,9 +132,10 @@ export default {
     },
     mounted () {
         let options = {
-            scrollCont:this.$refs.scrollContent
+            scrollCont:this.$refs.scrollContent,
+            vm: this
         };
-        if (this.threshold !== null) {
+        if (this.threshold !== '') {
             options.threshold = Number(this.threshold);
         }
         this.slideload = new Slideload(this.$refs.scrollWindow,options);
@@ -115,9 +155,16 @@ export default {
             });
         }
         if (this.refresh) {
-            this.slideload.on('refresh', (next) => {
-                console.log('要刷新啦');
-                next();
+            this.slideload.on('refresh', () => {
+                this.refreshStatus = 2;
+                /**  
+                    自定义事件'refresh', 下拉距离超过50px并且手指释放后触发
+                    父组件在该事件的回调函数里向服务器请求数据
+                    ↓ next, error 这两个函数作为事件回调函数的参数, 根据不同的请求状态手动调用 ↓
+                      1. 如果如果刷新成功 => next()
+                      2. 如果请求失败 => error()
+                 */
+                this.$emit('refresh', this.next, this.error);
             });
         }
     }
@@ -133,6 +180,7 @@ export default {
     -webkit-overflow-scrolling: touch;
     .load-hint{
         width: 100%; height: 44px;
+        background-color:#f5f5f9;
     }
 }
 .simple-list-content{

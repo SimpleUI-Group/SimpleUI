@@ -25,6 +25,9 @@ var Slideload = function(element,options){
 		self.opts.isData = false;
 		self.reset();
 	};
+	self.recover = function(){
+		self.opts.isData = true;
+	};
 
 	self.eventList = [];
 	self.initEventProgress = 0;
@@ -245,9 +248,9 @@ Slideload.prototype.touchmoveHandle = function(e){
 		self.moveEle.style[self.animatePropertyName] = self.animatePropertyValue(self.touchmoveY);
 		self.translateY = self.getAnimatePropertyValue(self.moveEle.style[self.animatePropertyName]);
 		if(self.translateY > 50){
-			
+			self.opts.vm.refreshStatus = 1;
 		}else{
-			
+			self.opts.vm.refreshStatus = 0;
 		}
 	}
 };
