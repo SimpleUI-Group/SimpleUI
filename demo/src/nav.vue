@@ -1,15 +1,10 @@
 <template>
     <div class="demo-nav">
     	<Nav size="14">
-    		 <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="#fff"></NavItem>
-             <NavItem bgcolor="#f40"  icon="loading" navNames="nav1" color="green"></NavItem>
-             <NavItem bgcolor="pink" icon="loading" navNames="nav1" color="green"></NavItem>
-             <NavItem bgcolor="pink"  navNames="nav1" color="green"></NavItem>
-             <NavItem bgcolor="pink" icon="loading" navNames="nav1" color="green"></NavItem>
-             <NavItem bgcolor="pink" icon="loading" navNames="nav1" color="green"></NavItem>
-             
-             
-    	</Nav>
+    		 <NavItem   icon="loading" navNames="nav1" color="#666"></NavItem>
+             <NavItem   icon="loading" navNames="nav1" color="#666"></NavItem>
+             <NavItem  icon="loading" navNames="nav1" color="#666"></NavItem>
+         </Nav>
         
     </div>
 </template>
@@ -27,7 +22,9 @@
     
 }
 .simple-ui-icon {
-        position:relative;
+        position:absolute;
+        top: -0.05rem;
+        left: 0.5rem;
         
     } 
 </style> 

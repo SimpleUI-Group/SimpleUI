@@ -1,8 +1,8 @@
 <template>
  
       <a href="javascript:;" :style="styles"  class="simple-ui-nav-item">
-      {{navNames}} 
       <Icon v-if="icon" :type="icon" size="14" color="#fff"></Icon>
+       <span>{{navNames}} </span>
                         <!-- <span><slot></slot></span>  -->
       </a>
      
@@ -45,12 +45,16 @@ export default {
             height: 100%;
             float: left;
             margin: 0 0.05rem;
-            background: #187b92;
-            border-radius: 0.1rem;
-            color: #fff;
             flex:1;
-            &:hover {
-             background: #f30;
+            position: relative;
+           
+         span{
+            display: block; 
+            width: 100%;
+            text-align: center;
+            height: 0.3rem;
+            line-height: 0.3rem;
+            margin-top: 0.18rem;
          }
          
     
