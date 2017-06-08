@@ -30,10 +30,9 @@ export default {
 <style lang="less">
 @import '../../styles/index.less';
 .simple-ui-nav {
-   width: 100%;
+    width: 100%;
     text-align:center;
     display:flex;
-    
     height: @BUTTON_HEIGHT;
     margin:.1rem 0;
     line-height: @BUTTON_HEIGHT;

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+	 <script type="text/javascript">
+	  //symbol 基本数据类型 不能实例化 不能转化数字 不能字符串拼接 不能运算
+	   let yy = Symbol('yy');
+
+	   // const data = {
+	   // 	[yy]:"miaov"
+	   // };
+	   // console.log(data);
+	   // console.log(data[yy]);
+	   
+	   // find 找到--返回值，没找到-返回undefined
+	 // let arr = [3,2,2,6,5];
+	 // let res = arr.find(function(a){
+	 // 	return a<2;
+	 // })
+	 // console.log(res);
+
+	 //findIndex 找到  返回下标  没找到 返回-1
+	 // let res = arr.findIndex(function(a){
+	 // 	return a<2;
+	 // })
+	 // console.log(res);
+	 // fill
+	  let a = 1;
+	  // const obj = {a};
+	  // const obj = {
+	  // 	b:a
+	  // }
+	  // let obj = {
+	  // 	fn1:function(){
+	  // 		console.log(1);
+	  // 	},
+	  // 	fn2(){
+	  // 		console.log(2)
+	  // 	}
+	  // }
+	 
+	  // console.log(obj.fn1());
+	  // console.log(obj.fn2());
+
+	  // 函数的扩展
+	  // function fn(a,b){
+   //      a = a || 10;
+   //      b = b || 20;
+   //      return a + b;
+	  // }
+	  // function fn(a=10,b=20){
+	  // 	return a + b;
+	  // }
+	  // console.log(fn(0,5));
+	  // console.log(fn());
+
+	   // const fn2 = function(a){
+    // 		return a;
+	   // }
+	   // const fn2 = a => a + 1;
+	   // console.log(fn2(6));
+	   const fn = (...arr) => arr;
+	   // console.log(fn(1,2,2,3))
+	   var arr = fn(1,2,2,3);
+	   for (var item in arr){
+	   		console.log(arr[item]);
+	   }
+	 </script>
+
+</body>
+</html>

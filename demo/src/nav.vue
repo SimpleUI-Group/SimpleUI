@@ -1,10 +1,9 @@
 <template>
     <div class="demo-nav">
     	<Nav size="14">
-    		 <NavItem   icon="loading" navNames="nav1" color="#666"></NavItem>
-             <NavItem   icon="loading" navNames="nav1" color="#666"></NavItem>
-             <NavItem  icon="loading" navNames="nav1" color="#666"></NavItem>
-         </Nav>
+             <NavItem  icon="loading"  color="#666" names="nav1,nav2,nav3,nav4"></NavItem>
+            
+        </Nav>
         
     </div>
 </template>
@@ -21,10 +20,5 @@
     height:100%;
     
 }
-.simple-ui-icon {
-        position:absolute;
-        top: -0.05rem;
-        left: 0.5rem;
-        
-    } 
+
 </style> 
