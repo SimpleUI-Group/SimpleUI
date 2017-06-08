@@ -57,11 +57,10 @@ export default {
             flex:1;
             color: rgb(77, 115, 204);
             position: relative;
-            
             text-align:center;
            .simple-ui-icon{
-              display: inline-block;
-             color: #f40;
+            display: inline-block;
+            color: #f40;
              
            }
          span{
@@ -71,8 +70,8 @@ export default {
             height: 0.3rem;
             color: #f40;
             line-height: 0.3rem;
-             position: absolute;
-             top: 0.2rem;
+            position: absolute;
+            top: 0.2rem;
          }
          
          
