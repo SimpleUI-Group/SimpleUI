@@ -33,7 +33,7 @@ To Do ...
 
 8.banner(coding)
 
-9.checkbox(80%)
+9.checkbox(81%)
 
 # 开发说明
 
