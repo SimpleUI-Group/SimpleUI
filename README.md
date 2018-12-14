@@ -1,7 +1,4 @@
 # SimpleUI
-
-graph LR
-  A --> B
   
 # Installation
 1. npm install
