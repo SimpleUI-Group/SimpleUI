@@ -1,5 +1,8 @@
 # SimpleUI
 
+graph LR
+  A --> B
+  
 # Installation
 1. npm install
 2. npm run dev (development model)
