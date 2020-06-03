@@ -41,8 +41,9 @@
     "build": "webpack --config build/webpack.build.js -p"
   },
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "tween.js": "^16.6.0",
     "vue": "^2.2.2",
-    "vue-router": "^2.3.0",
-    "babel-polyfill": "^6.23.0"
+    "vue-router": "^2.3.0"
   }
 }
